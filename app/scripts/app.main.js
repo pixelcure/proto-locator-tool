@@ -32,6 +32,7 @@ class App extends Component {
 			options : {
 				unit : props.unit,
 				radius : props.radius,
+				markerIcon: props.markerIcon,
 				debug : props.debug
 			},
 			coords : {
@@ -256,6 +257,9 @@ class App extends Component {
 					google={window.google}
 					lat={this.state.coords.lat}
 					long={this.state.coords.long}
+					locations={this.state.locations}
+					markerIcon={this.state.options.markerIcon}
+					matches={this.state.matches}
 					debug={this.state.options.debug}
 				/>
 				<Entries
