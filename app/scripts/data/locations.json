@@ -1,0 +1,5895 @@
+[ {
+    "id": "1",
+    "store_title": "Banner University Medical Center Phoenix (Dr. Byrne)",
+    "state": "AZ",
+    "city": "Phoenix",
+    "address": "1111 E McDowell Rd",
+    "zip": "85006",
+    "phone": "602-778-4563",
+    "contact": "",
+    "latitude": "33.465137",
+    "longitude": "-112.057972",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Tim Byrne, DO",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kevin Brady, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "George Gellert, MD",
+        "specialty": "Cardiac Anesthesiologist"
+    }, {
+        "name_title": "Chantel Castro",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "2",
+    "store_title": "Cedars-Sinai Medical Center",
+    "state": "CA",
+    "city": "Los Angeles",
+    "address": "8700 Beverly Blvd",
+    "zip": "90048",
+    "phone": "310-967-8356",
+    "contact": "asma.hussaini@cshs.org",
+    "latitude": "34.0752969",
+    "longitude": "-118.3805177",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Saibal Kar, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Alfredo Trento, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Asma Hussaini",
+        "specialty": "Physician Assistant, Valve Center Coordinator"
+    } ]
+}, {
+    "id": "3",
+    "store_title": "UC Davis Medical Center",
+    "state": "CA",
+    "city": "Sacramento",
+    "address": "2315 Stockton Blvd",
+    "zip": "95817",
+    "phone": "916-734-1977",
+    "contact": "alison.carroll@ucdmc.ucdavis.edu",
+    "latitude": "38.554164",
+    "longitude": "-121.45464",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Jason Rogers, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Reginald Low, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Doug Boyd, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Alison Carroll",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "4",
+    "store_title": "El Camino Hospital",
+    "state": "CA",
+    "city": "Mountain View",
+    "address": "2500 Grant Rd",
+    "zip": "94040",
+    "phone": "650-404-8300",
+    "latitude": "37.3693389",
+    "longitude": "-122.080472",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Chad Rammohan, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Fred St. Goar, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Conrad Vial, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Chrissie Western",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "5",
+    "store_title": "University of Colorado Hospital - Denver",
+    "state": "CO",
+    "city": "Aurora",
+    "address": "12631 E 17th Ave, B130/Rm 713",
+    "zip": "80045",
+    "phone": "720-848-7108",
+    "contact": "daniella.delacruz@uchealth.org",
+    "latitude": "39.743708",
+    "longitude": "-104.840587",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "John Carroll, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Michael Kim, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Joseph Cleveland, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Daniella DeLaCruz",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "6",
+    "store_title": "Hartford Hospital",
+    "state": "CT",
+    "city": "Hartford",
+    "address": "80 Seymour St",
+    "zip": "06106",
+    "phone": "860-545-5614",
+    "latitude": "41.7541179",
+    "longitude": "-72.6791791",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Raymond McKay, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Francis Kiernan, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Robert Hagberg, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Beverly Mendes",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "7",
+    "store_title": "Baptist Hospital of Miami – Baptist Cardiac and Vascular Institute",
+    "state": "FL",
+    "city": "Miami",
+    "address": "8900 N. Kendall Dr",
+    "zip": "33176",
+    "contact": "gildagr@baptisthealth.net",
+    "phone": "786-596-7922",
+    "latitude": "25.6831263",
+    "longitude": "-80.3404389",
+    "zoom": 10,
+    "distance": 0,
+    "hcps": [ {
+        "name_title": "Ramon Quesada, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Rafael Machado, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Niberto Moreno, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Gilda Green",
+        "specialty": "Clinical Valve Coordinator"
+    } ]
+}, {
+    "id": "8",
+    "store_title": "Piedmont Hospital – Piedmont Heart Institute",
+    "state": "GA",
+    "city": "Atlanta",
+    "address": "95 Collier Rd, Ste 2025",
+    "zip": "30309",
+    "phone": "404-605-5152",
+    "contact": "EllenFiler@piedmont.org",
+    "latitude": "33.8081326",
+    "longitude": "-84.3954778",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Vivek Rajagopal, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Chuck Ballard, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Federico Milla, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Randy Martin, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Mani Vannan, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Judith Stallings ",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "9",
+    "store_title": "Emory University Hospital",
+    "state": "GA",
+    "city": "Atlanta",
+    "address": "1364 Clifton Rd",
+    "zip": "30322",
+    "phone": "404-712-7622",
+    "contact": "pkeegan@emory.edu",
+    "latitude": "33.7922414",
+    "longitude": "-84.3217842",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Vinod Thourani, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Vasilis Babaliaros, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Statimos Lerakis, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Patricia Keegan ",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "10",
+    "store_title": "Evanston Hospital – NorthShore University Health System",
+    "state": "IL",
+    "city": "Evanston",
+    "address": "2650 Ridge Ave, Walgreens 3rd Fl",
+    "zip": "60201",
+    "phone": "847-570-2250",
+    "contact": "",
+    "latitude": "42.060011",
+    "longitude": "-87.41",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Ted Feldman, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Paul Pearson, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Mayra Guerrero, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Michael Sallinger, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jean Skaleski",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "11",
+    "store_title": "St. Vincent Medical Group – St. Vincent’s Heart Center of Indiana",
+    "state": "IN",
+    "city": "Indianapolis",
+    "address": "10590 N. Meridian, Ste 300",
+    "zip": "46290",
+    "phone": "317-583-6425",
+    "contact": "",
+    "latitude": "39.9358823",
+    "longitude": "-86.1624587",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "James Hermiller, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "David Heimansohn, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Denise Wheatley",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "12",
+    "store_title": "Iowa Heart Center Mercy Des Moines",
+    "state": "IA",
+    "city": "Des Moines",
+    "address": "411 Laurel Street Suite 1250",
+    "zip": "50314",
+    "phone": "515-235-5105",
+    "contact": "jhenscheid@iowaheart.com",
+    "latitude": "41.598781",
+    "longitude": "-93.6233293",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Atul Chawla, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "David McAllister, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Ganga Prabhakar, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Marc Klein, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Joan Henscheid",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "13",
+    "store_title": "University of Kansas Hospital Authority – University of Kansas Medical Center",
+    "state": "KS",
+    "city": "Kansas City",
+    "address": "3901 Rainbow Blvd MS4023",
+    "zip": "66160",
+    "phone": "913-588-9720",
+    "contact": "spage3@kumc.edu",
+    "latitude": "39.06",
+    "longitude": "-94.61",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Mark Wiley, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Peter Tadros, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Emmanuel Daon, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Jonathan Freeman, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Susie Page",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "14",
+    "store_title": "Saint Joseph Hospital – KentuckyOne Health",
+    "state": "KY",
+    "city": "Lexington",
+    "address": "1401 Harrodsburg Rd",
+    "zip": "40504",
+    "phone": "",
+    "contact": "",
+    "latitude": "38.033193",
+    "longitude": "-84.5254549",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Michael Schaeffer, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Nezar Falluji, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Robert Salley, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "15",
+    "store_title": "Mayo Foundation for Med Edu",
+    "state": "MN",
+    "city": "Rochester",
+    "address": "200 1st St SW",
+    "zip": "55905",
+    "phone": "507-538-0048",
+    "contact": "Swenson.Courtney@mayo.edu",
+    "latitude": "44.02255",
+    "longitude": "-92.46666",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Charanjit Rihal, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Guy Reeder, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "David Joyce, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Margaret May Redfield, MD",
+        "specialty": "Heart Failure Cardiologist"
+    }, {
+        "name_title": "Cheryl Wasson",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "16",
+    "store_title": "Massachusetts General Hospital",
+    "state": "MA",
+    "city": "Boston",
+    "address": "Gray/Bigelow Bldg 800",
+    "zip": "02114",
+    "phone": "617-724-2076",
+    "website": "www.massgenereal.org",
+    "contact": "",
+    "latitude": "42.4072107",
+    "longitude": "-71.3824374",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Ignacio Inglessis, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Igor Palacios, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jacob Dal-Bianco, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jonathan Passeri, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Alexis Auger, NP",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Maureen Kelly",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "17",
+    "store_title": "Henry Ford Hospital – Center for Structural Heart Disease",
+    "state": "MI",
+    "city": "Detroit",
+    "address": "2799 West Grand Blvd",
+    "zip": "48202",
+    "contact": "jwyman1@hfhs.org",
+    "phone": "313-916-1534",
+    "latitude": "42.3672037",
+    "longitude": "-83.0850368",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "William O’Neill, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Adam Greenbaum, MD",
+        "specialty": "Cardiologist"
+    }, {
+        "name_title": "Hassan Nemeh, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Marvin Eng, MD",
+        "specialty": "Interventional Cardiolgy"
+    }, {
+        "name_title": "Janet Wyman, RN",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Denise Grenier, RN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "18",
+    "store_title": "William Beaumont Hospital",
+    "state": "MI",
+    "city": "Royal Oak",
+    "address": "3601 West 13 Mile Rd",
+    "zip": "48073",
+    "phone": "248-898-0230",
+    "contact": "sarah.valentine@beaumont.edu",
+    "latitude": "42.5183235",
+    "longitude": "-83.15954",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "George Hanzel, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Robert Safian, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Francis Shannon, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Marc Sakwa, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Ivan Hanson, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Sarah Valentine",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "19",
+    "store_title": "Abbott Northwestern Hospital",
+    "state": "MN",
+    "city": "Minneapolis",
+    "address": "920 E 28th St",
+    "zip": "55407",
+    "phone": "612-863-1681",
+    "contact": "valve@allina.com",
+    "latitude": "44.95241",
+    "longitude": "-93.26081",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Wesley Pedersen, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Paul Sorajja, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Benjamin Sun, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Vibu Kshettry, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "David Lin, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Richard Bae, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Desmond Jay, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Marcus Burns, PA",
+        "specialty": "Valve Center PA"
+    }, {
+        "name_title": "Susan D. Jagger",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "20",
+    "store_title": "Barnes Jewish Hospital",
+    "state": "MO",
+    "city": "St. Louis",
+    "address": "One Barnes-Jewish Hospital Plaza",
+    "zip": "63110",
+    "phone": "855-825-8457",
+    "latitude": "38.6353172",
+    "longitude": "-90.2648464",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "John Lasala, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Alan Zajarias, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Hersh Maniar, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Spencer Melby, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Marci Damiano, RN, MSN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "21",
+    "store_title": "St. Patrick Hospital",
+    "state": "MT",
+    "city": "Missoula",
+    "address": "500 W Broadway St",
+    "zip": "59802",
+    "phone": "406-329-5615",
+    "contact": "",
+    "latitude": "46.8754515",
+    "longitude": "-114.0003266",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "J. Tod Maddux, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Matt Maxwell, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Susan Baerlocher",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "22",
+    "store_title": "Morristown Medical Center",
+    "state": "NJ",
+    "city": "Morristown",
+    "address": "100 Madison Ave",
+    "zip": "07960",
+    "phone": "973-971-7001",
+    "contact": "Melissa.Paszko@atlantichealth.org",
+    "latitude": "40.7888845",
+    "longitude": "-74.4661667",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Robert Kipperman, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Barry Cohen, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Konstantinos Koulogiannis, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Leo Marcoff, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Linda Gillam, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Karen English",
+        "specialty": "Valve Program Coordinator"
+    }, {
+        "name_title": "Mary DiNapoli",
+        "specialty": "APN"
+    }, {
+        "name_title": "Susan Sentman",
+        "specialty": "Clinical Research Coordinator"
+    } ]
+}, {
+    "id": "23",
+    "store_title": "Columbia University Medical Center",
+    "state": "NY",
+    "city": "New York",
+    "address": "161 Ft. Washington Avenue, 6th Fl",
+    "zip": "10032",
+    "phone": "212–342–0444",
+    "contact": "heartvalveinfo@columbia.edu",
+    "latitude": "40.8409822",
+    "longitude": "-73.9447994",
+    "distance": 0,
+    "zoom": 15,
+    "hcps": [ {
+        "name_title": "Dr. Susheel Kodali",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Dr. Rebecca Hahn",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Dr. Isaac George",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Tiffani Wong",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "24",
+    "store_title": "NYU Langone Medical Center",
+    "state": "NY",
+    "city": "New York",
+    "address": "423 E. 23rd St, VET-15, Room 15151N",
+    "zip": "10010",
+    "phone": "",
+    "contact": "tara.collins@nyumc.org",
+    "latitude": "40.7388319",
+    "longitude": "-73.9815337",
+    "distance": 0,
+    "zoom": 15,
+    "hcps": [ {
+        "name_title": "Dr. Cezar Staniloae",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Dr. Mathew Williams",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Dr. Muhamed Saric",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Michael Querijero",
+        "specialty": "Physician Assistant and Valve Clinic Manager"
+    } ]
+}, {
+    "id": "25",
+    "store_title": "Duke University Medical Center",
+    "state": "NC",
+    "city": "Durham",
+    "address": "2303 Erwin Rd, Room 7401",
+    "zip": "27710",
+    "phone": "919-681-6197",
+    "contact": "a.wang@duke.edu",
+    "latitude": "36.0038131",
+    "longitude": "-78.9387241",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Andrew Wang, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Donald Glower, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "26",
+    "store_title": "Carolinas Medical Center",
+    "state": "NC",
+    "city": "Charlotte",
+    "address": "1001 Blythe Blvd",
+    "zip": "28203",
+    "phone": "704-446-2135",
+    "contact": "SHVIStructuralHeart@carolinashealthcare.org",
+    "latitude": "35.2051054",
+    "longitude": "-80.8396405",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Michael Rinaldi, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Eric Skipper, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Laura Delbene",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "27",
+    "store_title": "Cleveland Clinic Foundation",
+    "state": "OH",
+    "city": "Cleveland",
+    "address": "9500 Euclid Ave",
+    "zip": "44195",
+    "phone": "216-444-6735",
+    "contact": "",
+    "latitude": "41.5025271",
+    "longitude": "-81.6209829",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Samir Kapadia, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Murat Tuzcu, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Amar Krishnaswamy, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Joan Fusek",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "28",
+    "store_title": "Nebraska Medical Center",
+    "state": "NE",
+    "city": "Omaha",
+    "address": "4350 Dewey Ave",
+    "zip": "68105",
+    "phone": "402-559-8014",
+    "contact": "jilleach@nebraskamed.com",
+    "latitude": "41.25647",
+    "longitude": "-95.97755",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Greg Pavlides, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Michael Moulton, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Samer Sayyed, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Jill Leach",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "29",
+    "store_title": "Ministry St. Clare's Hospital",
+    "state": "WI",
+    "city": "Weston",
+    "address": "3400 Ministry Pkwy",
+    "zip": "54476",
+    "phone": "715-393-1220",
+    "contact": "",
+    "latitude": "44.89048",
+    "longitude": "-89.58126",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Elvis Peter, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Brian Nelson, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Dan Gavrilla, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Chong Lee",
+        "specialty": "CT Surgeon"
+    }, {
+        "name_title": "Crystal Betts",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "30",
+    "store_title": "Providence St. Vincent Hospital",
+    "state": "OR",
+    "city": "Portland",
+    "address": "9205 SW Barnes Rd",
+    "zip": "97225",
+    "phone": "503-216-0790",
+    "contact": "marla.craft@providence.org",
+    "latitude": "45.5101233",
+    "longitude": "-122.7714597",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Ethan Korngold, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Rob Hodson, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Marla Craft RN, MSN, CNL, CEN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "31",
+    "store_title": "University Hospital of Augusta",
+    "state": "GA",
+    "city": "Augusta",
+    "address": "1350 Walton Way",
+    "zip": "30901",
+    "phone": "706-840-2858",
+    "contact": "structuralheartclinic@uh.org",
+    "website": "www.universityhealth.org/heart-vascular",
+    "latitude": "33.47076",
+    "longitude": "-81.98279",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Susie Wodarz",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Patric Hall, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Tim Hunter, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "32",
+    "store_title": "UPMC Presbyterian Hospital",
+    "state": "PA",
+    "city": "Pittsburgh",
+    "address": "200 Lothrop St",
+    "zip": "15213",
+    "phone": "412-864-2632",
+    "contact": "",
+    "latitude": "40.4424694",
+    "longitude": "-79.9609899",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Conrad Smith, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Joao Cavalcante, MD",
+        "specialty": "Diagnostic Imaging"
+    }, {
+        "name_title": "Kathryn Ferchak",
+        "specialty": "Clinical Project Director for Mitral Valve"
+    } ]
+}, {
+    "id": "33",
+    "store_title": "The Valley Hospital, The Heart and Vascular Institute",
+    "state": "NJ",
+    "city": "Ridgewood",
+    "address": "223 N. Van Dien Avenue",
+    "zip": "07450",
+    "phone": "201-447-8420",
+    "website": "www.valleymedicalgroup.com/services-specialties/cardiac-services/structural-heart-disease",
+    "contact": "chomja@valleyhealth.com",
+    "latitude": "40.98359",
+    "longitude": "-74.10047",
+    "distance": 0,
+    "zoom": 14,
+    "hcps": [ {
+        "name_title": "Sean Wilson, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Alex Zapolanski, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Howard Goldschmidt, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Jaclyn Chomsky",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "34",
+    "store_title": "FRANCISCAN ST FRANCIS HEALTH",
+    "state": "IN",
+    "city": "Indianapolis",
+    "address": "8111 South Emerson Ave",
+    "zip": "46237",
+    "phone": "",
+    "website": "",
+    "contact": "",
+    "latitude": "39.64864",
+    "longitude": "-86.07951",
+    "distance": 0,
+    "zoom": 14,
+    "hcps": [ {
+        "name_title": "Saeed Shaikh, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Richard Shea, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Manesh Parikshak",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "35",
+    "store_title": "Baptist Pensacola",
+    "state": "FL",
+    "city": "Pensacola",
+    "address": "1000 West Moreno St",
+    "zip": "32501",
+    "phone": "",
+    "website": "",
+    "contact": "",
+    "latitude": "30.43066",
+    "longitude": "-87.23191",
+    "distance": 0,
+    "zoom": 14,
+    "hcps": [ {
+        "name_title": "Saurabh Sanon",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "36",
+    "store_title": "St. Thomas West",
+    "state": "TN",
+    "city": "Nashville",
+    "address": "4220 Harding Rd",
+    "zip": "37205",
+    "phone": "615-222-3944",
+    "website": "www.sths.com/west/Pages/default.aspx",
+    "contact": "laura.lee@sth.org",
+    "latitude": "36.1286163",
+    "longitude": "-86.8440157",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Andrew Morse, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Evelio Rodriquez, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Laura Lee",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "37",
+    "store_title": "Baylor Jack and Jane Hamilton Heart and Vascular Hospital",
+    "state": "TX",
+    "city": "Dallas",
+    "address": "621 N Hall St",
+    "zip": "75226",
+    "phone": "214-820-3604",
+    "contact": "",
+    "latitude": "32.7880814",
+    "longitude": "-96.7809625",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "James Choi, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Paul Grayburn, MD ",
+        "specialty": "Echocardiologist, Heart Failure Specialist"
+    }, {
+        "name_title": "Robert Hebeler, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Paz McDonald, RN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "38",
+    "store_title": "Memorial Hermann Hospital – UT Health/Memorial Hermann Heart and Vascular Institute",
+    "state": "TX",
+    "city": "Houston",
+    "address": "6410 Fannin St, Ste 600",
+    "zip": "77030",
+    "phone": "713-500-6550",
+    "contact": "Rhonda.S.Patterson@uth.tmc.edu",
+    "latitude": "29.7144387",
+    "longitude": "-95.3978103",
+    "distance": 0,
+    "zoom": 15,
+    "hcps": [ {
+        "name_title": "Richard Smalling, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Anthony Estrera, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Catalin Loghin, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Igor Gregoric, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Rhonda Patterson",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "39",
+    "store_title": "The Heart Valve Center of Texas The Heart Hospital at Baylor Plano",
+    "state": "TX",
+    "city": "Plano",
+    "address": "4716 Alliance Blvd., Pavilion II, Suite 300",
+    "zip": "75093",
+    "phone": "469-361-5942",
+    "website": "www.TheHeartHospitalBaylorPlano.com/cvcare",
+    "contact": "Shari.snyder@BSWhealth.org",
+    "latitude": "33.0149079",
+    "longitude": "-96.7899989",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Robert Smith, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Molly Szerlip, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Paul Grayburn, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Andrea Haley, RN",
+        "specialty": "Valve Clinic Coordinator"
+    } ]
+}, {
+    "id": "40",
+    "store_title": "VALVE CLINIC Houston Methodist DeBakey Heart & Vascular Center",
+    "state": "TX",
+    "city": "Houston",
+    "address": "6550 Fannin St. Smith Tower, Suite 1401",
+    "zip": "77030",
+    "phone": "713-441-2863",
+    "contact": "valveclinic@houstonmethodist.org",
+    "website": "www.houstonmethodist.org/valveclinic",
+    "latitude": "29.7098926",
+    "longitude": "-95.3996502",
+    "distance": 0,
+    "zoom": 15,
+    "hcps": [ {
+        "name_title": "Neal Kleiman, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Colin Barker, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Stephen Little, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Gerald Lawrie, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Violette Phan ",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "41",
+    "store_title": "Intermountain Medical Center",
+    "state": "UT",
+    "city": "Murray",
+    "address": "5121 Cottonwood St",
+    "zip": "84107",
+    "phone": "801-507-4795",
+    "latitude": "40.6592191",
+    "longitude": "-111.891885",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Brian Whisenant, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kent Jones, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Lynn Harriss",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "42",
+    "store_title": "University of Virginia Health System",
+    "state": "VA",
+    "city": "Charlottesville",
+    "address": "1215 Lee St",
+    "zip": "22908",
+    "phone": "434-243-1146",
+    "contact": "valve@virginia.edu",
+    "latitude": "38.0319897",
+    "longitude": "-78.4996051",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Scott D. Lim, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Gorav Ailawadi, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Kristin Miller",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Michael Ragosta",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Linda Bailes",
+        "specialty": "Clinical Research Program Manager"
+    } ]
+}, {
+    "id": "43",
+    "store_title": "Swedish Medical Center",
+    "state": "WA",
+    "city": "Seattle",
+    "address": "500 17th Ave, Prof Bldg Ste 303",
+    "zip": "98122",
+    "contact": "irina.penev@swedish.org",
+    "phone": "206-320-2529",
+    "latitude": "47.6087583",
+    "longitude": "-122.2964235",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Sameer Gafoor",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "John Petersen, II, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Irina Penev",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Eric Lehr, MD",
+        "specialty": "CV Surgeon"
+    }, {
+        "name_title": "Ming Zhang, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "44",
+    "store_title": "University of Washington Medical Center, Seattle, WA",
+    "state": "WA",
+    "city": "Seattle",
+    "address": "1959 NE Pacific St",
+    "zip": "98195",
+    "contact": "rosengu@uw.edu",
+    "phone": "206-747-0721",
+    "latitude": "47.6492873",
+    "longitude": "-122.3068507",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Mark Reisman, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Gabriel Aldea, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Rose Nguyen",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "45",
+    "store_title": "Aurora St. Luke’s Medical Center",
+    "state": "WI",
+    "city": "Milwaukee",
+    "address": "2900 W Oklahoma Ave",
+    "zip": "53215",
+    "website": "www.aurorahealthcare.org/services/heart-vascular/heart-valve-disease",
+    "phone": "414-649-3983",
+    "contact": "",
+    "latitude": "42.9896544",
+    "longitude": "-87.9500223",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Tanvir Bajwa, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Suhail Allaqaband, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Dan O’Hair, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Bijoy Khandheria, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Renuka Jain , MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Lisa Brennan",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "46",
+    "store_title": "Winthrop University Hospital",
+    "state": "NY",
+    "city": "Mineola",
+    "address": "259 1st Street",
+    "zip": "11501",
+    "phone": "516-663-3669",
+    "contact": "ljensen@winthrop.org",
+    "latitude": "40.740691",
+    "longitude": "-73.643098",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Srihari Naidu, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "William Kokotos, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Daniel Donohue, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Lucy Jensen",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "47",
+    "store_title": "Riverside Methodist Hospital",
+    "state": "OH",
+    "city": "Columbus",
+    "address": "3535 Olentangy River Rd",
+    "zip": "43214",
+    "phone": "614-566-3301",
+    "contact": "Lisa.Stone@OhioHealth.com",
+    "latitude": "40.0306",
+    "longitude": "-83.034299",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Steven Yakubov, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Howard Kander, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Lee Jordan, MD",
+        "specialty": "Heart Failure Cardiologist"
+    }, {
+        "name_title": "David Richards, MD",
+        "specialty": "Heart Failure Cardiologist"
+    }, {
+        "name_title": "Arash Arshi, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Todd Matros, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Kanny Grewal, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Steve Duff, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Dan Watson, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Carlos Sanchez",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Lisa Stone",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "48",
+    "store_title": "NYP Weill Cornell Medical Center",
+    "state": "NY",
+    "city": "New York",
+    "address": "525 E. 68th Street",
+    "zip": "10065",
+    "phone": "212-746-5454",
+    "contact": "cornellheartvalve@nyp.org",
+    "latitude": "40.764299",
+    "longitude": "-73.954299",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "S Chiu Wong, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Geoff Bergman, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Richard Devereux, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Arash Salemi, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "49",
+    "store_title": "University of MN Med Ctr Fairview",
+    "state": "MN",
+    "city": "Minneapolis",
+    "address": "500 Harvard Street SE",
+    "zip": "55455",
+    "phone": "612-626-3000",
+    "contact": "",
+    "latitude": "44.970946",
+    "longitude": "-93.231283",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Gregory Helmer, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Gladwin Das, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Deborah Dempsey",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Cindy Western,RN",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Andria Genest, RN",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "50",
+    "store_title": "St Joseph Medical Center",
+    "state": "WA",
+    "city": "Tacoma",
+    "address": "1717 S J St",
+    "zip": "98405",
+    "phone": "253-998-5229",
+    "contact": "kayeisenhauer@chifranciscan.org",
+    "latitude": "47.24660",
+    "longitude": "-122.44836",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Ron Reiter",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Tony Secaira",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Craig Hampton",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Joe Miller",
+        "specialty": "Cardiac Anesthesiologist"
+    }, {
+        "name_title": "Kay Eisenhauer",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "51",
+    "store_title": "Via Christi Hospitals – St Francis Campus",
+    "state": "KS",
+    "city": "Wichita",
+    "address": "929 N Saint Francis Street",
+    "zip": "67214",
+    "phone": "316-268-8650",
+    "contact": "Richard.Allenbach@via-christi.org",
+    "latitude": "37.67518",
+    "longitude": "-97.33163",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Bassem Chehab, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Brett Grizzell, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Sanjay Khicha, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Aziz Maksoud, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Richard Allenbach",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "52",
+    "store_title": "Sharp Memorial Hospital",
+    "state": "CA",
+    "city": "San Diego",
+    "address": "7901 Frost Street",
+    "zip": "92123",
+    "phone": "858-939-5656",
+    "contact": "annettemarie.contasti@sharp.com",
+    "latitude": "32.799488",
+    "longitude": "-117.154055",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Raghava Gollapudi, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Robert Kumar, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Paolo Gullinta, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Dimitri Sherev",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Annette Marie Contasti, RN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "53",
+    "store_title": "Emory Midtown",
+    "state": "GA",
+    "city": "Atlanta",
+    "address": "550 Peachtree St. NE",
+    "zip": "30308",
+    "phone": "404-686-2513",
+    "contact": "amy.simone@emoryhealthcare.org",
+    "website": "",
+    "latitude": "33.76849",
+    "longitude": "-84.38612",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Amy Simone",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Vinod Thourani",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Chandan Devireddy",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "54",
+    "store_title": "Banner University Medical Center Tucson",
+    "state": "AZ",
+    "city": "Tucson",
+    "address": "1501 N Campbell Ave",
+    "zip": "85724",
+    "phone": "520-626-2769",
+    "contact": "Monique.Crawford@bannerhealth.com",
+    "latitude": "32.24062",
+    "longitude": "-110.94598",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Kapil Lotun, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Ranjith Shetty, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Zain Khalpey, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Rajesh Janardhanan, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Monique Crawford, RN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "55",
+    "store_title": "Sentara Heart Hospital",
+    "state": "VA",
+    "city": "Norfolk",
+    "address": "600 Gresham Dr",
+    "zip": "23507",
+    "phone": "757-668-3000",
+    "contact": "lewilson@sentara.com",
+    "latitude": "36.862801",
+    "longitude": "-76.303509",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Paul Mahoney, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Dave Adler, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Michael McGrath, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Bob Opet, MD",
+        "specialty": "Anesthesiologist"
+    }, {
+        "name_title": "David Schinderle, MD",
+        "specialty": "Anesthesiologist"
+    }, {
+        "name_title": "Sarah Sourbeer",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Lauren Morris",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "56",
+    "store_title": "Board of Trustees UAB",
+    "state": "AL",
+    "city": "Birmingham",
+    "address": "1720 2nd Avenue South",
+    "zip": "35294",
+    "phone": "205-934-4011",
+    "contact": "ljernigan@uabmc.edu",
+    "latitude": "33.50960",
+    "longitude": "-86.80665",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Oluseun Alli, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Massoud A Leesar, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Navin Nanda, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Lindsay Jernigan",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "57",
+    "store_title": "Kaiser Permanente",
+    "state": "CA",
+    "city": "San Francisco",
+    "address": "2425 Geary Blvd",
+    "zip": "94115",
+    "phone": "415-833-6623",
+    "contact": "",
+    "latitude": "37.782478",
+    "longitude": "-122.442898",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Jacob Mishell, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Andrew Rassi, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Gennie Yee, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Vic Melikian, MD",
+        "specialty": "Cardiac Surgeo"
+    }, {
+        "name_title": "Kim Theriault",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "58",
+    "store_title": "Stanford Hospital and Clinics",
+    "state": "CA",
+    "city": "Stanford",
+    "address": "300 Pasteur Dr",
+    "zip": "94305",
+    "phone": "650-725-2687",
+    "contact": "zmagee@stanford.edu",
+    "latitude": "37.433173",
+    "longitude": "-122.175617",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Alan Yeung, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "David Lee, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Zoe Magee",
+        "specialty": "Valve Nurse Coordinator"
+    } ]
+}, {
+    "id": "59",
+    "store_title": "Northwestern Memorial Hospital",
+    "state": "IL",
+    "city": "Chicago",
+    "address": "251 E Huron ",
+    "zip": "60611",
+    "phone": "312-694-4226",
+    "website": "heartvalvedisease.nm.org/mitraclip-for-mitral-regurgitation.html",
+    "contact": "",
+    "latitude": "41.89464",
+    "longitude": "-87.62113",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Mark Ricciardi, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Chris Malaisrie, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Charles Davidson, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "60",
+    "store_title": "Morton Plant Hospital",
+    "state": "FL",
+    "city": "Clearwater",
+    "address": "300 Pinellas St",
+    "zip": "33756",
+    "phone": "727-462-7000",
+    "contact": "",
+    "latitude": "27.953082",
+    "longitude": "-82.803824",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Joshua Rovin, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Lang Lin, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Douglas Spriggs, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "John Ofenlock, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Michael Barry, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Todd Kovach, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Laura Blanchard",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "61",
+    "store_title": "Centennial Medical Center",
+    "state": "TN",
+    "city": "Nashville",
+    "address": "2300 Patterson St",
+    "zip": "37203",
+    "phone": "615-342-1000",
+    "website": "www.tristarcentennial.com/service/heart-vascular-surgery",
+    "contact": "laura.little@hcahealthcare.com",
+    "latitude": "36.1533",
+    "longitude": "-86.808898",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "John Riddick, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Laura Little",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "62",
+    "store_title": "Detroit Medical Center Heart Hospital",
+    "state": "MI",
+    "city": "Detroit",
+    "address": "3990 John R St",
+    "zip": "48201",
+    "phone": "313-745-7050",
+    "contact": "hcarl@dmc.org,tschreib@dmc.org",
+    "website": "",
+    "latitude": "42.35220",
+    "longitude": "-83.05683",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Theodore L. Schreiber, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Ahmad Munir, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Scott Henry, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Anupama Kottam",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Heidi Carl, BS",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "63",
+    "store_title": "SSM St Louis University Hospital",
+    "state": "MO",
+    "city": "Saint Louis",
+    "address": "3635 Vista At Grand Blvd",
+    "zip": "63110",
+    "phone": "314-268-7299",
+    "contact": "johnsonsa2@slu.edu",
+    "latitude": "38.622504",
+    "longitude": "-90.240595",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Michael Limm, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Richard Lee, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Abhay Laddu, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Sarah Johnson",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "64",
+    "store_title": "Lankenau Hospital",
+    "state": "PA",
+    "city": "Wynnewood",
+    "address": "100 Lancaster Ave",
+    "zip": "19096",
+    "phone": "855-820-8258",
+    "contact": "igidbashianL@MLHS.org",
+    "latitude": "39.988527",
+    "longitude": "-75.260486",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Sandy Abramson, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Scott Goldman, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Paul Coady, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Eric Gnall, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Roberto Rodriguez, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Lisa Igidbashian",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Bill Gray, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Katie Hawthorne, MD",
+        "specialty": "Echocardiographer"
+    } ]
+}, {
+    "id": "65",
+    "store_title": "Queen's Medical Center",
+    "state": "HI",
+    "city": "Honolulu",
+    "address": "1301 Punchbowl St",
+    "zip": "96813",
+    "phone": "808-691-8900",
+    "contact": "valveclinic@queens.org",
+    "latitude": "21.307872",
+    "longitude": "-157.854882",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Christian Spies, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jasmine Kalai",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "66",
+    "store_title": "William P. Clements Jr University Hospital",
+    "state": "TX",
+    "city": "Dallas",
+    "address": "5909 Harry Hines Blvd",
+    "zip": "75390",
+    "phone": "214-879-1000",
+    "contact": "",
+    "latitude": "32.80990",
+    "longitude": "-96.83487",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Sarah Gualano, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mike Luna, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Katy Lonergan, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Michael Jessen, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Brandy Johnston",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "67",
+    "store_title": "Wellstar Kennestone",
+    "state": "GA",
+    "city": "Marietta",
+    "address": "677 Church Street",
+    "zip": "30060",
+    "phone": "(470)956-7450",
+    "contact": "save@wellstar.org",
+    "website": "www.wellstar.org/locations/pages/wellstar-kennestone-hospital.aspx",
+    "latitude": "33.96959",
+    "longitude": "-84.55161",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Tiffany Amos",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Amar Patel, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "68",
+    "store_title": "Heart Hospital of Austin - Heart Valve Clinic",
+    "state": "TX",
+    "city": "Austin",
+    "address": "3801 N Lamar Blvd",
+    "zip": "78756",
+    "phone": "512-407-8258",
+    "contact": "shannon.isbell@hcahealthcare.com",
+    "website": "HeartHospitalofAustin.com",
+    "latitude": "30.305846",
+    "longitude": "-97.741157",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Stephen J. Dewan, MD",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Faraz Kerendi, MD",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Mark Felger, MD",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Juhana Karha, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Frank J. Zidar, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Shannon Isbell, RN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "69",
+    "store_title": "South Texas Heart Valve Center, Methodist Hospital",
+    "state": "TX",
+    "city": "San Antonio",
+    "address": "4499 Medical Drive Suite 166",
+    "zip": "78229",
+    "phone": "210-575-4195",
+    "website": "sahealth.com",
+    "contact": "",
+    "latitude": "29.510471",
+    "longitude": "-98.573748",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Jorge Alvarez, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Daniel Donovan, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Larry Hamner, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "James Garrison, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Carolyn Payne, RN",
+        "specialty": "Heart Valve Center Coordinator"
+    } ]
+}, {
+    "id": "70",
+    "store_title": "Manatee Memorial Hospital",
+    "state": "FL",
+    "city": "Bradenton",
+    "address": "206 2nd St E",
+    "zip": "34208",
+    "phone": " (941) 745-7572.",
+    "contact": "",
+    "latitude": "27.497325",
+    "longitude": "-82.562298",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Jay Mathews, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Gino Sedillo, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Srinivas Iyengar, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Enrique Rivera, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Gene Parant, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Alessandro Golino, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "71",
+    "store_title": "Florida Hospital Orlando",
+    "state": "FL",
+    "city": "Orlando",
+    "address": "601 E Rollins St",
+    "zip": "32803",
+    "phone": "407-303-8886",
+    "contact": "nora.byrd@flhosp.org",
+    "latitude": "28.574397",
+    "longitude": "-81.369864",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Andrew Taussig, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jose Arias, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Nipun Arora, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Phillip Anderson, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Rodrigo do Lago, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kevin Accola, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Nora Byrd",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "72",
+    "store_title": "Spectrum Health",
+    "state": "MI",
+    "city": "Grand Rapids",
+    "address": "100 Michigan St NE",
+    "zip": "49503",
+    "phone": "616-391-6662",
+    "contact": "bree.stuk@spectrumhealth.org",
+    "latitude": "42.970126",
+    "longitude": "-85.665047",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Duane Berkompas, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "William Merhi, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Michael Vredenburg, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Lawrence Patzel, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "John Heiser, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Bree Stuk",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "73",
+    "store_title": "Oregon Health and Science University",
+    "state": "OR",
+    "city": "Portland",
+    "address": "3181 SW Sam Jackson Park Road",
+    "zip": "97239",
+    "phone": "503-494-9702",
+    "contact": "bennetay@ohsu.edu",
+    "latitude": "45.497293",
+    "longitude": "-122.686069",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Firas Zahr, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Matthew Slater, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "74",
+    "store_title": "JFK Medical Center",
+    "state": "FL",
+    "city": "Atlantis",
+    "address": "5301 S Congress Ave",
+    "zip": "33462",
+    "phone": "561-965-7300",
+    "contact": "",
+    "latitude": "26.598054",
+    "longitude": "-80.092706",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Robert Cubeddu, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Arvind Kapila, MD",
+        "specialty": "Anesthesiologist"
+    }, {
+        "name_title": "George Daniel, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Marco Nores, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Lancelot Lester, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Jennifer Christensen",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Eric Heller MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "75",
+    "store_title": "CentraCare Heart and Vascular Center",
+    "state": "MN",
+    "city": "St. Cloud",
+    "address": "1406 Sixth Avenue NE",
+    "zip": "56303",
+    "phone": "320-251-2700",
+    "website": "www.centracare.com",
+    "contact": "valveclinic@centracare.com",
+    "latitude": "45.54515",
+    "longitude": "-94.16359",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Thom Dahle, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "John Teskey, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Richard Jolkovsky, MD",
+        "specialty": "Echo Cardiologist"
+    }, {
+        "name_title": "Anna Rengel, PA",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Nathaniel Castro",
+        "specialty": "Cardiovascular Surgeon"
+    }, {
+        "name_title": "Sarah Dezell",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "76",
+    "store_title": "Terrebonne General Medical Center",
+    "state": "LA",
+    "city": "Houma",
+    "address": "8166 Main St",
+    "zip": "70360",
+    "phone": "",
+    "contact": "",
+    "latitude": "29.598516",
+    "longitude": "-90.713991",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Peter Fail, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Ben Adams, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Darrell Solet, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Edgar Feinburg, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "77",
+    "store_title": "Allegheny General Hospital",
+    "state": "PA",
+    "city": "Pittsburgh",
+    "address": "320 E North Ave",
+    "zip": "15212",
+    "phone": "412-359-3054",
+    "contact": "dberger@wpahs.org",
+    "latitude": "40.457015",
+    "longitude": "-80.003731",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "David Lasorda, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Rachael Hughes-Doicha, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Moneal Shah, MD",
+        "specialty": "Eardiologist"
+    }, {
+        "name_title": "Raef Hajjali, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Walt McGregor, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Amy Schuett, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Diane Berger",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "78",
+    "store_title": "Rush University Medical Center",
+    "state": "IL",
+    "city": "Chicago",
+    "address": "1653 W Congress Pkwy",
+    "zip": "60612",
+    "phone": "",
+    "website": "www.rush.edu/services/center-adult-structural-heart-disease",
+    "contact": "jennifer_mcdonald@rush.edu",
+    "latitude": "41.874473",
+    "longitude": "-87.669194",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Clifford Kavinsky, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Neeraj Jolly, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Robert March",
+        "specialty": "CT Surgeon"
+    }, {
+        "name_title": "Jennifer McDonald",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "79",
+    "store_title": "St. Francis Hospital",
+    "state": "NY",
+    "city": "Roslyn",
+    "address": "100 Port Washington Blvd",
+    "zip": "11576",
+    "phone": "",
+    "contact": "",
+    "latitude": "40.804501",
+    "longitude": "-73.67048",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Andrew Berke, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Neil Bercow, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "80",
+    "store_title": "Loyola University Medical Center",
+    "state": "IL",
+    "city": "Maywood",
+    "address": "2160 S 1st Ave",
+    "zip": "60153",
+    "phone": "(708) 327-2120",
+    "contact": "",
+    "latitude": "41.85986",
+    "longitude": "-87.83510",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Fred Leya, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Bruce Lewis, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "John Lopez",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mamdouh Bakhos, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Edyta Milan, RN",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Sara Edwards",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "81",
+    "store_title": "St. Johns Hospital",
+    "state": "IL",
+    "city": "Springfield",
+    "address": "800 E Carpenter St",
+    "zip": "62769",
+    "phone": "",
+    "contact": "kheil@prairieheart.com",
+    "latitude": "39.807252",
+    "longitude": "-89.64484",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Nilesh Goswami, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Sachin Goel, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Vincent Zuck, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Raja Gopaldas, MD",
+        "specialty": "CT surgeon"
+    }, {
+        "name_title": "Kurt Heil",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "82",
+    "store_title": "Nebraska Heart Institute Hospital",
+    "state": "NE",
+    "city": "Lincoln",
+    "address": "7500 S 91st St",
+    "zip": "68526",
+    "phone": "402-450-7152",
+    "contact": "srooney@neheart.com",
+    "latitude": "40.736566",
+    "longitude": "-96.59332",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Steven Martin, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Paul Bajwa, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Hosakote Nagaraj, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Omar Nass, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "James Wudel, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Shari Rooney",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "83",
+    "store_title": "Mount Sinai Medical Center",
+    "state": "NY",
+    "city": "New York",
+    "address": "1 Gustave L Levy Pl",
+    "zip": "10029",
+    "phone": "212-241-5849",
+    "contact": "melissa.mattimore@mountsinai.org",
+    "website": "www.mountsinai.org/interventional-cardiology-cath-lab",
+    "latitude": "40.790058",
+    "longitude": "-73.95386",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Dr. Annapoorna Kini",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Dr. George Dangas",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jason Kovacic, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Samin Sharma, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Paul Stelzer, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Allan Stewart, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Anelechi Auyanwu, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "84",
+    "store_title": "Scripps Green Hospital",
+    "state": "CA",
+    "city": "La Jolla",
+    "address": "10666 N Torrey Pines Rd",
+    "zip": "92037",
+    "phone": "858-554-5032",
+    "contact": "Zupkas-Gough.Lani@scrippshealth.org",
+    "website": "www.scripps.org/physicians/5038-matthew-price",
+    "latitude": "32.898364",
+    "longitude": "-117.242961",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Matthew Price, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Scot Brewster, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "86",
+    "store_title": "Palm Beach Gardens Medical Center",
+    "state": "FL",
+    "city": "Palm Beach Gardens",
+    "address": "3360 Burns Rd",
+    "zip": "33410",
+    "phone": "",
+    "contact": "",
+    "latitude": "26.830198",
+    "longitude": "-80.085783",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Augusto Villa, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Brian Bethea",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Brij Maini, MD",
+        "specialty": "Interventional Cardiology"
+    }, {
+        "name_title": "Kathlena Mendez",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "87",
+    "store_title": "Sacred Heart Medical Center",
+    "state": "WA",
+    "city": "Spokane",
+    "address": "101 W 8th Ave",
+    "zip": "99220",
+    "phone": "509-455-8820",
+    "contact": "sarah.lambert@providence.org",
+    "latitude": "47.649138",
+    "longitude": "-117.413473",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Philip Huber, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Dieter Lubbe, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Leland Siwek, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Brandon Reynolds, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Sarah Lambert",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "88",
+    "store_title": "St. Joseph Hospital of Atlanta",
+    "state": "GA",
+    "city": "Atlanta",
+    "address": "5665 Peachtree Dunwoody Rd NE",
+    "zip": "30342",
+    "phone": "",
+    "contact": "jpstewa@emory.edu",
+    "latitude": "33.908379",
+    "longitude": "-84.348718",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "James Stewart, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Doug Murphy, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "89",
+    "store_title": "Hillcrest Medical Center",
+    "state": "OK",
+    "city": "Tulsa",
+    "address": "1120 S Utica Ave",
+    "zip": "74104",
+    "phone": "918-633-1471",
+    "contact": "georgianne.tokarchik@oklahomaheart.com",
+    "latitude": "36.147041",
+    "longitude": "-95.968189",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Kamran Muhammad, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Wayne Leimbach, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Victor Cheng, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Paul Kempe, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Georgianne Tokarchik",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "90",
+    "store_title": "Promedica Toledo Hospital",
+    "state": "OH",
+    "city": "Toledo",
+    "address": "2142 N Cove Blvd",
+    "zip": "43606",
+    "phone": "419-603-2972",
+    "contact": "erica.boonie@promedica.org",
+    "latitude": "41.673032",
+    "longitude": "-83.594913",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "John Letcher, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kasi Ramanathan, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Robert Grande, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Don Crescenzo, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Mike Moront, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Erica Boonie",
+        "specialty": "Structural Heart Clinic Coordinator"
+    } ]
+}, {
+    "id": "91",
+    "store_title": "University Hospital of Cleveland",
+    "state": "OH",
+    "city": "Cleveland",
+    "address": "11100 Euclid Avenue",
+    "zip": "44106",
+    "phone": "216-844-6138",
+    "contact": "angela.davis@uhhospitals.org",
+    "latitude": "41.49932",
+    "longitude": "-81.694361",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Guilherme Attizzani, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Edwin Avery, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Alan Markowitz, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Marco Costa, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Angela Davis, RN BSN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "92",
+    "store_title": "MAYO CLINIC",
+    "state": "FL",
+    "city": "Jacksonville",
+    "address": "4500 San Pablo Rd S",
+    "zip": "32224",
+    "phone": "904-953-6780",
+    "website": "www.mayoclinic.org/patient-visitor-guide/florida/clinic-hospital-buildings",
+    "contact": "",
+    "latitude": "30.26279",
+    "longitude": "-81.44135",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Jenniver Summers",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Peter Pollak, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kevin Landolfo, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "93",
+    "store_title": "Jewish Hospital",
+    "state": "KY",
+    "city": "Louisville",
+    "address": "200 Abraham Flexner Way",
+    "zip": "40202",
+    "phone": "",
+    "contact": "",
+    "latitude": "38.248808",
+    "longitude": "-85.750922",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Kendra Grubb, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Marcus Stoddard, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Michael Flaherty, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "94",
+    "store_title": "Novant Presbyterian Medical Center",
+    "state": "NC",
+    "city": "Charlotte",
+    "address": "200 Hawthorne Lane",
+    "zip": "28204",
+    "phone": "704 316-8287",
+    "contact": "cjmcdonald@novanthealth.org",
+    "latitude": "35.212018",
+    "longitude": "-80.824243",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Yele Aluko, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Richard Jacoby, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Ed McMillan, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Kevin Sharkey, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Carol McDonald",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Rachel Karo",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "95",
+    "store_title": "Good Samaritan Hospital",
+    "state": "CA",
+    "city": "Los Angeles",
+    "address": "1225 Wilshire Blvd",
+    "zip": "90017",
+    "phone": "213-977-0419",
+    "contact": "",
+    "latitude": "34.054593",
+    "longitude": "-118.265191",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Steve Burstein, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Ali Gheissari, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "96",
+    "store_title": "MEMORIAL UNIVERSITY MED CTR",
+    "state": "GA",
+    "city": "Savannah",
+    "address": "4700 Waters Ave",
+    "zip": "31404",
+    "phone": "912-350-8000",
+    "contact": "",
+    "latitude": "32.02986",
+    "longitude": "-81.08925",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Jeremy London",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Dale Daly, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Chad Stouffer",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Kerry Shaw",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "97",
+    "store_title": "Mayo Clinic Hospital",
+    "state": "AZ",
+    "city": "Phoenix",
+    "address": "5777 E Mayo Blvd",
+    "zip": "85054",
+    "phone": "480-342-0740",
+    "contact": "arzvalveclinic@mayo.edu",
+    "latitude": "33.659004",
+    "longitude": "-111.956391",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "David Fortuin, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jack Sweeney, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Patrick DeValeria, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Louis Lanza, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Reza Arsanjani, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Hari Chaliki, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Mary Riener, RN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "98",
+    "store_title": "St. Joseph Mercy Oakland",
+    "state": "MI",
+    "city": "Pontiac",
+    "address": "44405 Woodward Ave",
+    "zip": "48341",
+    "phone": "",
+    "contact": "Laura.Carey@Stjoeshealth.org",
+    "latitude": "42.614254",
+    "longitude": "-83.276024",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Charles Schwartz, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Kirit Patel, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Michele DeGregorio, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Sandeep Krishnan, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Laura Carey",
+        "specialty": "Structural Heart Program Coordinator"
+    } ]
+}, {
+    "id": "99",
+    "store_title": "Bon Secours - St Mary's Hospital",
+    "state": "VA",
+    "city": "Richmond",
+    "address": "5801 Bremo Blvd",
+    "zip": "23226",
+    "phone": "804-287-7840",
+    "contact": "Lindsey_Guirgues@bshi.org",
+    "latitude": "37.583842",
+    "longitude": "-77.513254",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Scott Lim",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mathew Wood, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Lindsey Guirgues",
+        "specialty": "Heart Team Coordinator"
+    } ]
+}, {
+    "id": "100",
+    "store_title": "Medical University of So Carolina (MUSC)",
+    "state": "SC",
+    "city": "Charleston",
+    "address": "171 Ashley Ave",
+    "zip": "29425",
+    "phone": "843-876-0940",
+    "contact": "ricsu@musc.edu",
+    "latitude": "32.784322",
+    "longitude": "-79.946918",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Daniel Steinberg, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": 'David "Daley" Gregg, MD',
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "John Iknonomidis, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Mario Castillo-Sang",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Hope Grimmett",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Suzanne Richardson, RN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "101",
+    "store_title": "Baptist Princeton",
+    "state": "AL",
+    "city": "Birmingham",
+    "address": "701 Princeton Ave SW",
+    "zip": "35211",
+    "phone": "205-783-3320",
+    "contact": "laura.byrd@bhsala.com",
+    "latitude": "33.49851",
+    "longitude": "-86.84622",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Laura Byrd",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Mustafa Ahmed",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Clifton Lewis",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "102",
+    "store_title": "Good Samaritan Hospital",
+    "state": "OH",
+    "city": "Cincinatti",
+    "address": "375 Dixmyth Ave",
+    "zip": "45220",
+    "phone": "513-862-1505",
+    "contact": "",
+    "latitude": "39.140061",
+    "longitude": "-84.520645",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "John Michael Smith, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Puvi Seshiah, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "William Martin, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mary Beth Gibbons, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Deb Kathman",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "103",
+    "store_title": "Lancaster General Hospital",
+    "state": "PA",
+    "city": "Lancaster",
+    "address": "555 N Duke St",
+    "zip": "17602",
+    "phone": "717-544-8247",
+    "contact": "ssdelgad@lghealth.org",
+    "latitude": "40.047448",
+    "longitude": "-76.305082",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Mark Epler, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Ron Jacob, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Rupal Dumasia, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Sherri Delgado",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "104",
+    "store_title": "Buffalo General Hospital - Gates Vascular Institute",
+    "state": "NY",
+    "city": "Buffalo",
+    "address": "100 High St",
+    "zip": "14203",
+    "phone": "716-859-2573",
+    "contact": "rhansen@kaleidahealth.org",
+    "latitude": "42.900813",
+    "longitude": "-78.866020",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Gary Grosner, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Vijay Iyer, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Rose Hansen",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "105",
+    "store_title": "Wake Forest Baptist Medical Center",
+    "state": "NC",
+    "city": "Winston-Salem",
+    "address": "Medical Center Blvd",
+    "zip": "27157",
+    "phone": "336-713-4419",
+    "contact": "lwodonne@wakehealth.edu",
+    "latitude": "36.090619",
+    "longitude": "-80.271608",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "David Zhao, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Neal Kon, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Sanjay Ghandi, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Ted Kincaid, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Leanne O'Donnell",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "106",
+    "store_title": "Banner University Medical Center Phoenix (Dr. Pershad)",
+    "state": "AZ",
+    "city": "Phoenix",
+    "address": "1111 E McDowell Rd",
+    "zip": "85006",
+    "phone": "602-778-4583",
+    "contact": "crystal.lopez2@bannerhealth.com",
+    "latitude": "33.465137",
+    "longitude": "-112.057972",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Ashish Pershad, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Ken Fang, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "George Gellert, MD",
+        "specialty": "Cardiac Anesthesiologist"
+    }, {
+        "name_title": "Crystal Lopez",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "108",
+    "store_title": "Wellmont Holston Valley Medical Center",
+    "state": "TN",
+    "city": "Kingsport",
+    "address": "130 W Ravine Rd",
+    "zip": "37660",
+    "phone": "423-230-5679",
+    "website": "www.wellmont.org",
+    "contact": "klee@mycva.com",
+    "latitude": "36.554013",
+    "longitude": "-82.554830",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Mark Aziz, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kathy Lee",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "John Bertuso, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Keith Kramer, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Stan Gall, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "109",
+    "store_title": "St. Luke's Hospital of Kansas City",
+    "state": "MO",
+    "city": "Kansas City",
+    "address": "4401 Wornall Road",
+    "zip": "64111",
+    "phone": "816-932-8258",
+    "contact": "scoffey@saint-lukes.org",
+    "latitude": "39.047638",
+    "longitude": "-94.590309",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Adnan Chhatriwalla",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kenneth Huber, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Michael Borkon, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Anthony Magalski, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "David Skolnick, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Sarah Coffey",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "110",
+    "store_title": "Kaiser Sunnyside",
+    "state": "OR",
+    "city": "Clackamas",
+    "address": "10180 SE Sunnyside Rd",
+    "zip": "97015",
+    "phone": "503-571-5952",
+    "contact": "gail.m.clark@kp.org",
+    "latitude": "45.43099",
+    "longitude": "-122.56084",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Yong Shin, MD",
+        "specialty": "CV Surgeon"
+    }, {
+        "name_title": "Ryan Morrissey, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Gail Clark",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Manu Uberoi, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "111",
+    "store_title": "Carilion Roanoke Memorial",
+    "state": "VA",
+    "city": "Roanoke",
+    "address": "1906 Belleview Ave SE",
+    "zip": "24014",
+    "phone": "540-981-7000",
+    "contact": "csemore@carilionclinic.org",
+    "website": "carilionclinic.org",
+    "latitude": "37.25133",
+    "longitude": "-79.94188",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "",
+        "specialty": ""
+    }, {
+        "name_title": "Jason Foerst, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Gary Swank, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Sheree Emore, NP",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "112",
+    "store_title": "Parkwest Medical Center",
+    "state": "TN",
+    "city": "Knoxville",
+    "address": "9352 Park West Blvd",
+    "zip": "37923",
+    "phone": "865-373-7942",
+    "website": "www.treatedwell.com/",
+    "contact": "",
+    "latitude": "35.91723",
+    "longitude": "-84.10065",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Ayaz Rahman, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Thomas Pollard, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Nick Xenopoulos, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Sherryl Croiter, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Sonia Brown",
+        "specialty": "Valve Clinic Coordinator"
+    } ]
+}, {
+    "id": "113",
+    "store_title": "Pinnacle Health",
+    "state": "PA",
+    "city": "Wormleysburg",
+    "address": "1000 N. Front Street",
+    "zip": "17043",
+    "phone": "717-731-0101",
+    "website": "",
+    "contact": "rhollister@pinnaclehealth.org",
+    "latitude": "40.26777",
+    "longitude": "-76.91207",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Hemal Gada, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "William Bachinsky, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mubashir Mumtaz, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Roberto Hodara, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Atizazul Mansoor, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Regina Hollister",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Anita Todd",
+        "specialty": "Clinical Research Coordinator"
+    } ]
+}, {
+    "id": "114",
+    "store_title": "Beth Israel Deaconess",
+    "state": "MA",
+    "city": "Boston",
+    "address": "1 Deaconess Rd",
+    "zip": "02215",
+    "phone": "240-893-4616",
+    "website": "www.bidmc.org",
+    "contact": "",
+    "latitude": "42.33800",
+    "longitude": "-71.10893",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Donald Cutlip, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jeffrey Popma, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kamal Khabbaz, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "David Liu",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Kimberly Guibone",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "115",
+    "store_title": "Sanford Medical Center Fargo",
+    "state": "ND",
+    "city": "Fargo",
+    "address": "801 Broadway North",
+    "zip": "58122",
+    "phone": "701-234-7473",
+    "contact": "Ronda.Bolgrean@sanfordhealth.org",
+    "latitude": "46.88491",
+    "longitude": "-96.78597",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Thomas Haldis, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Roxanne Newman, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Carlos Miranda, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Amanda Kadrmas, RN",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Ronda Bolgrean, RN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "116",
+    "store_title": "Northeast Georgia Medical Center",
+    "state": "GA",
+    "city": "Gainesville",
+    "address": "743 Spring St NE",
+    "zip": "30501",
+    "phone": "706-599-4798",
+    "contact": "feather.holbrook@nghs.com",
+    "latitude": "34.30335",
+    "longitude": "-83.81737",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Alison Dupont, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Pradyumna Tummala, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Alan Wolfe, Md",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Feather Holbrook",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "117",
+    "store_title": "Edward Hospital",
+    "state": "IL",
+    "city": "Naperville",
+    "address": "801 S Washington St",
+    "zip": "60540",
+    "phone": "630-646-8384",
+    "contact": "skeeler@edward.org",
+    "latitude": "41.76076",
+    "longitude": "-88.15031",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Brian Foy, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Mark Goodwin, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "William Stephan",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Stanley Clark, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Stacey Keeler",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Laura Harken",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "118",
+    "store_title": "Keck Hospital of USC",
+    "state": "CA",
+    "city": "Los Angeles",
+    "address": "15000 San Pablo St",
+    "zip": "90033",
+    "phone": "",
+    "contact": "",
+    "latitude": "33.83936",
+    "longitude": "-118.01577",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "David Shavelle, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mark Cunningham, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Ray Matthews, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "119",
+    "store_title": "Sanford USD Medical Center",
+    "state": "SD",
+    "city": "Sioux Falls",
+    "address": "1301 W 18th Street",
+    "zip": "57117",
+    "phone": "605-312-2208",
+    "website": "www.sanfordhealth.org/locations/sanford-heart-hospital-sioux-falls",
+    "contact": "Valve@sanfordHealth.org",
+    "latitude": "43.53666",
+    "longitude": "-96.74373",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Tomasz Stys, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Verlyn Nykamp, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Adam Stys, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Krista Wright, RN",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Noelle Vlastuin",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "120",
+    "store_title": "Gwinnett Medical Center",
+    "state": "GA",
+    "city": "Lawrenceville",
+    "address": "1000 Medical Center Blvd",
+    "zip": "30046",
+    "phone": "678-312-8832",
+    "contact": "",
+    "latitude": "33.96351",
+    "longitude": "-84.01769",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Jennifer Brown",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Lou Heller, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "121",
+    "store_title": "Brigham & Womens Hospital",
+    "state": "MA",
+    "city": "Boston",
+    "address": "75 Francis St",
+    "zip": "02115",
+    "phone": "617-771-7555",
+    "website": "www.brighamandwomens.org",
+    "contact": "",
+    "latitude": "42.33592",
+    "longitude": "-71.10669",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Andrew Eisenhauer, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jeremiah Depta, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Michael Davidson, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Tsuyoshi Kaneko, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Jennifer Grondell",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Raquel Guir",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "122",
+    "store_title": "Westchester Medical Center",
+    "state": "NY",
+    "city": "Valhalla",
+    "address": "100 Woods Road",
+    "zip": "10595",
+    "phone": "",
+    "contact": "",
+    "latitude": "41.08665",
+    "longitude": "-73.80583",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Gilbert Tang, MD ",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Hasan Ahmad, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Martin Cohen, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Steven Lansman, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Tanya Dutta, MD",
+        "specialty": "Echocardiographer"
+    } ]
+}, {
+    "id": "123",
+    "store_title": "Mount Carmel East Hospital",
+    "state": "OH",
+    "city": "Columbus",
+    "address": "6001 E Broad St",
+    "zip": "43213",
+    "phone": "",
+    "contact": "kristi.phillips@mchs.com ",
+    "latitude": "39.97746",
+    "longitude": "-82.84226",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Thomas Fanning, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Pat Wells, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Frank Tice, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Bij Maroo, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Noah Jones, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kristi Phillips-Burkhart",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "124",
+    "store_title": "Heart Valve Clinic at Seton Heart Institute",
+    "state": "TX",
+    "city": "Austin",
+    "address": "Medical Park Tower 1301 W. 38th Street, Suite 400",
+    "zip": "78705",
+    "phone": "512-324-3440, Ext. 18156",
+    "website": "www.seton.net/heart-care/conditions/valve-clinic",
+    "contact": "NRichtsmeier@seton.org",
+    "latitude": "30.30491",
+    "longitude": "-97.74568",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Mark Pirwitz, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Osvaldo S Gigliotti, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Tuan Nguyen, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Norma Richtsmeier, RN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "125",
+    "store_title": "Hoag Memorial Hospital Presbyterian",
+    "state": "CA",
+    "city": "Newport Beach",
+    "address": "1 Hoag Dr",
+    "zip": "92663",
+    "phone": "",
+    "contact": "",
+    "latitude": "33.62474",
+    "longitude": "-117.93005",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Jorge Castellanos, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Subbarao Myla, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Anthony Caffarelli, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Pravin Shah, MD",
+        "specialty": "Echocardiographer"
+    } ]
+}, {
+    "id": "127",
+    "store_title": "HonorHealth Scottsdale Shea Medical Center",
+    "state": "AZ",
+    "city": "Scottsdale",
+    "address": "9003 E. Shea Blvd",
+    "zip": "85260",
+    "phone": "480-882-7452",
+    "contact": "",
+    "latitude": "33.58095",
+    "longitude": "-111.88525",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "David Rizik, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Robert Riley, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Robert Burke, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Dana Riedel",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "128",
+    "store_title": "Lahey Clinic Hospital",
+    "state": "MA",
+    "city": "Burlington",
+    "address": "41 Mall Rd",
+    "zip": "01805",
+    "phone": "781-744-5100",
+    "website": "www.lahey.org",
+    "contact": "",
+    "latitude": "42.48459",
+    "longitude": "-71.20500",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Gautam Gadey, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Gregory Smaroff, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Sherif Labib, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Stuart Cox, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Thomas Piemonte, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Sheri Soucy",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "129",
+    "store_title": "St Mary’s Hospital Medical Center",
+    "state": "WI",
+    "city": "Madison",
+    "address": "700 S Park St",
+    "zip": "53715",
+    "phone": "608-260-2900",
+    "contact": "tracy.janczak@ssmhealth.com",
+    "latitude": "43.05927",
+    "longitude": "-89.40151",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "John Phelan, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Benjamin Kleiber, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Vijay Kantamneni, MD",
+        "specialty": "CT surgeon"
+    }, {
+        "name_title": "Tracy Janczak",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "130",
+    "store_title": "Penn Presbyterian Medical Center",
+    "state": "PA",
+    "city": "Philadelphia",
+    "address": "51 N. 39th Street",
+    "zip": "19104",
+    "phone": "",
+    "contact": "",
+    "latitude": "39.9583",
+    "longitude": "-75.1991",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Gene Chang, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Clark Hargrove, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Jignesh Bhavsar, MD",
+        "specialty": "Echocardiographer"
+    } ]
+}, {
+    "id": "131",
+    "store_title": "Ohio State University Wexner Medical Center",
+    "state": "OH",
+    "city": "Columbus",
+    "address": "410 W 10th Ave",
+    "zip": "43210",
+    "phone": "614-293-8866",
+    "contact": "jennifer.dollery@osumc.edu",
+    "latitude": "39.99532",
+    "longitude": "-83.01775",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Konstantinos Dean Boudoulas, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Barry George, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Juan Crestanello, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Ahmet Kilic, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Thomas Ryan, MD",
+        "specialty": "Cardiologist"
+    }, {
+        "name_title": "David Orsinelli, MD",
+        "specialty": "Cardiologist"
+    }, {
+        "name_title": "Sitaramesh Emani, MD",
+        "specialty": "Advanced Heart Failure Specialist"
+    }, {
+        "name_title": "Garrie Haas, MD",
+        "specialty": "Advanced Heart Failure Specialist"
+    }, {
+        "name_title": "Ayesha Hasan, MD",
+        "specialty": "Advanced Heart Failure Specialist"
+    }, {
+        "name_title": "Jennifer Dollery BSN, RN",
+        "specialty": "Structural Heart Disease Program Manager"
+    }, {
+        "name_title": "Christie Hartlev BSN, RN",
+        "specialty": "Structural Heart Program Clinical Research Specialist"
+    } ]
+}, {
+    "id": "132",
+    "store_title": "UCHealth – Medical Center of the Rockies",
+    "state": "CO",
+    "city": "Loveland",
+    "address": "2500 Rocky Mountain Ave",
+    "zip": "80538",
+    "phone": "",
+    "contact": "",
+    "latitude": "40.41556",
+    "longitude": "-104.99730",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Brad Oldemeyer, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Justin Strote, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mark Douthit, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Mark Guadagnoli, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Thomas Matthew, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "133",
+    "store_title": "University Of Miami Hospital",
+    "state": "FL",
+    "city": "Miami",
+    "address": "1400 Nw 12th Ave",
+    "zip": "33136",
+    "phone": "",
+    "contact": "",
+    "latitude": "25.78850",
+    "longitude": "-80.21583",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": []
+}, {
+    "id": "134",
+    "store_title": "Rex Healthcare",
+    "state": "NC",
+    "city": "Raleigh",
+    "address": "4420 Lake Boone Trail",
+    "zip": "27607",
+    "phone": "919-784-1321",
+    "contact": "michelle.woodie@unchealth.unc.edu",
+    "latitude": "35.81775",
+    "longitude": "-78.70257",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Willis Wu , MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Curtis Anderson, MD",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Michelle Woodie",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "135",
+    "store_title": "VA Boston Healthcare System",
+    "state": "MA",
+    "city": "West Roxbury",
+    "address": "1400 VFW Parkway",
+    "zip": "02132",
+    "phone": "617-323-7700",
+    "website": "www.boston.va.gov",
+    "contact": "",
+    "latitude": "42.27453",
+    "longitude": "-71.17173",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Scott Kinlay, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "136",
+    "store_title": "Newark Beth Israel Medical Center",
+    "state": "NJ",
+    "city": "Newark",
+    "address": "201 Lyons Ave",
+    "zip": "07112",
+    "phone": "973-926-7205",
+    "website": "www.barnabashealth.org/Specialty-Services/Heart-Health/Treatments/Valve-Center.aspx",
+    "contact": "dbaran@barnabashealth.org",
+    "latitude": "40.71025",
+    "longitude": "-74.21361",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Mark Russo, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "David Baran, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Chunguang Chen, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Patty Panfile",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "137",
+    "store_title": "Christ Hospital",
+    "state": "OH",
+    "city": "Cincinnati",
+    "address": "2139 Auburn Ave",
+    "zip": "45219",
+    "phone": "513-206-1359",
+    "website": "",
+    "contact": "JonesK2@Ohioheart.org",
+    "latitude": "39.12114",
+    "longitude": "-84.51035",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Ian Sarembach",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Joe Choo",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Eugene Chung",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Greg Egnaczyk",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Mario Castillo-Sang",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Kim Jones",
+        "specialty": "Structural Heart Clinic Coordinator"
+    } ]
+}, {
+    "id": "138",
+    "store_title": "Memorial Regional Hospital",
+    "state": "FL",
+    "city": "Hollywood",
+    "address": "3501 Johnson St",
+    "zip": "33021",
+    "phone": "",
+    "contact": "",
+    "latitude": "26.01874",
+    "longitude": "-80.17976",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Enrique Gongora, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Juan Plate",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Michael Cortelli, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "139",
+    "store_title": "York Hospital",
+    "state": "PA",
+    "city": "York",
+    "address": "1001 S George St",
+    "zip": "17403",
+    "phone": "717-812-3617",
+    "contact": "jzumbrum@wellspan.org",
+    "latitude": "39.94604",
+    "longitude": "-76.71884",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Bill Nicholson, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Larry Shears, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Brian Schuler, MD",
+        "specialty": "Electrophysiologist"
+    }, {
+        "name_title": "Michelle Consolini, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Jennifer Zumbrum",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "James Harvey",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "140",
+    "store_title": " St Joseph Mercy Hospital",
+    "state": "MI",
+    "city": "Ann Arbor",
+    "address": "5301 E Huron River Dr",
+    "zip": "48106",
+    "phone": "734-712-5830",
+    "contact": "ksimons@MichiganHeart.com",
+    "latitude": "42.26468",
+    "longitude": "-83.65492",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Art Szyniszewski, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Bobby Kong, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Monsoor Qureshi, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Steven Girard, MD",
+        "specialty": "Echocardiologist"
+    } ]
+}, {
+    "id": "141",
+    "store_title": "North Shore University Hospital",
+    "state": "NY",
+    "city": "Manhasset",
+    "address": "300 Community Dr",
+    "zip": "11030",
+    "phone": "",
+    "contact": "",
+    "latitude": "40.77774",
+    "longitude": "-73.70210",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Bruce Rutkin, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Lawrence Ong, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Robert Kalimi, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Gregory Maurer",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "142",
+    "store_title": "John Muir Health Concord",
+    "state": "CA",
+    "city": "Concord",
+    "address": "2540 East St",
+    "zip": "94520",
+    "phone": "925-674-2858",
+    "contact": "Kristin.Groves@johnmuirhealth.com",
+    "latitude": "37.98272",
+    "longitude": "-122.03346",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Andrew Dublin, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Faizul Hague, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jatinder Dhillon, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Murali Dharan, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Allison Peterson",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "143",
+    "store_title": "Baptist Memorial Hospital Memphis",
+    "state": "TN",
+    "city": "Memphis",
+    "address": "6019 Walnut Grove Rd",
+    "zip": "38120",
+    "phone": "901-271-1000",
+    "website": "www.baptistonline.org",
+    "contact": "",
+    "latitude": "35.12967",
+    "longitude": "-89.86165",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Basil Paulus, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Joseph Samaha",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "H. Edward Garrett, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Paul Hess",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Jay Gardner, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "144",
+    "store_title": "St Josephs Hospitals",
+    "state": "FL",
+    "city": "Tampa",
+    "address": "3001 W Dr M L King Jr Blvd",
+    "zip": "33607",
+    "phone": "",
+    "contact": "",
+    "latitude": "27.98213",
+    "longitude": "-82.49111",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Andy Sherman, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Alok Singh, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Reynaldo Mulingtapang, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "145",
+    "store_title": "Tampa General Hospital",
+    "state": "FL",
+    "city": "Tampa",
+    "address": "1 Tampa General Circle",
+    "zip": "33606",
+    "phone": "813-844-7000",
+    "contact": "",
+    "latitude": "27.93813",
+    "longitude": "-82.45918",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Cris Caldeira, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Robert Hooker, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Fadi Matar, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Arthur Labovitz, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "John Sullebarger, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "146",
+    "store_title": "Arkansas Heart Hospital",
+    "state": "AK",
+    "city": "Little Rock",
+    "address": "1701 S Shackleford Rd",
+    "zip": "72211",
+    "phone": "501-442-7820",
+    "contact": "Erin.barrypowell@arheart.com",
+    "latitude": "34.73905",
+    "longitude": "-92.39330",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Mehmet Cilingiroglu, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Michael Nolen, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "William Rollefson, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "147",
+    "store_title": "Tallahassee Memorial HealthCare",
+    "state": "FL",
+    "city": "Tallahassee",
+    "address": "1300 Miccosukee Rd",
+    "zip": "32308",
+    "phone": "850-431-7397",
+    "contact": "penny.burroughs@tmh.org",
+    "latitude": "30.45646",
+    "longitude": "-84.26189",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Wayne Batchelor, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Tom Noel, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Penny Burroughs",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "148",
+    "store_title": "MedStar Washington Hospital Center",
+    "state": "DC",
+    "city": "Washington",
+    "address": "110 Irving St. NW",
+    "zip": "20010",
+    "phone": "202-877-5975",
+    "contact": "satlerlowell@gmail.com",
+    "latitude": "38.92944",
+    "longitude": "-77.01473",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Lowell Satler, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Michael Slack, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Itsik Ben-Dor, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Christian Shults, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Zuyue Wang, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Petros Okubagzi",
+        "specialty": "Valve Program Coordinator"
+    } ]
+}, {
+    "id": "149",
+    "store_title": "Hospital of the University of Pennsylvania",
+    "state": "PA",
+    "city": "Philadelphia",
+    "address": "3400 Spruce Street",
+    "zip": "19104",
+    "phone": "215-662-2180",
+    "contact": "Please call phone number provided and ask for Interventional NP",
+    "latitude": "39.94978",
+    "longitude": "-75.19300",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Howard Herrmann, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Frank Silvestry, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Saif Anwaruddin, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "151",
+    "store_title": "University of Maryland Medical Center",
+    "state": "MD",
+    "city": "Baltimore",
+    "address": "22 S. Greene Street",
+    "zip": "21201",
+    "phone": "410-32-VALVE, 410-328-2583",
+    "contact": "",
+    "latitude": "39.28817",
+    "longitude": "-76.62438",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "James Gammie, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Mark Vesely, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Christopher deFilippi, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Michael Benitez, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Janet Petit",
+        "specialty": "Valve Program Manager"
+    } ]
+}, {
+    "id": "152",
+    "store_title": "Tucson Medical Center",
+    "state": "AZ",
+    "city": "Tucson",
+    "address": "5301 E Grant Rd",
+    "zip": "85712",
+    "phone": "520-300-0219",
+    "website": "www.tmcaz.com",
+    "contact": "sara.reagan@tmcaz.com",
+    "latitude": "32.25251",
+    "longitude": "-110.87816",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "William Thomas, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Thomas Waggoner, DO",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Gulshan Sethi, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Sara Reagan",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "153",
+    "store_title": "St. Joseph's Hospital and Medical Center",
+    "state": "AZ",
+    "city": "Phoenix",
+    "address": "350 West Thomas Rd",
+    "zip": "85013",
+    "phone": "602-406-4412",
+    "contact": "aliscia.hernandez@dignityhealth.org",
+    "latitude": "33.48083",
+    "longitude": "-112.07930",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Hursh Naik, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Joseph J. Hessel, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Rob Shull, MD",
+        "specialty": "Cardiac Anesthesiologist"
+    }, {
+        "name_title": "Aliscia Hernandez, RN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "154",
+    "store_title": "Carondelet St. Mary's Hospital",
+    "state": "AZ",
+    "city": "Tucson",
+    "address": "1601 W St. Mary's Rd",
+    "zip": "85745",
+    "phone": "520-872-6623",
+    "website": "www.carondelet.org/hospitals/st-marys.aspx",
+    "contact": "shoman@cardondelet.org",
+    "latitude": "32.22703",
+    "longitude": "-110.99879",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Vinny Ram, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Reza Habibzadeh, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mike Hecht, MD",
+        "specialty": "Cardiac Anesthesiologist"
+    }, {
+        "name_title": "Derek von Haag, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "155",
+    "store_title": "Oklahoma Heart Hospital",
+    "state": "OK",
+    "city": "Oklahoma City",
+    "address": "4200 W. Memorial Road",
+    "zip": "73120",
+    "phone": "855-286-3600",
+    "contact": "shanes@okheart.com",
+    "latitude": "35.60814",
+    "longitude": "-97.59869",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Stacie Hanes",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Mohammad Ghani, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mark Bodenhamer, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "John Randolph, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "John Williams, MD",
+        "specialty": "Echocardiologist and IC"
+    } ]
+}, {
+    "id": "156",
+    "store_title": "Delray Hospital",
+    "state": "FL",
+    "city": "Delray Beach",
+    "address": "5352 Linton Blvd",
+    "zip": "33484",
+    "phone": "561-498-4440",
+    "contact": "Kathle.Malcolm_bouza@tenethealth.com",
+    "latitude": "26.43477",
+    "longitude": "-80.16682",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Brij Maini, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Brian Bethea, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Jennifer George",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Kathy Bouza",
+        "specialty": "Valve Coordinator/Nurse Practioner"
+    } ]
+}, {
+    "id": "158",
+    "store_title": "Lenox Hill Hospital",
+    "state": "NY",
+    "city": "New York",
+    "address": "100 E 77th St",
+    "zip": "10021",
+    "phone": "212-434-3000",
+    "contact": "aadams10@northwell.edu",
+    "website": "www.mitralvalve.nyc",
+    "latitude": "40.77388",
+    "longitude": "-73.96077",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Dr Chad Kliger",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Dr Nirav Patel",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Dr Gila Perk",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Alicia Adams",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "159",
+    "store_title": "University of Chicago Hospital",
+    "state": "IL",
+    "city": "Chicago",
+    "address": "5841 S Maryland Ave",
+    "zip": "60637",
+    "phone": "888-824-0200",
+    "contact": "",
+    "latitude": "41.788313",
+    "longitude": "-87.604566",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "John Blair, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Atman Shah, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Sandeep Nathan, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Roberto Lang, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Karima Addetia, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Danielle Melchoir",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Sam Balkhy",
+        "specialty": "CT Surgeon"
+    } ]
+}, {
+    "id": "160",
+    "store_title": "Montefiore Medical Center - Moses Div",
+    "state": "NY",
+    "city": "Bronx",
+    "address": "111 E 210th St",
+    "zip": "10467",
+    "phone": "718-920-4262",
+    "contact": "",
+    "latitude": "40.88060",
+    "longitude": "-73.87960",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Dr. Michael Johnson",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Dr. Mei Chau",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Dr. Dan Spevack",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Jeannette Garcia",
+        "specialty": "Mitral Valve Clinic Cordinator"
+    } ]
+}, {
+    "id": "161",
+    "store_title": "Yale - New Haven Hospital",
+    "state": "CT",
+    "city": "New Haven",
+    "address": "20 York Street",
+    "zip": "06510",
+    "phone": "203-688-4242",
+    "website": "ynhh.org",
+    "contact": "linda.levesque@yale.edu",
+    "latitude": "41.304544",
+    "longitude": "-72.935795",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "John Forrest, MD",
+        "specialty": "Inverventioal Cardiologist"
+    }, {
+        "name_title": "Sabet Hashim, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Linda Levesque",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "162",
+    "store_title": "Missouri Baptist Medical Center",
+    "state": "MO",
+    "city": "St. Louis",
+    "address": "3015 N. Ballas Rd.",
+    "zip": "63131",
+    "phone": "314-996-4682",
+    "website": "",
+    "contact": "Lkr1557@bjc.org",
+    "latitude": "38.636224",
+    "longitude": "-90.446520",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Arun Thukkani, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "James Scharff, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Michael Klein, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Lauren Rothschild",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "164",
+    "store_title": "Kettering Medical Center",
+    "state": "OH",
+    "city": "Kettering",
+    "address": "3535 Southern Blvd.",
+    "zip": "45429",
+    "phone": "937-298-3399",
+    "contact": "",
+    "latitude": "39.698276",
+    "longitude": "-84.191703",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Brian Schwartz, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Raja Nazir, MD",
+        "specialty": "Interventioanl Cardiologist"
+    }, {
+        "name_title": "Peter Pavlina, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Calvin Busch, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Barbie Haney",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "165",
+    "store_title": "University of Iowa Hospital and Clinic",
+    "state": "IA",
+    "city": "Iowa City",
+    "address": "200 Hawkins Dr.",
+    "zip": "52242",
+    "phone": "319-384-6245",
+    "contact": "lana-goldsmith@uiowa.edu",
+    "latitude": "41.659459",
+    "longitude": "-91.547992",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Firas Zahr, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jay Bhama, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "James Rossen, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kimberly Staffey, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Lana Goldsmith",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "166",
+    "store_title": "LOMA LINDA MERCANTILE",
+    "state": "CA",
+    "city": "Loma Linda",
+    "address": "24887 Taylor St",
+    "zip": "92354",
+    "phone": "909-558-7717",
+    "contact": "",
+    "latitude": "34.05079",
+    "longitude": "-117.26170",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Kenneth Jutzy MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Islam Abudayyeh MD",
+        "specialty": "Interventional Cardiology"
+    }, {
+        "name_title": "Anthony Hilliard MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Ramesh Bansal MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Cheryl Fish RN",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Rosario Floridia MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "167",
+    "store_title": "Baylor Scott and White Heart and Vascular Institute",
+    "state": "TX",
+    "city": "Temple",
+    "address": "2401 S. 31st St.",
+    "zip": "76508",
+    "phone": "254-421-3711",
+    "contact": "Lana.Lindemann@BSWHealth.org",
+    "latitude": "31.07767",
+    "longitude": "-97.36399",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Mark Lawrence, DO",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Timothy Mixon, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Subbareddy Konda, MD",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Chittoor Bhaskar Sai-Sudhakar, MD",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Angel E. Caldera, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Lana Lindemann",
+        "specialty": "Valve Clinic Coordinator"
+    } ]
+}, {
+    "id": "168",
+    "store_title": "Forsyth Medical Center",
+    "state": "NC",
+    "city": "Winston-Salem",
+    "address": "Silas Creek Parkway",
+    "zip": "27103",
+    "phone": "336-718-8297",
+    "contact": "vjbrady@novanthealth.org",
+    "latitude": "36.07009",
+    "longitude": "-80.28220",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Sam Turner, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Robert Preli, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "David Duncan, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Veronica J. Brady",
+        "specialty": "Coordinator"
+    } ]
+}, {
+    "id": "169",
+    "store_title": "Dallas Valve Institute at MEDICAL CITY DALLAS HOSPITAL",
+    "state": "TX",
+    "city": "Dallas",
+    "address": "7777 Forest Lane Tower A, Suite 323",
+    "zip": "75230",
+    "phone": "972-566-5050",
+    "website": "www.dallasvalveinstitute.com",
+    "contact": "",
+    "latitude": "32.91282",
+    "longitude": "-96.77340",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Bruce Bowers, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Todd Dewey, MD",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Dawn Palomares",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "170",
+    "store_title": "University of California San Diego Medical Center",
+    "state": "CA",
+    "city": "La Jolla",
+    "address": "9434 Medical Center Drive",
+    "zip": "92037",
+    "phone": "858-657-8030",
+    "website": "cardiology.ucsd.edu",
+    "contact": "",
+    "latitude": "32.87704",
+    "longitude": "-117.22546",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Ehtisham Mahmud, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Ryan Reeves, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Ajit Raisinghani, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Michael Madani, MD",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "171",
+    "store_title": "RONALD REAGAN UCLA MED CTR",
+    "state": "CA",
+    "city": "Los Angeles",
+    "address": "100 UCLA Medical Plaza, Ste 630",
+    "zip": "90095",
+    "phone": "310-825-9011",
+    "contact": "",
+    "latitude": "34.06574",
+    "longitude": "-118.44565",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Ravi Dave MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Marcella Calfon-Press MD",
+        "specialty": "Interventional Cardiology"
+    }, {
+        "name_title": "Olcay Aksoy MD",
+        "specialty": "Interventional Cardiology"
+    }, {
+        "name_title": "Ali Nsair MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Richard Shemin MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Peyman Benharash MD",
+        "specialty": "Cardiac Surgery"
+    }, {
+        "name_title": "Gabriel Vorobiof MD",
+        "specialty": "Echocardiology"
+    }, {
+        "name_title": "Eric Yang MD",
+        "specialty": "Echocardiology"
+    }, {
+        "name_title": "Jeanne Huchting RN",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "172",
+    "store_title": "Ochsner Valve Center Ochsner FoundationHospital",
+    "state": "LA",
+    "city": "New Orleans",
+    "address": "1514 Jefferson Highway",
+    "zip": "70121",
+    "phone": "504-842-3724",
+    "contact": "mprechac@ochsner.org",
+    "latitude": "29.96214",
+    "longitude": "-90.14587",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Stephen Ramee, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "J. Stephen Jenkins, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Yvonne Gilliand, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Laurie Ventura, RN",
+        "specialty": "Lead - Ochsner Valve Center"
+    }, {
+        "name_title": "Monica Prechac",
+        "specialty": "Clinical Care Coordinator - Structural Heart Program"
+    } ]
+}, {
+    "id": "173",
+    "store_title": "WAKE MED",
+    "state": "NC",
+    "city": "Raleigh",
+    "address": "3000 New Bern Avenue",
+    "zip": "27610",
+    "phone": "919-231-5202",
+    "contact": "",
+    "latitude": "35.78439",
+    "longitude": "-78.58814",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Francis O Wood, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Bryon Boulton, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Lynn Boyd",
+        "specialty": "Structural Heart Coordinator"
+    } ]
+}, {
+    "id": "174",
+    "store_title": "United Heart and Vascular Center",
+    "state": "MN",
+    "city": "St Paul",
+    "address": "225 Smith Ave N",
+    "zip": "55102",
+    "phone": "651-241-2964",
+    "contact": "Mary.Biagini@allina.com",
+    "latitude": "44.94414",
+    "longitude": "-93.10594",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "James Kolbeck, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Bilal Murad, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kenneth Baran, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mary Biagini RN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "175",
+    "store_title": "Abrazo Arizona Heart Hospital",
+    "state": "AZ",
+    "city": "Phoenix",
+    "address": "1930 E Thomas Rd",
+    "zip": "85016",
+    "phone": "623-537-3472",
+    "contact": "taquerrey@abrazohealth.com",
+    "latitude": "33.48132",
+    "longitude": "-112.04007",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Tim Byrne, DO",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Merick Kirshner, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Greg Citron, MD",
+        "specialty": "Cardiac Anesthesiologist"
+    }, {
+        "name_title": "Tammy Querrey, RN",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "176",
+    "store_title": "Sutter Sacramento Medical Center",
+    "state": "CA",
+    "city": "Sacramento",
+    "address": "2825 Capitol Ave",
+    "zip": "95816",
+    "phone": "916-708-8662",
+    "contact": "Valveclinic@sutterhealth.org",
+    "latitude": "38.57028",
+    "longitude": "-121.46970",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "David Roberts, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Pei-Hsiu Huang",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "James Longoria",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Sarah Westlake",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Christine Smudski",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "177",
+    "store_title": "SAN FRANCISCO VA Med Center",
+    "state": "CA",
+    "city": "San Francisco",
+    "address": "4150 Clement St",
+    "zip": "94121",
+    "phone": "415-221-4810",
+    "contact": "",
+    "latitude": "37.78234",
+    "longitude": "-122.50486",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Rick Shunk, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jeff Zimmet, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Elaine Tseng, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Julia Hecker",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "178",
+    "store_title": "LUTHERAN HOSPITAL OF INDIANA",
+    "state": "IN",
+    "city": "Ft Wayne",
+    "address": "7950 W Jefferson Blvd",
+    "zip": "46804",
+    "phone": "260-435-7001",
+    "contact": "tcantu@lutheran-hosp.com",
+    "website": "lutheranhospital.com",
+    "latitude": "41.03857",
+    "longitude": "-85.25031",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Vijay Chilakamarri, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Matthew Bilodeau, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mark Meiers, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Scott Matson, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Tina Cantu, RN",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "179",
+    "store_title": "Albany Medical Center",
+    "state": "NY",
+    "city": "Albany",
+    "address": "43 New Scotland Avenue",
+    "zip": "12208",
+    "phone": "518-292-6005",
+    "contact": "",
+    "website": "www.amc.edu",
+    "latitude": "42.65341",
+    "longitude": "-73.77642",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Austin Delago, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Edward Bennett",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Mohammad El-Hajir",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Satish Madiraju",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "180",
+    "store_title": "Mercy General Hospital",
+    "state": "CA",
+    "city": "Sacramento",
+    "address": "4001 J Street",
+    "zip": "95819",
+    "phone": "916-453-4545",
+    "contact": "",
+    "latitude": "38.57026",
+    "longitude": "-121.45241",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Michael Chang, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Joe Kozina, MD",
+        "specialty": "Interventional Cardiology"
+    }, {
+        "name_title": "Frank Slachman, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Allen Morris, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Leigh-Ann Wright",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "181",
+    "store_title": "Alta Bates Summit Medical Center",
+    "state": "CA",
+    "city": "Oakland",
+    "address": "350 Hawthorne Ave",
+    "zip": "94609",
+    "phone": "510-655-4000",
+    "contact": "mitraclipabsmc@sutterhealth.org",
+    "latitude": "37.82155",
+    "longitude": "-122.26307",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "David Daniels, MD",
+        "specialty": "Interventional Cardiology"
+    }, {
+        "name_title": "Mitul Kadakia, MD",
+        "specialty": "Interventional Cardiology"
+    }, {
+        "name_title": "Russell Stanten, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Junaid Khan, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Shaun Coker-Maidenberg",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "182",
+    "store_title": "University of Utah Healthcare",
+    "state": "UT",
+    "city": "Salt Lake City",
+    "address": "50 N Medical Dr",
+    "zip": "84132",
+    "phone": "801-587-9333",
+    "contact": "",
+    "latitude": "40.77162",
+    "longitude": "-111.83706",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Anwar Tandar, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Frederick Welt",
+        "specialty": "Interventional Cardiology"
+    }, {
+        "name_title": "Kelsee Browning",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "183",
+    "store_title": "Vanderbilt University Medical Center",
+    "state": "TN",
+    "city": "Nashville",
+    "address": "1211 Medical Center Drive",
+    "zip": "37232",
+    "phone": "615-720-0424",
+    "contact": "",
+    "website": "www.vanderbilthealth.com/heart/",
+    "latitude": "36.14140",
+    "longitude": "-86.80178",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Joseph Fredi, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Stephen Ball, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Sonia Scalf",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Melissa Long",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "184",
+    "store_title": "UCSF MEDICAL CENTER",
+    "state": "CA",
+    "city": "San Francisco",
+    "address": "505 Parnassus Ave",
+    "zip": "94143",
+    "phone": "415-514-6011",
+    "contact": "margo.dextraze-cordova@ucsf.edu",
+    "website": "www.vanderbilthealth.com/heart/",
+    "latitude": "37.76309",
+    "longitude": "-122.45781",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Vaikom Mahadevan",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Scott Merrick",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Margo Dextraze-Cordova",
+        "specialty": "Valve Center Coordinator"
+    } ]
+}, {
+    "id": "185",
+    "store_title": "Sarasota Memorial Hospital",
+    "state": "FL",
+    "city": "Sarasota",
+    "address": "1700 S Tamiami Trail",
+    "zip": "34239",
+    "phone": "941-917-9000",
+    "contact": "",
+    "latitude": "27.31826",
+    "longitude": "-82.53120",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Ricardo Yayura, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Michael Mumma, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jeffrey Sell, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Hakim Morsli, MD",
+        "specialty": "Echocardiologist"
+    } ]
+}, {
+    "id": "186",
+    "store_title": "Veteran Affairs Medical Center",
+    "state": "MN",
+    "city": "Minneapolis",
+    "address": "One Veterans Drive",
+    "zip": "55417",
+    "phone": "612-725-2000",
+    "contact": "annette.lawton@va.gov",
+    "latitude": "44.90156",
+    "longitude": "-93.20576",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Santiago Garcia, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Rizwan Siddiqui, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Stephan Bertog, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mbai MacKenzi, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Annette Lawton, RN",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "187",
+    "store_title": "Baptist Medical Center",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "address": "800 Prudential Dr.",
+    "zip": "32207",
+    "phone": "904-202-2000",
+    "contact": "",
+    "latitude": "30.31553",
+    "longitude": "-81.66357",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Ruby Satpathy, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Girish Shroff",
+        "specialty": "Echocardiologist"
+    } ]
+}, {
+    "id": "188",
+    "store_title": "INOVA Fairfax",
+    "state": "VA",
+    "city": "Falls Church",
+    "address": "3300 Gallows Rd",
+    "zip": "22042",
+    "phone": "703-776-2894",
+    "contact": "pam.brown@inova.org",
+    "website": "www.inova.org",
+    "latitude": "38.85990",
+    "longitude": "-77.22625",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Matthew Sherwood, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Alan Speir, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Hamid Taheri, MD",
+        "specialty": "Interventional cardiology"
+    }, {
+        "name_title": "Nadim Geloo, MD",
+        "specialty": "Interventional cardiology"
+    }, {
+        "name_title": "Russell D'sa",
+        "specialty": "RCIS"
+    }, {
+        "name_title": "Pam Brown, RN",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "189",
+    "store_title": "Huntsville Hospital",
+    "state": "AL",
+    "city": "SW Huntsville",
+    "address": "101 Sivley Rd.",
+    "zip": "35801",
+    "phone": "256-265-1000",
+    "contact": "",
+    "latitude": "34.72105",
+    "longitude": "-86.58180",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Katherine Meier",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Mihir Kanitkar, MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "190",
+    "store_title": "UMass Memorial Medical Center University Campus",
+    "state": "MA",
+    "city": "Worcester",
+    "address": "55 Lake Avenue North",
+    "zip": "01655",
+    "phone": "",
+    "contact": "",
+    "latitude": "42.2776728",
+    "longitude": "-71.7616372",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": []
+}, {
+    "id": "191",
+    "store_title": "Mary Hitchcock Memorial Hospital",
+    "state": "NH",
+    "city": "Lebanon",
+    "address": "100 Hitchcock Way",
+    "zip": "3104",
+    "phone": "603-695-2500",
+    "website": "dartmouth-hitchcock.org",
+    "contact": "megan.coylewright@hitchcock.org",
+    "latitude": "43.6754423",
+    "longitude": "-72.2732892",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Megan Coylewright, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Timothy Beaver, MD",
+        "specialty": "Echo Cardiographer"
+    } ]
+}, {
+    "id": "192",
+    "store_title": "Rhode Island Hospital",
+    "state": "RI",
+    "city": "Providence",
+    "address": "593 Eddy St.",
+    "zip": "02903",
+    "phone": "401-444-4000",
+    "website": "rhodeislandhospital.org",
+    "contact": "pgordon@lifespan.org",
+    "latitude": "41.8112205",
+    "longitude": "-71.4110918",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Paul Gordon, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Barry Sharaf, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Rizwan Sardar, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Philip Haines, MD",
+        "specialty": "Echo Cardiographer"
+    } ]
+}, {
+    "id": "193",
+    "store_title": "Southside Hospital",
+    "state": "NY",
+    "city": "Bay Shore",
+    "address": "301 East Main Street",
+    "zip": "11706",
+    "phone": "631-968-3525",
+    "website": "northwell.edu/find-care/services-we-offer/cardiovascular-and-thoracic-services",
+    "contact": "ssvalvecenter@northwell.edu",
+    "latitude": "40.725932",
+    "longitude": "-73.241888",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Robert Kalimi, MD",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Lawrence Ong, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Michael Gorczycki, PA-C",
+        "specialty": "Structural Heart Program Coordinator"
+    } ]
+}, {
+    "id": "196",
+    "store_title": "WVU MEDICINE: WEST VIRGINIA UNIVERSITY HEART AND VASCULAR INSTITUTE",
+    "state": "WV",
+    "city": "Morgantown",
+    "address": "One Medical Center Drive",
+    "zip": "26505",
+    "phone": "304-598-4200",
+    "website": "",
+    "contact": "",
+    "latitude": "39.653594",
+    "longitude": "-79.957251",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Vinay Badhwar, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Mohamad Alkhouli, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Wissam Gharib, MD",
+        "specialty": "Interventional Cardiology"
+    }, {
+        "name_title": "Bryan Raybuck, MD",
+        "specialty": "Interventional Cardiology"
+    }, {
+        "name_title": "James Mills, MD",
+        "specialty": "Echocardiologist"
+    } ]
+}, {
+    "id": "197",
+    "store_title": "WINCHESTER MEDICAL CENTER",
+    "state": "Virginia",
+    "city": "Winchester",
+    "address": "1840 Amherst Street",
+    "zip": "22601",
+    "phone": "540-536-4000",
+    "website": "www.valleyhealthlink.com",
+    "contact": "dmyers2@valleyhealthlink.com",
+    "latitude": "39.194239",
+    "longitude": "-78.193382",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Basel Ramlawi, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Omar Ali, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jeffrey Skiles, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Casey Dowling, MD",
+        "specialty": "EchoAnestheia"
+    }, {
+        "name_title": "Samuel Jett, MD",
+        "specialty": "EchoAnesthesia"
+    }, {
+        "name_title": "Debra Myers, DNP",
+        "specialty": "Valve Program Coordinator"
+    } ]
+}, {
+    "id": "198",
+    "store_title": "PENROSE HOSPITAL",
+    "state": "CO",
+    "city": "COLORADO SPRINGS",
+    "address": "2222 N Nevada Ave",
+    "zip": "80907",
+    "phone": "719-776-7602",
+    "website": "",
+    "contact": "jenniferlynch2@centura.org",
+    "latitude": "38.865691",
+    "longitude": "-104.821740",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Clinton Malone, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Christian Simpfendorfer, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Arash Aghel, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "John Mehall, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Betty Kim, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Eric Carlson",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Brian Metz",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Preetham Reddy",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Jennifer Lynch",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "199",
+    "store_title": "Univ North Carolina Hospitals",
+    "state": "NC",
+    "city": "Chapel Hill",
+    "address": "101 Manning Dr",
+    "zip": "27514",
+    "phone": "",
+    "website": "",
+    "contact": "cassandra.ramm@unchealth.unc.edu",
+    "latitude": "35.904416",
+    "longitude": "-79.052863",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "John Vavalle MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Thomas Caranasos",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Cassandra Ramm",
+        "specialty": "Valve Clinic Coordinator"
+    } ]
+}, {
+    "id": "200",
+    "store_title": "VCU",
+    "state": "VA",
+    "city": "Richmond",
+    "address": "1250 E Marshall St",
+    "zip": "23298",
+    "phone": "",
+    "website": "",
+    "contact": "delia.yanes@vcuhealth.org",
+    "latitude": "37.540285",
+    "longitude": "-77.429672",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Zack Gertz",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Delia Yanes",
+        "specialty": ""
+    } ]
+}, {
+    "id": "201",
+    "store_title": "COVENANT MEDICAL CENTER COOPER",
+    "state": "MI",
+    "city": "SAGINAW",
+    "address": "700 Cooper Ave",
+    "zip": "48602",
+    "phone": "989 583-0000",
+    "website": "",
+    "contact": "",
+    "latitude": "43.430401",
+    "longitude": "-83.952719",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Safwan Kassas MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Manoj Sharma MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Peter Fattal MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Adebambo Kadri",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Betty Kim, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Eric Carlson",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Brian Metz",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Preetham Reddy",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Jennifer Lynch",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "202",
+    "store_title": "PRESBYTERIAN HOSPITAL",
+    "state": "NM",
+    "city": "ALBUQUERQUE",
+    "address": "1100 Central Ave SE",
+    "zip": "87106",
+    "phone": "505-563-2543",
+    "website": "",
+    "contact": "",
+    "latitude": "35.081810",
+    "longitude": "-106.635339",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Sharif Halim, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Robert Federici, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kathleen Allen, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Leonardo Macias, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Robert Gallegos, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Aniesa Casaus",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "203",
+    "store_title": "UNIVERSITY OF MICHIGAN HOSPITALS",
+    "state": "MI",
+    "city": "ANN ARBOR",
+    "address": "1500 E Medical Center Drive",
+    "zip": "48109",
+    "phone": "734-615-3296",
+    "website": "",
+    "contact": "",
+    "latitude": "42.284855",
+    "longitude": "-83.729542",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Steven Bolling MD",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Stanley Chetcuti MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Matthew Romano MD",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Marguerite Krajacic",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "205",
+    "store_title": "PROVIDENCE HOSPITAL & MEDICAL CTRS",
+    "state": "MI",
+    "city": "SOUTHFIELD",
+    "address": "16001 W 9 Mile Rd",
+    "zip": "48075",
+    "phone": "248-849-3000",
+    "website": "",
+    "contact": "nicole.zakhem@providence-stjohnhealth.org",
+    "latitude": "42.457860",
+    "longitude": "-83.205264",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Patrick Alexander MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Souheil Saba MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Michael Lee MD",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Nicle Zakhem RN, ACNP",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "206",
+    "store_title": "North Colorado Medical Center",
+    "state": "CO",
+    "city": "Greeley",
+    "address": "1801 16th St",
+    "zip": "80631",
+    "phone": "970-810-3784",
+    "website": "",
+    "contact": "",
+    "latitude": "40.414934",
+    "longitude": "-104.709556",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Michael Kim, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Bhavik Patel, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Ahmad Shihabi, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Jodi Olson",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "207",
+    "store_title": "Northern Michigan Regional Health System",
+    "state": "MI",
+    "city": "Petoskey",
+    "address": "416 Connable Ave",
+    "zip": "49770",
+    "phone": "231-487-4647",
+    "website": "",
+    "contact": "",
+    "latitude": "45.374321",
+    "longitude": "-84.969820",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Jason Ricci MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Andy Bielaczyc MD",
+        "specialty": "Cardiac Anesthesia"
+    }, {
+        "name_title": "JD Talbott MD",
+        "specialty": "Cardiothoracic Surgeon"
+    }, {
+        "name_title": "Alicia Beebe, RN BSN",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Harry Colfer MD",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "208",
+    "store_title": "The Medical Center of Aurora",
+    "state": "CO",
+    "city": "Aurora",
+    "address": "1501 S Potomac St",
+    "zip": "80012",
+    "phone": "303-257-4140",
+    "website": "",
+    "contact": "",
+    "latitude": "39.690264",
+    "longitude": "-104.832313",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Jason Sperling, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Jonathan Sherman, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Sundeep Viswanathan, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Lauren Tartal",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "209",
+    "store_title": "HealthPark Medical Center",
+    "state": "FL",
+    "city": "Fort Myers",
+    "address": "9981 S Healthpark Dr",
+    "zip": "33908",
+    "phone": "",
+    "website": "",
+    "contact": "",
+    "latitude": "26.507458",
+    "longitude": "-81.913081",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Brian Hummel, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Murali Muppala MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Dr. George Comas",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Steven Priest MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Kandy DeWitt",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "210",
+    "store_title": "Palmetto General Hospital",
+    "state": "FL",
+    "city": "Hialeah",
+    "address": "2001 W 68th St",
+    "zip": "33016",
+    "phone": "",
+    "website": "",
+    "contact": "",
+    "latitude": "25.885119",
+    "longitude": "-80.328563",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Brij Maini, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Dr. Miguel Diaz",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jackie Wheatley-Malone",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "211",
+    "store_title": "St. Vincent's Medical Center Riverside",
+    "state": "FL",
+    "city": "Jacksonville",
+    "address": "1 Shircliff Way",
+    "zip": "32204",
+    "phone": "904-308-7300",
+    "website": "",
+    "contact": "",
+    "latitude": "30.307322",
+    "longitude": "-81.689860",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Sameer Garas, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mariano Mikulic",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Carlos Leon",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "George Pilcher",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "William Pilcher",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Raymond Lee",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Mark Mostovytch",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Bethany Bell",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "212",
+    "store_title": "Indiana University Health Methodist Hospital",
+    "state": "IN",
+    "city": "Indianapolis",
+    "address": "1801 N. Senate Blvd",
+    "zip": "46202",
+    "phone": "317-962-0506",
+    "website": "",
+    "contact": "hmessick@iuhealth.org",
+    "latitude": "39.790718",
+    "longitude": "-86.163377",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Sinha Anjan, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Arthur Coffey, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Omar Batal, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Hope Messico",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "213",
+    "store_title": "Baptist Health Lexington",
+    "state": "KY",
+    "city": "Lexington",
+    "address": "1720 Nicholasville Road",
+    "zip": "40503",
+    "phone": "859-260-6324",
+    "website": "",
+    "contact": "caroline.kern@bhsi.com",
+    "latitude": "38.018712",
+    "longitude": "-84.513823",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Paula Hollingsworth, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Azhar Aslam, MD",
+        "specialty": "Echocardiography"
+    }, {
+        "name_title": "John Chaney, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Carline Kern",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "214",
+    "store_title": "Overtake Hospital",
+    "state": "WA",
+    "city": "Bellevue",
+    "address": "1035 116th Ave NE",
+    "zip": "98004",
+    "phone": "425-635-6512",
+    "website": "",
+    "contact": "valerie.o'mara@overlakehospital.org",
+    "latitude": "47.620311",
+    "longitude": "-122.187247",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Scott Haugen, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Gary Mak, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Valerie O’Mara",
+        "specialty": "Valve Center Coordintaor"
+    }, {
+        "name_title": "Bobby Bindford, MD",
+        "specialty": "CV Surgeon"
+    }, {
+        "name_title": "Ron Aviles",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "215",
+    "store_title": "Community Heart and Vascular",
+    "state": "IN",
+    "city": "Indianapolis",
+    "address": "8075 North Shadeland Avenue",
+    "zip": "46250",
+    "phone": "317-621-8531",
+    "website": "",
+    "contact": "rmella@eCommunity.com",
+    "latitude": "39.902087",
+    "longitude": "-86.044709",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Sundeep Dube, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "John Storey, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Kiran Kareti",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Robin Mella",
+        "specialty": "Valve Coordinator"
+    } ]
+}, {
+    "id": "216",
+    "store_title": "HealthEast St Joseph Hospital",
+    "state": "MN",
+    "city": "St Paul",
+    "address": "45 W 10th St",
+    "zip": "55102",
+    "phone": "651-471-2617",
+    "website": "",
+    "contact": "arichie2@healtheast.org",
+    "latitude": "44.949258",
+    "longitude": "-93.099990",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Mudassar Ahmed, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mitchell Timmons, MD",
+        "specialty": "Echocardiologist"
+    }, {
+        "name_title": "Angela Richie, RN",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Stephen Huddleston",
+        "specialty": "Cardiac Surgeon"
+    } ]
+}, {
+    "id": "217",
+    "store_title": "St Mary’s Duluth Clinic Health System",
+    "state": "MN",
+    "city": "Duluth",
+    "address": "401 East 3rd St",
+    "zip": "55805",
+    "phone": "218-786-5123",
+    "website": "essentiahealth.org",
+    "contact": "amanda.hunker@essentiahealth.org",
+    "latitude": "46.793004",
+    "longitude": "-92.096359",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Nazir Saleh, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Jason Schultz, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Amanda Hunker",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Beth Feiro",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Kalkidan Bisho",
+        "specialty": "Interventional Cardiologist"
+    } ]
+}, {
+    "id": "218",
+    "store_title": "Sunrise Hospital & Medical Center",
+    "state": "NV",
+    "city": "Las Vegas",
+    "address": "3186 S. Maryland Pkwy",
+    "zip": "89109",
+    "phone": "702-731-8000",
+    "website": "www.sunrisehospital.com",
+    "contact": "april.marsh@hcahealthcare.com",
+    "latitude": "36.133405",
+    "longitude": "-115.136306",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Dr. Nayab Zafar, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Dr. Bashir Chowdhry",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Dr. Mark Livingston, MD",
+        "specialty": "Cardiac Anesthesiologist"
+    }, {
+        "name_title": "Dr. Jacob Uhler, MD",
+        "specialty": "Cardiac Anesthesiologist"
+    }, {
+        "name_title": "April Marsh, RN",
+        "specialty": "Valve Coordinator"
+    }, {
+        "name_title": "Dr. Afzal Bhatti",
+        "specialty": "Echocardiologist"
+    } ]
+}, {
+    "id": "219",
+    "store_title": "Owensboro Health Regional Hospital",
+    "state": "KY",
+    "city": "Owensboro",
+    "address": "1201 Pleasant Valley Road",
+    "zip": "42303",
+    "phone": "270-417-7500",
+    "website": "",
+    "contact": "hillary.hale@owensborohealth.org",
+    "latitude": "37.779637",
+    "longitude": "-87.063616",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Abdelkader Almanfi",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Johnny Makhoul",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Keung Ung",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Hillary Hale",
+        "specialty": "Structural Heart Director"
+    } ]
+}, {
+    "id": "220",
+    "store_title": "Penn State Milton S. Hershey Medical Center",
+    "state": "PA",
+    "city": "Hershey",
+    "address": "500 University Drive",
+    "zip": "17033",
+    "phone": "717-531-4554",
+    "website": "",
+    "contact": "drhodes@pennstatehealth.psu.edu",
+    "latitude": "40.264881",
+    "longitude": "-76.675842",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Pradeep Yadav, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Mark Kozak, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Walter Pae, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Kentaro Yamane, MD",
+        "specialty": "Cardiac Surgeon"
+    }, {
+        "name_title": "Michael Pfeiffer, MD",
+        "specialty": "Echocardiographer"
+    }, {
+        "name_title": "Denise Rhodes, CRNP",
+        "specialty": "Valve Program Coordinator"
+    } ]
+}, {
+    "id": "221",
+    "store_title": "Legacy Emanuel",
+    "state": "OR",
+    "city": "Portland",
+    "address": "2801 N Gantenbein Ave",
+    "zip": "97227",
+    "phone": "503-413-7162",
+    "website": "",
+    "contact": "Nick Kinder",
+    "latitude": "45.543721",
+    "longitude": "-122.669896",
+    "distance": 0,
+    "zoom": 10,
+    "hcps": [ {
+        "name_title": "Amish Desai, MD",
+        "specialty": "Interventional Cardiologist"
+    }, {
+        "name_title": "Brian Maxwell, MD",
+        "specialty": "Cardiac Anesthesiologist"
+    }, {
+        "name_title": "Nick Kinder",
+        "specialty": "Valve Center Coordinator"
+    }, {
+        "name_title": "Ravi Ravichandran, MD",
+        "specialty": "CV Surgeon"
+    } ]
+} ]
