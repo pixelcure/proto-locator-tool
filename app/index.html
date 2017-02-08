@@ -16,6 +16,7 @@
     </head>
     <body>
 
+        <!-- App Container, This is our entry point for our app -->
         <div id="app"></div><!-- / end app -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -27,7 +28,10 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
-        <script src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry&key=AIzaSyDe5DYJZUSe9nw6NjyrYnxMAD3rH4khQY4"></script>
+
+        <!-- google maps api, do not remove or everything will explode -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe5DYJZUSe9nw6NjyrYnxMAD3rH4khQY4"></script>
+
         <!-- build:js scripts/main.js -->
         <script src="local/build.js"></script>
         <!-- endbuild -->
