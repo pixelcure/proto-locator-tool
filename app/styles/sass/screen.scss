@@ -2,8 +2,6 @@
 @import "compass";
 // Vertical Rhythm
 @import "compass/typography/vertical_rhythm";
-// Bootstrap
-@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 // Modular Scale
 @import 'modular-scale';
 
@@ -129,6 +127,12 @@ h1, h2, h3, h4, h5 {
 
 		    	&:nth-child(even){
 		    		background: rgba(0, 0, 0, .02);
+		    	}
+
+		    	h3 {
+				    font-size: 21px;
+				    margin-bottom: 10px;
+				    line-height: 1em;		    		
 		    	}
 
 				span {

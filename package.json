@@ -1,5 +1,5 @@
 {
-  "name": "pauls-boiler-plate-master",
+  "name": "locator-app-master",
   "version": "1.0.0",
   "dependencies": {
     "google-maps-react": "^1.0.19"

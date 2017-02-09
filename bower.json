@@ -1,8 +1,7 @@
 {
-  "name": "otezla-kiosk-master",
+  "name": "locator-app-master",
   "version": "0.0.1",
   "dependencies": {
-    "bootstrap-sass": "^3.3.7"
   },
   "devDependencies": {}
 }
