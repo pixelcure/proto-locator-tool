@@ -5,14 +5,18 @@ import React, { PropTypes, Component } from 'react'
 import { Entry } from './entry.main';
 import { EntryDetail } from './entryDetail.main';
 
+// Entries Class Component
 class Entries extends Component {
+
+	// Constructor
 	constructor(props){
 		super(props);
 
 		// Entry Item (Bind this)
 		this.entryItem = this.entryItem.bind(this);
-	}
+	};
 
+	// Map through entry items
 	entryItem (key) {
 
 		// Single Entry
@@ -28,6 +32,7 @@ class Entries extends Component {
 
 	};
 
+	// Render Entries, Certain JSX will render depending on the condition
 	render () {
 
 		// Server Error :(
@@ -76,8 +81,19 @@ class Entries extends Component {
 					{ Object.keys(this.props.matches).map(this.entryItem) }
 				</ul>
 			</div>
-		)
-	}
-}
+		);
+	};
+};
 
+// Entries Proptypes
+Entries.PropTypes = {
+	serverError : React.PropTypes.string,
+	serverErrorMessage : React.PropTypes.string,
+	loading : React.PropTypes.bool,
+	debug : React.PropTypes.bool,
+	matches : React.PropTypes.object.isRequired,
+	locations : React.PropTypes.object.isRequired,
+};
+
+// Entries Class Export
 export { Entries }

@@ -8,10 +8,14 @@ import { App } from './app.main.js'
 // Document Ready
 document.addEventListener('DOMContentLoaded', function() {
 
-
 	// Map Style
 	const mapStyle = [{"featureType":"landscape","stylers":[{"hue":"#FFA800"},{"saturation":0},{"lightness":0},{"gamma":1}]},{"featureType":"road.highway","stylers":[{"hue":"#53FF00"},{"saturation":-73},{"lightness":40},{"gamma":1}]},{"featureType":"road.arterial","stylers":[{"hue":"#FBFF00"},{"saturation":0},{"lightness":0},{"gamma":1}]},{"featureType":"road.local","stylers":[{"hue":"#00FFFD"},{"saturation":0},{"lightness":30},{"gamma":1}]},{"featureType":"water","stylers":[{"hue":"#00BFFF"},{"saturation":6},{"lightness":8},{"gamma":1}]},{"featureType":"poi","stylers":[{"hue":"#679714"},{"saturation":33.4},{"lightness":-25.4},{"gamma":1}]}];
 
+	// Initial Center for Google Map
+	const initialCenter = {
+		lat: 39.639538,
+		lng : -99.492188
+	};
 
     /**
      * The <App/> Component/Class creates a Locator App using GoogleMaps, Zipcodes API.
@@ -28,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				unit={`mile`}
 				markerIcon={`images/marker.png`}
 				mapStyle={mapStyle}
+				initialMapPosition={initialCenter}
 				mapZoom={11}
 			/>,
 			document.getElementById('app')

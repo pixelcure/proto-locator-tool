@@ -1,10 +1,15 @@
 // React (PropTypes and Component)
 import React, { PropTypes, Component } from 'react'
 
+// EntryDetail Class Component
 class EntryDetail extends Component {
+
+	// Constructor
 	constructor(props){
 		super(props);
-	}
+	};
+
+	// Render Entry Detail
 	render () {
 
 		// Debug
@@ -41,8 +46,16 @@ class EntryDetail extends Component {
 				</div>
 
 			</div>
-		)
-	}
-}
+		);
+	};
 
+};
+
+// Entry Detail Proptypes
+EntryDetail.PropTypes = {
+	debug : React.PropTypes.bool,
+	match : React.PropTypes.object
+};
+
+// Export EntryDetail Component
 export { EntryDetail }

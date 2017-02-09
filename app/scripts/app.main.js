@@ -14,12 +14,20 @@ import { GoogleMap } from './components/gmap.main'
 // Locations
 import locations from './data/locations';
 
+// App Class Component, This invokes the entire Application and all of the shared components
 class App extends Component {
 
+	// App Constructor
 	constructor(props){
 
 		// Load Component constructor, pass in props
 		super(props);
+
+		// Initial Center Fallback, The center of the USA
+		this.initialMapPositionFallback = {
+			lat: 39.639538,
+			lng : -99.492188
+		};
 
 		// Initial State
 		this.state = {
@@ -35,9 +43,10 @@ class App extends Component {
 				markerIcon: props.markerIcon ? props.markerIcon : null,
 				debug : props.debug ? props.debug : false,
 				mapStyle : props.mapStyle ? props.mapStyle : null,
-				mapZoom : props.mapZoom ? props.mapZoom : 10
+				mapZoom : props.mapZoom ? props.mapZoom : 10,
+				initialCenter : props.initialMapPosition ? props.initialMapPosition : this.initialMapPositionFallback
 			},
-			coords : {
+			geoCoords : {
 				lat : undefined,
 				lng : undefined
 			}
@@ -46,8 +55,9 @@ class App extends Component {
 		// Update Zip
 		this.updateZip = this.updateZip.bind(this);
 
-	}
+	};
 
+	// Component Will Mounta Lifecycle Func
 	componentWillMount () {
 
 		// Cache this
@@ -75,7 +85,7 @@ class App extends Component {
 					let lng = position.coords.longitude;
 
 					that.setState({
-						coords : {
+						geoCoords : {
 							lat : lat,
 							lng : lng
 						}
@@ -138,6 +148,9 @@ class App extends Component {
 				loading : false
 			});
 
+			// Debug
+			this.state.options.debug ? console.info(`DEBUG: Invoking function to find radial zip codes for, Object key zipCode: ${zipCode}`) : ''
+
 			// Find radial zips
 			this.findRadialZips();
 
@@ -145,6 +158,7 @@ class App extends Component {
 
 	};
 
+	// Find Radial Zips
 	findRadialZips() {
 
 		// Cache This
@@ -158,8 +172,8 @@ class App extends Component {
 
 		// Find radius postal codes
 		$.ajax({
-			url: `https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
-			// url: `https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
+			// url: `https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
+			url: `https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
 			method : 'GET',
 			dataType : 'json',
 			// On Success
@@ -210,6 +224,7 @@ class App extends Component {
 
 	};
 
+	// Find Locations radial relative locations based on postal code
 	findLocations () {
 
 		// Debug
@@ -243,6 +258,7 @@ class App extends Component {
 
 	};
 
+	// Render App
 	render () {
 
 		// Render Components
@@ -257,8 +273,8 @@ class App extends Component {
 				/>
 				<GoogleMap
 					google={window.google}
-					lat={this.state.coords.lat}
-					long={this.state.coords.long}
+					lat={this.state.geoCoords.lat}
+					long={this.state.geoCoords.long}
 					locations={this.state.locations}
 					markerIcon={this.state.options.markerIcon}
 					matches={this.state.matches}
@@ -266,6 +282,7 @@ class App extends Component {
 					mapZoom={this.state.options.mapZoom}
 					debug={this.state.options.debug}
 					geoLocator={this.state.geoLocator}
+					initialCenter={this.state.options.initialCenter}
 				/>
 				<Entries
 					serverError={this.state.serverError}
@@ -280,4 +297,16 @@ class App extends Component {
 
 }; // End App
 
+// App Proptypes
+App.PropTypes = {
+	debug : React.PropTypes.bool,
+	radius : React.PropTypes.number,
+	unit : React.PropTypes.string,
+	markerIcon : React.PropTypes.string,
+	mapStyle : React.PropTypes.array,
+	initialMapPosition : React.PropTypes.object,
+	mapZoom : React.PropTypes.number
+};
+
+// Export App
 export { App }

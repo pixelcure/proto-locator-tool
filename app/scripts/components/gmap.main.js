@@ -6,6 +6,7 @@ import { Map, Marker } from "google-maps-react";
 
 class GoogleMap extends Component {
 
+	// Constructor
 	constructor(props){
 		super(props);
 
@@ -16,6 +17,7 @@ class GoogleMap extends Component {
 
 	};
 
+	// Render Locations
 	renderLocations(key) {
 
 		// Current iteration of single location
@@ -38,6 +40,7 @@ class GoogleMap extends Component {
 
 	};
 
+	// Render Matches
 	renderMatches(key) {
 
 		// Current iteration of single match
@@ -58,6 +61,7 @@ class GoogleMap extends Component {
 
 	};
 
+	// Render Default Map
 	render () {
 
 		// Debug
@@ -72,7 +76,8 @@ class GoogleMap extends Component {
 					positionCenter={true}
 					mapCenter={true}
 					styles={this.props.mapStyle}
-					centerAroundCurrentLocation={this.props.geoLocator ? true : false}
+					initialCenter={this.props.initialCenter}
+					// centerAroundCurrentLocation={this.props.geoLocator ? true : false}
 					zoom={this.props.mapZoom}>
 
 					{
@@ -83,14 +88,18 @@ class GoogleMap extends Component {
 
 				</Map>
 			</div>
-		)
+		);
 	};
 };
 
+// GoogleMap Proptypes
 GoogleMap.propTypes = {
-  google: React.PropTypes.object,
-  zoom: React.PropTypes.number,
-  initialCenter: React.PropTypes.object
+	debug : React.PropTypes.bool,
+	google: React.PropTypes.object.isRequired,
+	zoom: React.PropTypes.number.isRequired,
+	initialCenter: React.PropTypes.object.isRequired,
+	zoom : React.PropTypes.number
 };
 
+// Export GoogleMap
 export { GoogleMap }

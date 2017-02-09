@@ -17,6 +17,21 @@
 @import "5_Layouts/**/*";
 @import "6_Core/**/*";
 
+// Placeholder Styles
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, .7);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255, 255, 255, .7);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255, 255, 255, .7);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255, 255, 255, .7);
+}
+
 // Box Sizing
 
 * { 
@@ -49,20 +64,20 @@ h1, h2, h3, h4, h5 {
 }
 
 #app {
-    margin: 100px auto;
+    margin: 0 auto;
     overflow: hidden;
     width: 100%;
 
 	form {
-        background: #E3E3E3;
+        background: #418698;
 	    padding: 25px;
 		display: table;
 		width: 100%;
 		input {
 			background-color: transparent;
 			border: 0;
-			border-bottom: 1px solid rgba(0, 0, 0, .5);
-		    color: #999;
+			border-bottom: 1px solid rgba(0, 255, 255, .4);
+		    color: #FFF;
 		    font-size: 26px;
 		    padding: 15px;
 		    outline: none;
@@ -87,11 +102,13 @@ h1, h2, h3, h4, h5 {
 	    }
 	}
 	.entries {
+		&.none-found {
+			padding: 25px 25px 25px 50px;
+		}
 	    border-left: 1px solid #CCC;
 	    min-height: 500px;
 	    display: table;
 	    float: right;
-	    padding: 25px 25px 25px 50px;
 	    position: relative;
 	    width: 25%;
 
@@ -100,7 +117,7 @@ h1, h2, h3, h4, h5 {
 				position: absolute;
 				top: 50%;
 				left: 50%;
-				transform: translate(-50%, -50%);				
+				transform: translate(-50%, -50%);
 			}
 		} // End Loading
 
@@ -108,26 +125,42 @@ h1, h2, h3, h4, h5 {
 		    list-style-type: none;
 		    padding: 0;
 		    li {
+				padding: 25px 25px 25px 50px;
+
+		    	&:nth-child(even){
+		    		background: rgba(0, 0, 0, .02);
+		    	}
+
 				span {
 					font-size: 18px;
 					line-height: 1.5em;
 					display: block;
 				}
 				a {
-				    background: #000;
+				    background: #418698;
+				    border: none;
+				    box-shadow: none;
 				    color: #FFF;
 				    display: block;
-				    font-size: 18px;
+				    font-size: 16px;
 				    margin-top: 15px;
-				    padding: 15px;
+				    padding: 10px 15px;
+				    text-transform: uppercase;
 				    text-align: center;
 				    width: 100px;
+
+				    &:hover,
+				    &:active,
+				    &:focus {
+				    	border: none;
+				    }
 				}
 		    } // End List Item
 		} // End List Container
 	} // End Entries List
 	.entry-detail {
 		font-size: 16px;
+		padding: 25px 25px 25px 50px;
 		a { color: #FFF; }
 		a, strong, span, input {
 			display: block;
@@ -144,19 +177,6 @@ h1, h2, h3, h4, h5 {
 		}
 	}
 	.more-info {
-
-		::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-		  color: #666;
-		}
-		::-moz-placeholder { /* Firefox 19+ */
-		  color: #666;
-		}
-		:-ms-input-placeholder { /* IE 10+ */
-		  color: #666;
-		}
-		:-moz-placeholder { /* Firefox 18- */
-		  color: #666;
-		}
 
 		input[type="email"],
 		input[type="text"] {
