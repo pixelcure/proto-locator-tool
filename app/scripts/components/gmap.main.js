@@ -52,9 +52,7 @@ class GoogleMap extends Component {
 				key={key}
 				name={match.store_title}
 				position={{lat: match.latitude, lng: match.longitude}}
-			    icon={{
-			      url: this.props.markerIcon
-			    }}
+			    icon={this.props.markerIcon}
 		    />
 		);
 
@@ -73,8 +71,9 @@ class GoogleMap extends Component {
 					google={this.props.google}
 					positionCenter={true}
 					mapCenter={true}
-					centerAroundCurrentLocation={true}
-					zoom={14}>
+					styles={this.props.mapStyle}
+					centerAroundCurrentLocation={this.props.geoLocator ? true : false}
+					zoom={this.props.mapZoom}>
 
 					{
 						// Do we have matches? Call renderMatches();

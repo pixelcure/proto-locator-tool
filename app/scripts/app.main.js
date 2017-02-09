@@ -30,14 +30,16 @@ class App extends Component {
 			radiusLocations : null,
 			matches : [],
 			options : {
-				unit : props.unit,
-				radius : props.radius,
-				markerIcon: props.markerIcon,
-				debug : props.debug
+				unit : props.unit ? props.unit : 'mile',
+				radius : props.radius ? props.radius : 25,
+				markerIcon: props.markerIcon ? props.markerIcon : null,
+				debug : props.debug ? props.debug : false,
+				mapStyle : props.mapStyle ? props.mapStyle : null,
+				mapZoom : props.mapZoom ? props.mapZoom : 10
 			},
 			coords : {
 				lat : undefined,
-				long : undefined
+				lng : undefined
 			}
 		};
 
@@ -70,17 +72,17 @@ class App extends Component {
 					let lat = position.coords.latitude;
 
 					// Longitute of geolocator position
-					let long = position.coords.longitude;
+					let lng = position.coords.longitude;
 
 					that.setState({
 						coords : {
 							lat : lat,
-							long : long
+							lng : lng
 						}
 					});
 
 					// Get zipcode of current location
-					$.get('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat + ',' + long + '&key=AIzaSyB--PyZackddr9VdwbFA8U8nB45772zHMg&result_type=postal_code', function(res){
+					$.get('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat + ',' + lng + '&key=AIzaSyB--PyZackddr9VdwbFA8U8nB45772zHMg&result_type=postal_code', function(res){
 
 						// Zipcode
 						let zip =  res.results[0].address_components[0].short_name;
@@ -260,7 +262,10 @@ class App extends Component {
 					locations={this.state.locations}
 					markerIcon={this.state.options.markerIcon}
 					matches={this.state.matches}
+					mapStyle={this.state.options.mapStyle}
+					mapZoom={this.state.options.mapZoom}
 					debug={this.state.options.debug}
+					geoLocator={this.state.geoLocator}
 				/>
 				<Entries
 					serverError={this.state.serverError}
