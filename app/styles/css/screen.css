@@ -2839,43 +2839,43 @@ h1, h2, h3, h4, h5 {
   position: relative;
   width: 25%;
 }
-/* line 103, ../sass/screen.scss */
-#app .entries.none-found {
+/* line 104, ../sass/screen.scss */
+#app .entries.server-error, #app .entries.none-found {
   padding: 25px 25px 25px 50px;
 }
-/* line 114, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 #app .entries.loading img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 122, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 #app .entries ul {
   list-style-type: none;
   padding: 0;
 }
-/* line 125, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 #app .entries ul li {
   padding: 25px 25px 25px 50px;
 }
-/* line 128, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 #app .entries ul li:nth-child(even) {
-  background: rgba(0, 0, 0, 0.02);
+  background: rgba(0, 0, 0, 0.05);
 }
-/* line 132, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 #app .entries ul li h3 {
   font-size: 21px;
-  margin-bottom: 10px;
+  margin: 0 0 5px 0;
   line-height: 1em;
 }
-/* line 138, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 #app .entries ul li span {
   font-size: 18px;
   line-height: 1.5em;
   display: block;
 }
-/* line 143, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 #app .entries ul li a {
   background: #418698;
   border: none;
@@ -2889,26 +2889,26 @@ h1, h2, h3, h4, h5 {
   text-align: center;
   width: 100px;
 }
-/* line 156, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 #app .entries ul li a:hover, #app .entries ul li a:active, #app .entries ul li a:focus {
   border: none;
 }
-/* line 165, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 #app .entry-detail {
   font-size: 16px;
   padding: 25px 25px 25px 50px;
 }
-/* line 168, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 #app .entry-detail a {
   color: #FFF;
 }
-/* line 169, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 #app .entry-detail a, #app .entry-detail strong, #app .entry-detail span, #app .entry-detail input {
   display: block;
   line-height: 1.5em;
   margin-bottom: 5px;
 }
-/* line 174, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 #app .entry-detail h2 {
   border-top: 1px solid #827d7d;
   color: #FFF;
@@ -2917,7 +2917,7 @@ h1, h2, h3, h4, h5 {
   padding-top: 25px;
   font-weight: 800;
 }
-/* line 185, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 #app .more-info input[type="email"],
 #app .more-info input[type="text"] {
   border: 0;
@@ -2929,12 +2929,12 @@ h1, h2, h3, h4, h5 {
   padding: 15px;
   width: 100%;
 }
-/* line 195, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 #app .more-info input[type="email"]:focus,
 #app .more-info input[type="text"]:focus {
   border: 1px solid #CCC;
 }
-/* line 199, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 #app .more-info input[type="submit"] {
   background: #000;
   border: none;
@@ -2948,7 +2948,7 @@ h1, h2, h3, h4, h5 {
   text-align: center;
   width: 48.9%;
 }
-/* line 211, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 #app .more-info input[type="submit"]:last-child {
   margin-left: 7px;
 }

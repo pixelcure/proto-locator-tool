@@ -77,8 +77,11 @@ class GoogleMap extends Component {
 					mapCenter={true}
 					styles={this.props.mapStyle}
 					initialCenter={this.props.initialCenter}
-					// centerAroundCurrentLocation={this.props.geoLocator ? true : false}
-					zoom={this.props.mapZoom}>
+					centerAroundCurrentLocation={this.props.geoLocator ? true : false}
+					zoom={this.props.mapZoom}
+					zoomControl={true}
+					clickableIcons={true}>
+
 
 					{
 						// Do we have matches? Call renderMatches();
@@ -97,6 +100,8 @@ GoogleMap.propTypes = {
 	debug : React.PropTypes.bool,
 	google: React.PropTypes.object.isRequired,
 	zoom: React.PropTypes.number.isRequired,
+	matches : React.PropTypes.array,
+	locations : React.PropTypes.array,
 	initialCenter: React.PropTypes.object.isRequired,
 	zoom : React.PropTypes.number
 };

@@ -26,7 +26,7 @@ class App extends Component {
 		// Initial Center Fallback, The center of the USA
 		this.initialMapPositionFallback = {
 			lat: 39.639538,
-			lng : -99.492188
+			lng : -9.492188
 		};
 
 		// Initial State
@@ -47,8 +47,8 @@ class App extends Component {
 				initialCenter : props.initialMapPosition ? props.initialMapPosition : this.initialMapPositionFallback
 			},
 			geoCoords : {
-				lat : undefined,
-				lng : undefined
+				lat : null,
+				lng : null
 			}
 		};
 
@@ -106,6 +106,11 @@ class App extends Component {
 				};
 			}, function(positionError){
 
+
+				// Debug
+				that.state.options.debug ? console.info(`DEBUG: App mounting, Geolocation - Failure to get position. \nPosition Error: ${positionError} `) : '';
+
+				// Set state, we don't have geolocation/geo failed
 				that.setState({
 					loading : false,
 					geolocator : false
@@ -114,8 +119,8 @@ class App extends Component {
 			});
 
 		} else {
+			
 			// Geocoding doesn't exist (they will need to enter their zip code)
-
 			this.setState({
 				loading : false,
 				geolocator : false
@@ -130,18 +135,21 @@ class App extends Component {
 	// updateZip(e, zip){
 	updateZip(zip){
 
+		// Loading as it runs through
+		this.setState({
+			loading : true
+		});
+
 		// Zip Code
 		let zipCode = zip;
 
 		// Debug
-		this.state.options.debug ? console.info(`DEBUG: Update zip, confirming postal zipcode is 5 digits`) : ''
-
+		this.state.options.debug ? console.info(`DEBUG: Update zip, confirming postal zipcode is 5 digits`) : '';
 		// Only do Zip code radius call if we have a full 5 digit zipcode
 		if(/^\d{5}$/.test(zipCode)){
 
 			// Debug
-			this.state.options.debug ? console.info(`DEBUG: Updating state, Object key zipCode: ${zipCode}`) : ''
-
+			this.state.options.debug ? console.info(`DEBUG: Updating state, Object key zipCode: ${zipCode}`) : '';
 			// Update state
 			this.setState({
 				zipCode : zipCode,
@@ -149,8 +157,7 @@ class App extends Component {
 			});
 
 			// Debug
-			this.state.options.debug ? console.info(`DEBUG: Invoking function to find radial zip codes for, Object key zipCode: ${zipCode}`) : ''
-
+			this.state.options.debug ? console.info(`DEBUG: Invoking function to find radial zip codes for, Object key zipCode: ${zipCode}`) : '';
 			// Find radial zips
 			this.findRadialZips();
 
@@ -165,21 +172,21 @@ class App extends Component {
 		let that = this;
 
 		// Debug
-		this.state.options.debug ? console.info(`DEBUG: Calling zip codes API to find radial zip codes in relation to ${this.state.zipCode}`) : ''
+		this.state.options.debug ? console.info(`DEBUG: Calling zip codes API to find radial zip codes in relation to ${this.state.zipCode}`) : '';
 
 		// Radial Zips (Cleaning up our response, sticking every zip code in this array)
 		let radialZips = [];
 
 		// Find radius postal codes
 		$.ajax({
-			// url: `https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
-			url: `https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
+			url: `https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
+			// url: `https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
 			method : 'GET',
 			dataType : 'json',
 			// On Success
 			success : function(response) {
 
-				that.state.options.debug ? console.info(`DEBUG: Successfully found radial zipcodes for ${that.state.zipCode}`) : ''
+				that.state.options.debug ? console.info(`DEBUG: Successfully found radial zipcodes for ${that.state.zipCode}`) : '';
 
 				// Store zip radius zip codes
 				let res = response.zip_codes;
@@ -206,17 +213,21 @@ class App extends Component {
 			},
 			// On Error
 			error : function(error){
-
+				
 				// Error Message
 				let errorMessage = error.statusText;
+				
+				// Error Status
+				let errorStatus = error.status
 
 				// Debug
-				that.state.options.debug ? console.warn(`DEBUG: Error found. \n Message: ${errorMessage}`) : ''
-
+				that.state.options.debug ? console.warn(`DEBUG: Error found. \n Message: ${errorMessage}`) : '';
 				// Set state
 				that.setState({
+					serverErrorStatus : errorStatus,
 					serverError : true,
-					serverErrorMessage : errorMessage
+					serverErrorMessage : errorMessage,
+					matches : []
 				});
 
 			}
@@ -228,8 +239,7 @@ class App extends Component {
 	findLocations () {
 
 		// Debug
-		this.state.options.debug ? console.info(`DEBUG: Searching for matching locations in relation to ${this.state.zipCode}`) : ''
-
+		this.state.options.debug ? console.info(`DEBUG: Searching for matching locations in relation to ${this.state.zipCode}`) : '';
 		// New entries
 		let newEntries = [];
 
@@ -246,11 +256,11 @@ class App extends Component {
 			if(x === this.state.locations.length - 1) {
 
 				// Debug
-				this.state.options.debug ? console.info('DEBUG: Last match test, setting state Object key: matches') : ''
-
+				this.state.options.debug ? console.info('DEBUG: Last match test, setting state Object key: matches') : '';
 				// Set state, add "matches"
 				this.setState({
-					matches : newEntries
+					matches : newEntries,
+					loading : false
 				});
 			};
 
@@ -285,9 +295,11 @@ class App extends Component {
 					initialCenter={this.state.options.initialCenter}
 				/>
 				<Entries
+					serverErrorStatus={this.state.serverErrorStatus}
 					serverError={this.state.serverError}
 					serverErrorMessage={this.state.serverErrorMessage}
 					matches={this.state.matches}
+					geoLocator={this.state.geoLocator}
 					loading={this.state.loading}
 					debug={this.state.options.debug}
 				/>
