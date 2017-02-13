@@ -28,14 +28,14 @@ class Entries extends Component {
 	entryItem (key) {
 
 		// Single Entry
-		const entry = this.props.matches[key]
+		const entry = this.props.matches[key];
 
 		// Debug
 		this.props.debug ? console.info(`DEBUG: Entries Component Rendering - Entries Found, Mapping through entries`) : '';
 
 		// Pass data into our "Entry" template
 		return (
-			<Entry key={key} activeEntry={this.props.activeEntryIndex == key ? true : false} city={entry.city} title={entry.store_title} />
+			<Entry key={key} index={key} openEntryDetail={this.props.openEntryDetail} activeEntry={this.props.activeEntryIndex == key ? true : false} city={entry.city} title={entry.store_title} />
 		);
 
 	};
@@ -92,6 +92,17 @@ class Entries extends Component {
 				</div>
 			);
 
+		} else if (this.props.entryDetailOpen) {
+
+			// Debug
+			this.props.debug ? console.info(`DEBUG: Entries Component Rendering - Rendering Entry Detail Component`) : '';
+
+			return (
+				<EntryDetail 
+					detail={this.props.entryDetailOpen != null ? this.props.matches[this.props.entryDetailOpenKey] : null} 
+					closeEntryDetail={this.props.closeEntryDetail} 
+				/>
+			)
 		};
 
 		// Debug
@@ -118,7 +129,11 @@ Entries.PropTypes = {
 	debug : React.PropTypes.bool,
 	matches : React.PropTypes.object.isRequired,
 	locations : React.PropTypes.object.isRequired,
-	activeEntryIndex : React.PropTypes.string
+	activeEntryIndex : React.PropTypes.string,
+	openEntryDetail : React.PropTypes.func.isRequired,
+	closeEntryDetail : React.PropTypes.func.isRequired,
+	entryDetailOpen : React.PropTypes.bool.isRequired,
+	entryDetailOpenKey : React.PropTypes.number.isRequired
 };
 
 // Entries Class Export

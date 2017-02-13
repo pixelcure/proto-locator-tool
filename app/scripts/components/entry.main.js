@@ -20,7 +20,7 @@ class Entry extends Component {
 			<li key={this.key} className={this.props.activeEntry ? `active` : ''} ref={this.props.activeEntry ? (activeEntry) => { this.activeEntry = activeEntry; } : ''}>
 				<h3>{this.props.title}</h3>
 				<span>{this.props.city}</span>
-				<a href="#" className={`button`} onClick={() => this.props.viewEntry(this.key) } title={this.props.name}> Details</a>
+				<button className={`button`} onClick={() => this.props.openEntryDetail(this.props.index) } title={this.props.name}> Details</button>
 			</li>
 		);
 

@@ -2882,7 +2882,7 @@ h1, h2, h3, h4, h5 {
   display: block;
 }
 /* line 153, ../sass/screen.scss */
-#app .entries ul li a {
+#app .entries ul li button {
   background: #418698;
   border: none;
   box-shadow: none;
@@ -2896,7 +2896,7 @@ h1, h2, h3, h4, h5 {
   width: 100px;
 }
 /* line 166, ../sass/screen.scss */
-#app .entries ul li a:hover, #app .entries ul li a:active, #app .entries ul li a:focus {
+#app .entries ul li button:hover, #app .entries ul li button:active, #app .entries ul li button:focus {
   border: none;
 }
 /* line 173, ../sass/screen.scss */
@@ -2908,7 +2908,7 @@ h1, h2, h3, h4, h5 {
   color: #FFF;
 }
 /* line 180, ../sass/screen.scss */
-#app .entries ul li.active a {
+#app .entries ul li.active button {
   background: #FFF;
   color: #418698;
 }

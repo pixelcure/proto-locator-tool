@@ -17,34 +17,8 @@ class EntryDetail extends Component {
 
 		return (
 			<div className={'entry-detail'}>
-				<strong className={'entry-name'}>Bringham And Womans Hospital</strong>
-				<span className={'entry-street'}>1 Deaconess Rd</span>
-				<span className={'entry-city-state-zip'}>Boston, MA 02215</span>
-				<a href={'tel:8888888888'} className={'entry-phone'}>240-893-4616</a>
-				<a href={'http://www.bidmc.org'} className={'entry-website'}>http://www.bidmc.org</a>
-				<h2>HCPs at this location</h2>
-				<ul>
-					<li>
-						<strong className={'doctor-name'}>Donald Cutlip, MD</strong>
-						<span className={'title'}>Interventional Cardiologist</span>
-					</li>
-					<li>
-						<strong className={'doctor-name'}>Jeffrey Popma, MD</strong>
-						<span className={'title'}>Interventional Cardiologist</span>
-					</li>
-					<li>
-						<strong className={'doctor-name'}>Kamal Khabbaz, MD</strong>
-						<span className={'title'}>Cardiac Surgeon</span>
-					</li>
-				</ul>
-
-				<div className={'more-info'}>
-					<h2>Email or print this information</h2>
-					<input type={'email'} placeholder={'Enter Email Address'} />
-					<input type={'submit'} id={'email'} value={'Email'}/>
-					<input type={'submit'} id={'print'} value={'Print'}/>
-				</div>
-
+				<button className={`close-detail`} onClick={this.props.closeEntryDetail}>&times;</button>
+				<strong className={'entry-name'}>{this.props.detail.store_title}</strong>
 			</div>
 		);
 	};
@@ -54,7 +28,9 @@ class EntryDetail extends Component {
 // Entry Detail Proptypes
 EntryDetail.PropTypes = {
 	debug : React.PropTypes.bool,
-	match : React.PropTypes.object
+	detail : React.PropTypes.object.isRequired,
+	closeEntryDetail : React.PropTypes.func.isRequired,
+	index : React.PropTypes.number.isRequired
 };
 
 // Export EntryDetail Component

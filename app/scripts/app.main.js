@@ -38,6 +38,8 @@ class App extends Component {
 			radiusLocations : null,
 			matches : [],
 			activeEntryIndex : null,
+			entryDetailOpen : false,
+			entryDetailOpenKey : null,
 			options : {
 				unit : props.unit ? props.unit : 'mile',
 				radius : props.radius ? props.radius : 25,
@@ -57,6 +59,10 @@ class App extends Component {
 		this.updateZip = this.updateZip.bind(this);
 		// Focus On Entry
 		this.focusOnEntry = this.focusOnEntry.bind(this);
+		// Open Entry Detail
+		this.openEntryDetail = this.openEntryDetail.bind(this);
+		// Close Entry Detail
+		this.closeEntryDetail = this.closeEntryDetail.bind(this);
 
 	};
 
@@ -183,8 +189,8 @@ class App extends Component {
 
 		// Find radius postal codes
 		$.ajax({
-			// url: `https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
-			url: `https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
+			url: `https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
+			// url: `https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
 			method : 'GET',
 			dataType : 'json',
 			// On Success
@@ -286,6 +292,32 @@ class App extends Component {
 
 	};
 
+	// Open Entry Detail
+	openEntryDetail(key){
+		
+		// Debug
+		this.props.debug ? console.info(`DEBUG: Opening Entry Detail, Index ${key}. Updating State, entryDetailOpen is true`) : '';
+
+		this.setState({
+			entryDetailOpen : true,
+			entryDetailOpenKey : key
+		});
+
+	};
+
+	// Close Entry Detail
+	closeEntryDetail(){
+		
+		// Debug
+		this.props.debug ? console.info(`DEBUG: Opening Entry Detail, Index ${key}. Updating State, entryDetailOpen is true`) : '';
+
+		this.setState({
+			entryDetailOpen : false,
+			entryDetailOpenKey : null
+		});
+
+	};	
+
 	// Render App
 	render () {
 
@@ -318,6 +350,10 @@ class App extends Component {
 					serverError={this.state.serverError}
 					serverErrorMessage={this.state.serverErrorMessage}
 					matches={this.state.matches}
+					openEntryDetail={this.openEntryDetail}
+					closeEntryDetail={this.closeEntryDetail}
+					entryDetailOpen={this.state.entryDetailOpen}
+					entryDetailOpenKey={this.state.entryDetailOpenKey}
 					geoLocator={this.state.geoLocator}
 					activeEntryIndex={this.state.activeEntryIndex}
 					loading={this.state.loading}
