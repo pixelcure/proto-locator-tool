@@ -22,7 +22,7 @@ class EntryDetail extends Component {
 		return (
 			<li>
 				<strong className={`doctor-name`}>{hcp.name_title}</strong>
-				<span className={`title`}>{hcp.title}</span>
+				<span className={`specialty`}>{hcp.specialty}</span>
 			</li>
 		);
 

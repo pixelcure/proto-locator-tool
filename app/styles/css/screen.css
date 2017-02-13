@@ -2959,7 +2959,7 @@ h1, h2, h3, h4, h5 {
 #app .entries.entry-detail .more-info input[type="email"] {
   border: 1px solid rgba(65, 134, 152, 0.5);
   color: #418698;
-  width: 87.5%;
+  width: 83.8%;
   margin: 0 auto 5px;
 }
 /* line 236, ../sass/screen.scss */
@@ -3054,39 +3054,4 @@ h1, h2, h3, h4, h5 {
   margin-top: 25px;
   padding-top: 25px;
   font-weight: 800;
-}
-/* line 326, ../sass/screen.scss */
-#app .more-info input[type="email"],
-#app .more-info input[type="text"] {
-  border: 0;
-  background: transparent;
-  border: 1px solid transparent;
-  border-bottom: 1px solid #CCC;
-  float: none;
-  outline: none;
-  padding: 15px;
-  width: 100%;
-}
-/* line 336, ../sass/screen.scss */
-#app .more-info input[type="email"]:focus,
-#app .more-info input[type="text"]:focus {
-  border: 1px solid #CCC;
-}
-/* line 340, ../sass/screen.scss */
-#app .more-info input[type="submit"] {
-  background: #000;
-  border: none;
-  color: #FFF;
-  display: block;
-  float: left;
-  font-size: 18px;
-  margin-top: 5px;
-  outline: none;
-  padding: 10px;
-  text-align: center;
-  width: 48.9%;
-}
-/* line 352, ../sass/screen.scss */
-#app .more-info input[type="submit"]:last-child {
-  margin-left: 7px;
 }

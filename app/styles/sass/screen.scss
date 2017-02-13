@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5 {
 				input[type="email"]{
 					border: 1px solid rgba(65, 134, 152, 0.5);
 					color: #418698;
-				    width: 87.5%;
+				    width: 83.8%;
 				    margin: 0 auto 5px;
 				}
 
@@ -320,39 +320,6 @@ h1, h2, h3, h4, h5 {
 			padding-top: 25px;
 			font-weight: 800;
 		}
-	}
-	.more-info {
-
-		input[type="email"],
-		input[type="text"] {
-		    border: 0;
-		    background: transparent;
-		    border: 1px solid transparent;
-		    border-bottom: 1px solid #CCC;
-		    float: none;
-		    outline: none;
-		    padding: 15px;
-		    width: 100%;
-		    &:focus {
-		    	border: 1px solid #CCC;
-		    }
-		}
-		input[type="submit"]{
-		    background: #000;
-		    border: none;
-		    color: #FFF;
-		    display: block;
-		    float: left;
-		    font-size: 18px;
-		    margin-top: 5px;
-		    outline: none;
-		    padding: 10px;
-		    text-align: center;
-		    width: 48.9%;
-		    &:last-child {
-		    	margin-left: 7px;
-		    }
-		}
-	} // End more info
+	} // End Entry Detail
 
 } // End App
