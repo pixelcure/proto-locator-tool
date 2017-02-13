@@ -7,6 +7,25 @@ class EntryDetail extends Component {
 	// Constructor
 	constructor(props){
 		super(props);
+
+		// Rencer HCP
+		this.renderHcp = this.renderHcp.bind(this);
+
+	};
+
+	renderHcp(key){
+
+		// Single HCP
+		const hcp = key;
+
+		// Render LI
+		return (
+			<li>
+				<strong className={`doctor-name`}>{hcp.name_title}</strong>
+				<span className={`title`}>{hcp.title}</span>
+			</li>
+		);
+
 	};
 
 	// Render Entry Detail
@@ -16,9 +35,33 @@ class EntryDetail extends Component {
 		this.props.debug ? console.info(`DEBUG: Rendering Entry Detail`) : '';
 
 		return (
-			<div className={'entry-detail'}>
-				<button className={`close-detail`} onClick={this.props.closeEntryDetail}>&times;</button>
-				<strong className={'entry-name'}>{this.props.detail.store_title}</strong>
+			<div className={'entries entry-detail'}>
+				<div className="closeEntryDetail" title="Close" onClick={this.props.closeEntryDetail}>&times;</div>
+				<div className={`address`}>
+					<strong className={'entry-name'}>{this.props.detail.store_title}</strong>
+					<span className={'entry-street'}>{this.props.detail.address}</span>
+					<span className={'entry-city-state-zip'}>{`${this.props.detail.city + ` ` + this.props.detail.state + ` ` + this.props.detail.zip}`}</span>
+					<a href={`tel:${this.props.detail.phone}`} className={'entry-phone'}>{this.props.detail.phone}</a>
+				</div>
+
+				<h2>HCPs at this location</h2>
+
+				<ul>
+					{ this.props.detail.hcps.map(this.renderHcp) }
+				</ul>
+
+				<div className={'more-info'}>
+					<h2>Email or print this information</h2>
+					<input type={'email'} placeholder={'Enter Email Address'} />
+					<ul>
+						<li>
+							<input type={'submit'} id={'email'} value={'Email'}/>
+						</li>
+						<li>
+							<input type={'submit'} id={'print'} value={'Print'}/>
+						</li>
+					</ul>
+				</div>
 			</div>
 		);
 	};

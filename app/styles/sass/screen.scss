@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5 {
 		&.none-found {
 			padding: 25px 25px 25px 50px;
 		}
-		
+
 		background: #FFF;
 	    border-left: 1px solid #CCC;
 	    height: 100vh;
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5 {
 		    	h3 {
 				    font-size: 21px;
 				    margin: 0 0 5px 0;
-				    line-height: 1em;		    		
+				    line-height: 1em;
 		    	}
 
 				span {
@@ -185,6 +185,96 @@ h1, h2, h3, h4, h5 {
 
 		    } // End List Item
 		} // End List Container
+
+		&.entry-detail {
+			padding: 0;
+
+			.closeEntryDetail {
+				background: #418698;
+			    width: 36px;
+			    height: 36px;
+			    text-align: center;
+			    color: #FFF;
+			    font-size: 36px;
+			    position: absolute;
+			    right: 0;
+			    top: 15px;
+			    cursor: pointer;
+			    padding-top: 4px;
+			}
+
+			.address {
+				padding: 25px 25px 0 25px;
+				strong {
+					color: #418698;
+					font-size: 18px;
+					margin-bottom: 0;
+				}
+				a {
+					color: #000;
+					display: block;
+					text-decoration: none;
+				}
+				span {
+					margin-bottom: 0;
+				}
+			} // End Address
+
+			.more-info {
+				h2 {
+					color: #418698;
+					margin-bottom: 15px;
+				}
+
+				input[type="email"]{
+					border: 1px solid rgba(65, 134, 152, 0.5);
+					color: #418698;
+				    width: 87.5%;
+				    margin: 0 auto 5px;
+				}
+
+				ul {
+					display: flex;
+					padding: 0 25px;
+					li {
+					 	background: none;
+					    width: 50%;
+					    padding: 0;
+					    margin-right: 15px;
+						input[type="submit"] {
+						    background: #418698;
+						    border: none;
+						    box-shadow: none;
+						    color: #FFF;
+						    display: block;
+						    font-size: 16px;
+						    padding: 10px 15px;
+						    text-transform: uppercase;
+						    text-align: center;
+						    width: 100%;
+						}
+					}
+				}
+			} // End More Info
+
+			h2 {
+			    color: #418698;
+			    margin-bottom: 0;
+			    padding-left: 25px;
+			}
+			ul {
+				margin-top: 0;
+				overflow-y: auto;
+				height: auto;
+				height: initial;
+				overflow-y: initial;
+			}
+
+			li {
+				padding: 15px 25px 15px 25px;
+			}
+		} // End Entry Detail
+
 	} // End Entries List
 
 	.marker-popup {
