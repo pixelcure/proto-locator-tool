@@ -62,8 +62,11 @@ h1, h2, h3, h4, h5 {
 }
 
 #app {
+	position: fixed;
     margin: 0 auto;
     overflow: hidden;
+    top: 0;
+    left: 0;
     width: 100%;
 
 	form {
@@ -105,8 +108,10 @@ h1, h2, h3, h4, h5 {
 		&.none-found {
 			padding: 25px 25px 25px 50px;
 		}
+		
+		background: #FFF;
 	    border-left: 1px solid #CCC;
-	    min-height: 500px;
+	    height: 100vh;
 	    display: table;
 	    float: right;
 	    position: relative;
@@ -123,7 +128,9 @@ h1, h2, h3, h4, h5 {
 
 		ul {
 		    list-style-type: none;
+		    height: 100vh;
 		    padding: 0;
+		    overflow-y: scroll;
 		    li {
 				padding: 25px 25px 25px 50px;
 
@@ -142,6 +149,7 @@ h1, h2, h3, h4, h5 {
 					line-height: 1.5em;
 					display: block;
 				}
+
 				a {
 				    background: #418698;
 				    border: none;
@@ -161,9 +169,50 @@ h1, h2, h3, h4, h5 {
 				    	border: none;
 				    }
 				}
+
+				&.active {
+					background: #418698;
+
+					h3, span {
+						color: #FFF;
+					}
+
+					a {
+						background: #FFF;
+						color: #418698;
+					}
+				} // End Active
+
 		    } // End List Item
 		} // End List Container
 	} // End Entries List
+
+	.marker-popup {
+		span {
+			font-size: 16px;
+			display: block;
+			margin-bottom: 5px;
+			&.title {
+				font-weight: bold;
+			}
+		}
+		a,
+		button {
+		    background: #418698;
+		    border: none;
+		    box-shadow: none;
+		    color: #FFF;
+		    display: block;
+		    font-size: 16px;
+		    margin-top: 15px;
+		    padding: 10px 15px;
+		    text-transform: uppercase;
+		    text-align: center;
+		    outline: none;
+		    width: 100px;			
+		}
+	} // End Marker Popup Details CTA
+
 	.entry-detail {
 		font-size: 16px;
 		padding: 25px 25px 25px 50px;

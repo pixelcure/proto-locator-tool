@@ -1,5 +1,7 @@
 // React (PropTypes and Component)
 import React, { PropTypes, Component } from 'react'
+// Jquery
+import $ from 'jquery';
 
 // Entry
 import { Entry } from './entry.main';
@@ -16,6 +18,12 @@ class Entries extends Component {
 		this.entryItem = this.entryItem.bind(this);
 	};
 
+	onComponentDidMount() {
+
+
+
+	};
+
 	// Map through entry items
 	entryItem (key) {
 
@@ -27,7 +35,7 @@ class Entries extends Component {
 
 		// Pass data into our "Entry" template
 		return (
-			<Entry key={key} city={entry.city} title={entry.store_title} />
+			<Entry key={key} activeEntry={this.props.activeEntryIndex == key ? true : false} city={entry.city} title={entry.store_title} />
 		);
 
 	};
@@ -110,6 +118,7 @@ Entries.PropTypes = {
 	debug : React.PropTypes.bool,
 	matches : React.PropTypes.object.isRequired,
 	locations : React.PropTypes.object.isRequired,
+	activeEntryIndex : React.PropTypes.string
 };
 
 // Entries Class Export

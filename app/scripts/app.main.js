@@ -37,6 +37,7 @@ class App extends Component {
 			geoLocator : false,
 			radiusLocations : null,
 			matches : [],
+			activeEntryIndex : null,
 			options : {
 				unit : props.unit ? props.unit : 'mile',
 				radius : props.radius ? props.radius : 25,
@@ -54,6 +55,8 @@ class App extends Component {
 
 		// Update Zip
 		this.updateZip = this.updateZip.bind(this);
+		// Focus On Entry
+		this.focusOnEntry = this.focusOnEntry.bind(this);
 
 	};
 
@@ -66,7 +69,7 @@ class App extends Component {
 		// If goelocation exists, lets use it
 		if(navigator.geolocation && this.state.zipCode == undefined){
 
-			// Loading zipcode, geolocator exists
+			// Loading zipcode, geoLocator exists
 			that.setState({
 				loading : true,
 				geoLocator : true
@@ -78,10 +81,10 @@ class App extends Component {
 				if(position != 'null'){
 
 
-					// Latitude of geolocator position
+					// Latitude of geoLocator position
 					let lat = position.coords.latitude;
 
-					// Longitute of geolocator position
+					// Longitute of geoLocator position
 					let lng = position.coords.longitude;
 
 					that.setState({
@@ -113,7 +116,7 @@ class App extends Component {
 				// Set state, we don't have geolocation/geo failed
 				that.setState({
 					loading : false,
-					geolocator : false
+					geoLocator : false
 				});
 
 			});
@@ -121,9 +124,9 @@ class App extends Component {
 		} else {
 			
 			// Geocoding doesn't exist (they will need to enter their zip code)
-			this.setState({
+			that.setState({
 				loading : false,
-				geolocator : false
+				geoLocator : false
 			});
 
 			return;
@@ -137,7 +140,8 @@ class App extends Component {
 
 		// Loading as it runs through
 		this.setState({
-			loading : true
+			loading : true,
+			activeEntryIndex : null
 		});
 
 		// Zip Code
@@ -179,8 +183,8 @@ class App extends Component {
 
 		// Find radius postal codes
 		$.ajax({
-			url: `https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
-			// url: `https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
+			// url: `https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
+			url: `https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
 			method : 'GET',
 			dataType : 'json',
 			// On Success
@@ -268,6 +272,20 @@ class App extends Component {
 
 	};
 
+	// Focus On Entry
+
+	focusOnEntry(key){
+
+		// Clicked Marker Index ( Will match entry Index list )
+		let entryIndex = key;
+
+		// Set current Active Entry Index
+		this.setState({
+			activeEntryIndex : entryIndex
+		});
+
+	};
+
 	// Render App
 	render () {
 
@@ -290,6 +308,7 @@ class App extends Component {
 					matches={this.state.matches}
 					mapStyle={this.state.options.mapStyle}
 					mapZoom={this.state.options.mapZoom}
+					focusOnEntry={this.focusOnEntry}
 					debug={this.state.options.debug}
 					geoLocator={this.state.geoLocator}
 					initialCenter={this.state.options.initialCenter}
@@ -300,6 +319,7 @@ class App extends Component {
 					serverErrorMessage={this.state.serverErrorMessage}
 					matches={this.state.matches}
 					geoLocator={this.state.geoLocator}
+					activeEntryIndex={this.state.activeEntryIndex}
 					loading={this.state.loading}
 					debug={this.state.options.debug}
 				/>

@@ -17,7 +17,7 @@ class Entry extends Component {
 
 		// Return list element of entry
 		return (
-			<li key={this.key}>
+			<li key={this.key} className={this.props.activeEntry ? `active` : ''} ref={this.props.activeEntry ? (activeEntry) => { this.activeEntry = activeEntry; } : ''}>
 				<h3>{this.props.title}</h3>
 				<span>{this.props.city}</span>
 				<a href="#" className={`button`} onClick={() => this.props.viewEntry(this.key) } title={this.props.name}> Details</a>
@@ -33,7 +33,8 @@ Entry.PropTypes = {
 	debug : React.PropTypes.bool,
 	title : React.PropTypes.string.isRequired,
 	city : React.PropTypes.string,
-	viewEntry : React.PropTypes.func.isRequired
+	viewEntry : React.PropTypes.func.isRequired,
+	activeEntry : React.PropTypes.bool.isRequired
 };
 
 // Export Entry
