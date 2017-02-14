@@ -2961,20 +2961,21 @@ h1, h2, h3, h4, h5 {
   color: #418698;
   width: 83.8%;
   margin: 0 auto 5px;
+  outline: none;
 }
-/* line 236, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 #app .entries.entry-detail .more-info ul {
   display: flex;
   padding: 0 25px;
 }
-/* line 239, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 #app .entries.entry-detail .more-info ul li {
   background: none;
   width: 50%;
   padding: 0;
   margin-right: 15px;
 }
-/* line 244, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 #app .entries.entry-detail .more-info ul li input[type="submit"] {
   background: #418698;
   border: none;
@@ -2987,13 +2988,13 @@ h1, h2, h3, h4, h5 {
   text-align: center;
   width: 100%;
 }
-/* line 260, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 #app .entries.entry-detail h2 {
   color: #418698;
   margin-bottom: 0;
   padding-left: 25px;
 }
-/* line 265, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 #app .entries.entry-detail ul {
   margin-top: 0;
   overflow-y: auto;
@@ -3001,21 +3002,26 @@ h1, h2, h3, h4, h5 {
   height: initial;
   overflow-y: initial;
 }
-/* line 273, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 #app .entries.entry-detail li {
   padding: 15px 25px 15px 25px;
 }
-/* line 281, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
+#app .entries.entry-detail li strong {
+  margin-bottom: 0;
+  line-height: .8em;
+}
+/* line 289, ../sass/screen.scss */
 #app .marker-popup span {
   font-size: 16px;
   display: block;
   margin-bottom: 5px;
 }
-/* line 285, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 #app .marker-popup span.title {
   font-weight: bold;
 }
-/* line 289, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 #app .marker-popup a,
 #app .marker-popup button {
   background: #418698;
@@ -3031,24 +3037,24 @@ h1, h2, h3, h4, h5 {
   outline: none;
   width: 100px;
 }
-/* line 306, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 #app .entry-detail {
   font-size: 16px;
   padding: 25px 25px 25px 50px;
 }
-/* line 309, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
 #app .entry-detail a {
   color: #FFF;
 }
-/* line 310, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 #app .entry-detail a, #app .entry-detail strong, #app .entry-detail span, #app .entry-detail input {
   display: block;
   line-height: 1.5em;
   margin-bottom: 5px;
 }
-/* line 315, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 #app .entry-detail h2 {
-  border-top: 1px solid #827d7d;
+  border-top: 1px solid rgba(65, 134, 152, 0.09);
   color: #FFF;
   font-size: 21px;
   margin-top: 25px;

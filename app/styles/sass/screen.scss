@@ -225,12 +225,13 @@ h1, h2, h3, h4, h5 {
 					color: #418698;
 					margin-bottom: 15px;
 				}
-
+				
 				input[type="email"]{
 					border: 1px solid rgba(65, 134, 152, 0.5);
 					color: #418698;
 				    width: 83.8%;
 				    margin: 0 auto 5px;
+				    outline: none;
 				}
 
 				ul {
@@ -272,7 +273,14 @@ h1, h2, h3, h4, h5 {
 
 			li {
 				padding: 15px 25px 15px 25px;
-			}
+				
+				strong {
+					margin-bottom: 0;
+    				line-height: .8em;
+				} // End Doc Name
+
+			} // End HCP 
+
 		} // End Entry Detail
 
 	} // End Entries List
@@ -313,7 +321,7 @@ h1, h2, h3, h4, h5 {
 			margin-bottom: 5px;
 		}
 		h2 {
-			border-top: 1px solid #827d7d;
+			border-top: 1px solid rgba(65, 134, 152, .09);
 			color: #FFF;
 			font-size: 21px;
 			margin-top: 25px;

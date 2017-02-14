@@ -20,7 +20,7 @@ class EntryDetail extends Component {
 
 		// Render LI
 		return (
-			<li>
+			<li key={key.id}>
 				<strong className={`doctor-name`}>{hcp.name_title}</strong>
 				<span className={`specialty`}>{hcp.specialty}</span>
 			</li>
