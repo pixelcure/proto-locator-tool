@@ -197,6 +197,7 @@ class GoogleMap extends Component {
 						<div className={`marker-popup`}>
 							<span className={`title`}>{ this.state.activeMarkerDetails ? this.state.activeMarkerDetails.store_title : '' }</span>
 							<span>{ this.state.activeMarkerDetails ? this.state.activeMarkerDetails.address : '' }</span>
+							<span>{ this.state.activeMarkerDetails ? this.state.activeMarkerDetails.zip : ''}</span>
 						</div>
 			        </InfoWindow>	
 

@@ -1,7 +1,5 @@
 // React (PropTypes and Component)
 import React, { PropTypes, Component } from 'react'
-// Jquery
-import $ from 'jquery';
 // Underscore
 import _ from 'underscore';
 /* React Components */
@@ -101,17 +99,22 @@ class App extends Component {
 					});
 
 					// Get zipcode of current location
-					$.get('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat + ',' + lng + '&key=AIzaSyB--PyZackddr9VdwbFA8U8nB45772zHMg&result_type=postal_code', function(res){
+					const getZip = fetch('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat + ',' + lng + '&key=AIzaSyB--PyZackddr9VdwbFA8U8nB45772zHMg&result_type=postal_code');
 
-						// Zipcode
-						let zip =  res.results[0].address_components[0].short_name;
+					getZip
+						.then(res => res.json())
+						.then(res => {
+							
+							// Zipcode
+							let zip =  res.results[0].address_components[0].short_name;
 
-						// Add zip to input field (forces change)
-						// that.zipCodeComponent.input.value = zip;
-						// Set zio code state
-						that.updateZip(zip);
+							// Add zip to input field (forces change)
+							// that.zipCodeComponent.input.value = zip;
+							// Set zio code state
+							that.updateZip(zip);
 
-					});
+						});
+
 				};
 			}, function(positionError){
 
@@ -188,18 +191,18 @@ class App extends Component {
 		let radialZips = [];
 
 		// Find radius postal codes
-		$.ajax({
-			url: `https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
-			// url: `https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`,
-			method : 'GET',
-			dataType : 'json',
-			// On Success
-			success : function(response) {
+		let radiusPostalCodes = fetch(`https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`);
+			// radiusPostalCodes = fetch(`https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`);
 
+		// Carry out Promise
+		radiusPostalCodes
+			.then(zips => zips.json())
+			.then(zips => {
+			
 				that.state.options.debug ? console.info(`DEBUG: Successfully found radial zipcodes for ${that.state.zipCode}`) : '';
 
 				// Store zip radius zip codes
-				let res = response.zip_codes;
+				let res = zips.zip_codes;
 
 				for(let x = 0; x < res.length; ++x){
 
@@ -219,11 +222,9 @@ class App extends Component {
 					};
 
 				}; // End for
+			})
+			.catch(error => {
 
-			},
-			// On Error
-			error : function(error){
-				
 				// Error Message
 				let errorMessage = error.statusText;
 				
@@ -240,8 +241,7 @@ class App extends Component {
 					matches : []
 				});
 
-			}
-		});
+			});
 
 	};
 

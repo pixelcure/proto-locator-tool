@@ -2876,12 +2876,16 @@ h1, h2, h3, h4, h5 {
   line-height: 1em;
 }
 /* line 147, ../sass/screen.scss */
+#app .entries ul li strong {
+  margin-bottom: 5px;
+}
+/* line 151, ../sass/screen.scss */
 #app .entries ul li span {
   font-size: 18px;
-  line-height: 1.5em;
+  line-height: 1.2em;
   display: block;
 }
-/* line 153, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 #app .entries ul li button {
   background: #418698;
   border: none;
@@ -2895,28 +2899,28 @@ h1, h2, h3, h4, h5 {
   text-align: center;
   width: 100px;
 }
-/* line 166, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 #app .entries ul li button:hover, #app .entries ul li button:active, #app .entries ul li button:focus {
   border: none;
 }
-/* line 173, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 #app .entries ul li.active {
   background: #418698;
 }
-/* line 176, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 #app .entries ul li.active h3, #app .entries ul li.active span {
   color: #FFF;
 }
-/* line 180, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 #app .entries ul li.active button {
   background: #FFF;
   color: #418698;
 }
-/* line 189, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 #app .entries.entry-detail {
   padding: 0;
 }
-/* line 192, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 #app .entries.entry-detail .closeEntryDetail {
   background: #418698;
   width: 36px;
@@ -2930,32 +2934,32 @@ h1, h2, h3, h4, h5 {
   cursor: pointer;
   padding-top: 4px;
 }
-/* line 206, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 #app .entries.entry-detail .address {
-  padding: 25px 25px 0 25px;
+  padding: 25px 75px 0 25px;
 }
-/* line 208, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 #app .entries.entry-detail .address strong {
   color: #418698;
   font-size: 18px;
   margin-bottom: 0;
 }
-/* line 213, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 #app .entries.entry-detail .address a {
   color: #000;
   display: block;
   text-decoration: none;
 }
-/* line 218, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 #app .entries.entry-detail .address span {
   margin-bottom: 0;
 }
-/* line 224, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 #app .entries.entry-detail .more-info h2 {
   color: #418698;
   margin-bottom: 15px;
 }
-/* line 229, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 #app .entries.entry-detail .more-info input[type="email"] {
   border: 1px solid rgba(65, 134, 152, 0.5);
   color: #418698;
@@ -2963,19 +2967,19 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto 5px;
   outline: none;
 }
-/* line 237, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 #app .entries.entry-detail .more-info ul {
   display: flex;
   padding: 0 25px;
 }
-/* line 240, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 #app .entries.entry-detail .more-info ul li {
   background: none;
   width: 50%;
   padding: 0;
   margin-right: 15px;
 }
-/* line 245, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 #app .entries.entry-detail .more-info ul li input[type="submit"] {
   background: #418698;
   border: none;
@@ -2988,13 +2992,13 @@ h1, h2, h3, h4, h5 {
   text-align: center;
   width: 100%;
 }
-/* line 261, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 #app .entries.entry-detail h2 {
   color: #418698;
   margin-bottom: 0;
   padding-left: 25px;
 }
-/* line 266, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 #app .entries.entry-detail ul {
   margin-top: 0;
   overflow-y: auto;
@@ -3002,26 +3006,26 @@ h1, h2, h3, h4, h5 {
   height: initial;
   overflow-y: initial;
 }
-/* line 274, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 #app .entries.entry-detail li {
   padding: 15px 25px 15px 25px;
 }
-/* line 277, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 #app .entries.entry-detail li strong {
   margin-bottom: 0;
   line-height: .8em;
 }
-/* line 289, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 #app .marker-popup span {
   font-size: 16px;
   display: block;
   margin-bottom: 5px;
 }
-/* line 293, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 #app .marker-popup span.title {
   font-weight: bold;
 }
-/* line 297, ../sass/screen.scss */
+/* line 301, ../sass/screen.scss */
 #app .marker-popup a,
 #app .marker-popup button {
   background: #418698;
@@ -3037,22 +3041,22 @@ h1, h2, h3, h4, h5 {
   outline: none;
   width: 100px;
 }
-/* line 314, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 #app .entry-detail {
   font-size: 16px;
   padding: 25px 25px 25px 50px;
 }
-/* line 317, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 #app .entry-detail a {
   color: #FFF;
 }
-/* line 318, ../sass/screen.scss */
+/* line 322, ../sass/screen.scss */
 #app .entry-detail a, #app .entry-detail strong, #app .entry-detail span, #app .entry-detail input {
   display: block;
   line-height: 1.5em;
   margin-bottom: 5px;
 }
-/* line 323, ../sass/screen.scss */
+/* line 327, ../sass/screen.scss */
 #app .entry-detail h2 {
   border-top: 1px solid rgba(65, 134, 152, 0.09);
   color: #FFF;
@@ -3060,4 +3064,8 @@ h1, h2, h3, h4, h5 {
   margin-top: 25px;
   padding-top: 25px;
   font-weight: 800;
+}
+/* line 335, ../sass/screen.scss */
+#app .entry-detail ul li.hcp {
+  padding-top: 25px;
 }

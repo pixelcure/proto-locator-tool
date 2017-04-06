@@ -144,9 +144,13 @@ h1, h2, h3, h4, h5 {
 				    line-height: 1em;
 		    	}
 
+				strong {
+					margin-bottom: 5px;
+				}
+
 				span {
 					font-size: 18px;
-					line-height: 1.5em;
+					line-height: 1.2em;
 					display: block;
 				}
 
@@ -204,7 +208,7 @@ h1, h2, h3, h4, h5 {
 			}
 
 			.address {
-				padding: 25px 25px 0 25px;
+				padding: 25px 75px 0 25px;
 				strong {
 					color: #418698;
 					font-size: 18px;
@@ -327,6 +331,9 @@ h1, h2, h3, h4, h5 {
 			margin-top: 25px;
 			padding-top: 25px;
 			font-weight: 800;
+		}
+		ul li.hcp {
+			padding-top: 25px;
 		}
 	} // End Entry Detail
 

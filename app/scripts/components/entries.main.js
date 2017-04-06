@@ -1,7 +1,6 @@
 // React (PropTypes and Component)
 import React, { PropTypes, Component } from 'react'
-// Jquery
-import $ from 'jquery';
+
 
 // Entry
 import { Entry } from './entry.main';
