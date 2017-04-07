@@ -10,7 +10,7 @@ class GoogleMap extends Component {
 
 	// Constructor
 	constructor(props){
-		
+
 		// Call Compontent constructor
 		super(props);
 
@@ -30,20 +30,20 @@ class GoogleMap extends Component {
 	      showingInfoWindow: false,
 	      activeMarker: {},
 	      selectedPlace: {},
-	      activeMarkerDetails: {}	
+	      activeMarkerDetails: {}
 		};
 
 	};
 
 	// On Map Click
 	onMapClick(props){
-	   	
+
 		// Debug
 		this.props.debug ? console.info(`DEBUG: Google Map - Map clicked on, checking to see if there is an active info window to close`) : '';
 
 	  	// Are we currently showing an info window?
 	    if (this.state.showingInfoWindow) {
-			
+
 			// Debug
 			this.props.debug ? console.info(`DEBUG: Google Map - Map clicked on, currently hiding open info window and changing MAP state`): '';
 
@@ -54,7 +54,7 @@ class GoogleMap extends Component {
 				activeMarkerDetails : null,
 				selectedPlace: {}
 			});
-	    
+
 			// Updated our global App state, no longer selecting a locations marker
 			this.props.focusOnEntry(null);
 
@@ -64,7 +64,7 @@ class GoogleMap extends Component {
 
 	// Reset Map (If info window open, or marker selected, etc)
 	mapReset(){
-		
+
 		// Debug
 		this.props.debug ? console.info(`DEBUG: Google Map - Resetting MAP Local State`) : '';
 
@@ -93,8 +93,8 @@ class GoogleMap extends Component {
 			activeMarker: marker,
 			showingInfoWindow: true,
 			activeMarkerDetails : props.details
-		});		
-	
+		});
+
 		// Add highlighted class to our selected markers entry in our locations list
 		this.props.focusOnEntry(props.index);
 
@@ -122,7 +122,7 @@ class GoogleMap extends Component {
 			    index={key}
 			    position={{lat: location.latitude, lng: location.longitude}}
 			    icon={this.props.markerIcon}
-		    />	    
+		    />
 		);
 
 	};
@@ -149,7 +149,7 @@ class GoogleMap extends Component {
 				index={key}
 				position={{lat: match.latitude, lng: match.longitude}}
 			    icon={this.props.markerIcon}
-		    />	        
+		    />
 		);
 
 	};
@@ -162,7 +162,7 @@ class GoogleMap extends Component {
 
 		// Do we have locations? If so grab the first one
 		const positionMap = (this.props.locations.length > 0 ? this.props.locations[0] : null);
-		
+
 		// Get latitude and longitude of first location to set general area
 		const latLng = positionMap != null ? { lat : positionMap.latitude, lng : positionMap.longtitude } : null;
 
@@ -187,7 +187,7 @@ class GoogleMap extends Component {
 						// Do we have matches? Call renderMatches();
 						// Otherwise, call renderLocations();
 						!this.props.matches.length > 0 ? Object.keys(this.props.locations).map(this.renderLocations) : Object.keys(this.props.matches).map(this.renderMatches)
-					
+
 					}
 
 			        <InfoWindow
@@ -199,7 +199,7 @@ class GoogleMap extends Component {
 							<span>{ this.state.activeMarkerDetails ? this.state.activeMarkerDetails.address : '' }</span>
 							<span>{ this.state.activeMarkerDetails ? this.state.activeMarkerDetails.zip : ''}</span>
 						</div>
-			        </InfoWindow>	
+			        </InfoWindow>
 
 				</Map>
 			</div>
@@ -211,7 +211,7 @@ class GoogleMap extends Component {
 GoogleMap.propTypes = {
 	debug : React.PropTypes.bool,
 	google: React.PropTypes.object.isRequired,
-	geoLocator: React.PropTypes.bool.isRequired,	
+	geoLocator: React.PropTypes.bool.isRequired,
 	matches : React.PropTypes.array,
 	locations : React.PropTypes.array,
 	lat : React.PropTypes.number,

@@ -108,7 +108,7 @@ class App extends Component {
 					getZip
 						.then(res => res.json())
 						.then(res => {
-							
+
 							// Zipcode
 							let zip =  res.results[0].address_components[0].short_name;
 
@@ -135,7 +135,7 @@ class App extends Component {
 			});
 
 		} else {
-			
+
 			// Geocoding doesn't exist (they will need to enter their zip code)
 			that.setState({
 				loading : false,
@@ -152,7 +152,7 @@ class App extends Component {
 	componentDidMount() {
 
 		// Debug
-		this.state.options.debug ? console.info(`DEBUG: App mounted`) : '';		
+		this.state.options.debug ? console.info(`DEBUG: App mounted`) : '';
 
 	};
 
@@ -210,7 +210,7 @@ class App extends Component {
 		radiusPostalCodes
 			.then(zips => zips.json())
 			.then(zips => {
-			
+
 				that.state.options.debug ? console.info(`DEBUG: Successfully found radial zipcodes for ${that.state.zipCode}`) : '';
 
 				// Store zip radius zip codes
@@ -239,13 +239,13 @@ class App extends Component {
 
 				// Error Message
 				let errorMessage = error.statusText;
-				
+
 				// Error Status
 				let errorStatus = error.status
 
 				// Debug
 				that.state.options.debug ? console.warn(`DEBUG: Error found. \n Message: ${errorMessage}`) : '';
-				
+
 				// Set state
 				that.setState({
 					serverErrorStatus : errorStatus,
@@ -304,7 +304,7 @@ class App extends Component {
 
 	// Open Entry Detail
 	openEntryDetail(key){
-		
+
 		// Debug
 		this.props.debug ? console.info(`DEBUG: Opening Entry Detail, Index ${key}. Updating State, entryDetailOpen is true`) : '';
 
@@ -318,7 +318,7 @@ class App extends Component {
 
 	// Close Entry Detail
 	closeEntryDetail(){
-		
+
 		// Debug
 		this.props.debug ? console.info(`DEBUG: Opening Entry Detail, Index ${key}. Updating State, entryDetailOpen is true`) : '';
 
@@ -329,7 +329,7 @@ class App extends Component {
 			printInProgress : false
 		});
 
-	};	
+	};
 
 	// Print Entry Detail
 	printEntryDetail() {
@@ -350,7 +350,7 @@ class App extends Component {
 		// If print in progress, only load the entry detail
 		if(this.state.printInProgress){
 			return (
-				<EntryDetail 
+				<EntryDetail
 					detail={this.state.matches[this.state.entryDetailOpenKey]}
 					closeEntryDetail={this.closeEntryDetail}
 					printInProgress={this.state.printInProgress}

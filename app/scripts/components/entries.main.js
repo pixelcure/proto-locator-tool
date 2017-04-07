@@ -91,7 +91,7 @@ class Entries extends Component {
 			this.props.debug ? console.info(`DEBUG: Entries Component Rendering - Rendering Entry Detail Component`) : '';
 
 			return (
-				<EntryDetail 
+				<EntryDetail
 					detail={this.props.entryDetailOpen != null ? this.props.matches[this.props.entryDetailOpenKey] : null} 
 					closeEntryDetail={this.props.closeEntryDetail}
 					printEntryDetail={this.props.printEntryDetail}
