@@ -13,6 +13,16 @@ class EntryDetail extends Component {
 
 	};
 
+	componentDidMount() {
+
+		// Debug
+		this.props.debug ? console.info(`DEBUG: Entry Detail mounted, Is print in progress: ${this.props.printInProgress}`) : '';		
+
+		// If print in progress, call print() on browser
+		this.props.printInProgress ? window.print() : '';
+
+	};
+
 	renderHcp(key){
 
 		// Single HCP
@@ -34,8 +44,10 @@ class EntryDetail extends Component {
 		// Debug
 		this.props.debug ? console.info(`DEBUG: Rendering Entry Detail`) : '';
 
+		let detailClass = this.props.printInProgress ? `entries entry-detail printing` : `entries entry-detail`;
+
 		return (
-			<div className={'entries entry-detail'}>
+			<div className={detailClass}>
 				<div className="closeEntryDetail" title="Close" onClick={this.props.closeEntryDetail}>&times;</div>
 				<div className={`address`}>
 					<strong className={'entry-name'}>{this.props.detail.store_title}</strong>
@@ -58,7 +70,7 @@ class EntryDetail extends Component {
 							<input type={'submit'} id={'email'} value={'Email'}/>
 						</li>
 						<li>
-							<input type={'submit'} id={'print'} value={'Print'}/>
+							<input onClick={this.props.printEntryDetail} type={'submit'} id={'print'} value={'Print'}/>
 						</li>
 					</ul>
 				</div>
@@ -73,6 +85,8 @@ EntryDetail.PropTypes = {
 	debug : React.PropTypes.bool,
 	detail : React.PropTypes.object.isRequired,
 	closeEntryDetail : React.PropTypes.func.isRequired,
+	printEntryDetail : React.PropTypes.func,
+	printInProgress : React.PropTypes.bool,
 	index : React.PropTypes.number.isRequired
 };
 

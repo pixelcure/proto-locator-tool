@@ -3069,3 +3069,12 @@ h1, h2, h3, h4, h5 {
 #app .entry-detail ul li.hcp {
   padding-top: 25px;
 }
+/* line 339, ../sass/screen.scss */
+#app .entry-detail.printing {
+  border: none;
+  width: 100%;
+}
+/* line 342, ../sass/screen.scss */
+#app .entry-detail.printing .more-info {
+  display: none;
+}

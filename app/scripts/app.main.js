@@ -1,12 +1,12 @@
 // React (PropTypes and Component)
 import React, { PropTypes, Component } from 'react'
-// Underscore
-import _ from 'underscore';
 /* React Components */
 // Zip Code
 import { Zipcode } from './components/zipcode.main';
 // Entries
 import { Entries } from './components/entries.main';
+// Entry Detail
+import { EntryDetail } from './components/entryDetail.main';
 // Google Map
 import { GoogleMap } from './components/gmap.main'
 // Locations
@@ -38,6 +38,7 @@ class App extends Component {
 			activeEntryIndex : null,
 			entryDetailOpen : false,
 			entryDetailOpenKey : null,
+			printInProgress : false,
 			options : {
 				unit : props.unit ? props.unit : 'mile',
 				radius : props.radius ? props.radius : 25,
@@ -61,6 +62,8 @@ class App extends Component {
 		this.openEntryDetail = this.openEntryDetail.bind(this);
 		// Close Entry Detail
 		this.closeEntryDetail = this.closeEntryDetail.bind(this);
+		// Print Entry Detail
+		this.printEntryDetail = this.printEntryDetail.bind(this);
 
 	};
 
@@ -101,6 +104,7 @@ class App extends Component {
 					// Get zipcode of current location
 					const getZip = fetch('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat + ',' + lng + '&key=AIzaSyB--PyZackddr9VdwbFA8U8nB45772zHMg&result_type=postal_code');
 
+					// Get zipcode, follow through promise
 					getZip
 						.then(res => res.json())
 						.then(res => {
@@ -141,6 +145,14 @@ class App extends Component {
 			return;
 
 		}; // End get position
+
+	};
+
+	// Component Did Mount
+	componentDidMount() {
+
+		// Debug
+		this.state.options.debug ? console.info(`DEBUG: App mounted`) : '';		
 
 	};
 
@@ -191,8 +203,8 @@ class App extends Component {
 		let radialZips = [];
 
 		// Find radius postal codes
-		let radiusPostalCodes = fetch(`https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`);
-			// radiusPostalCodes = fetch(`https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`);
+		// let radiusPostalCodes = fetch(`https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`);
+		let radiusPostalCodes = fetch(`https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`);
 
 		// Carry out Promise
 		radiusPostalCodes
@@ -233,6 +245,7 @@ class App extends Component {
 
 				// Debug
 				that.state.options.debug ? console.warn(`DEBUG: Error found. \n Message: ${errorMessage}`) : '';
+				
 				// Set state
 				that.setState({
 					serverErrorStatus : errorStatus,
@@ -245,7 +258,7 @@ class App extends Component {
 
 	};
 
-	// Find Locations radial relative locations based on postal code
+	// Find Locations based on postal code
 	findLocations () {
 
 		// Debug
@@ -257,10 +270,7 @@ class App extends Component {
 		for(let x = 0; x < this.state.locations.length; ++x){
 
 			// If a location item has a radius zip code, add it to our "newEntries" local array
-			if(_.contains(this.state.radiusLocations, this.state.locations[x].zip)){
-				// Push entry
-				newEntries.push(this.state.locations[x]);
-			};
+			this.state.radiusLocations.includes(this.state.locations[x].zip) ? newEntries.push(this.state.locations[x]) : '';
 
 			// If last iteration
 			if(x === this.state.locations.length - 1) {
@@ -298,6 +308,7 @@ class App extends Component {
 		// Debug
 		this.props.debug ? console.info(`DEBUG: Opening Entry Detail, Index ${key}. Updating State, entryDetailOpen is true`) : '';
 
+		// Update
 		this.setState({
 			entryDetailOpen : true,
 			entryDetailOpenKey : key
@@ -311,17 +322,44 @@ class App extends Component {
 		// Debug
 		this.props.debug ? console.info(`DEBUG: Opening Entry Detail, Index ${key}. Updating State, entryDetailOpen is true`) : '';
 
+		// Update
 		this.setState({
 			entryDetailOpen : false,
-			entryDetailOpenKey : null
+			entryDetailOpenKey : null,
+			printInProgress : false
 		});
 
 	};	
 
+	// Print Entry Detail
+	printEntryDetail() {
+
+		// Debug
+		this.props.debug ? console.info(`DEBUG: Opening Entry Detail, Index ${key}. Updating State, entryDetailOpen is true`) : '';
+
+		// Printing in progress
+		this.setState({
+			printInProgress : true
+		});
+
+	};
+
 	// Render App
 	render () {
 
-		// Render Components
+		// If print in progress, only load the entry detail
+		if(this.state.printInProgress){
+			return (
+				<EntryDetail 
+					detail={this.state.matches[this.state.entryDetailOpenKey]}
+					closeEntryDetail={this.closeEntryDetail}
+					printInProgress={this.state.printInProgress}
+					index={this.state.activeEntryIndex}
+				/>
+			);
+		};
+
+		// Render Base Components
 		return (
 			<div>
 				<Zipcode
@@ -357,6 +395,7 @@ class App extends Component {
 					geoLocator={this.state.geoLocator}
 					activeEntryIndex={this.state.activeEntryIndex}
 					loading={this.state.loading}
+					printEntryDetail={this.printEntryDetail}
 					debug={this.state.options.debug}
 				/>
 			</div>

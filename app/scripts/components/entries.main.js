@@ -17,12 +17,6 @@ class Entries extends Component {
 		this.entryItem = this.entryItem.bind(this);
 	};
 
-	onComponentDidMount() {
-
-
-
-	};
-
 	// Map through entry items
 	entryItem (key) {
 
@@ -99,7 +93,8 @@ class Entries extends Component {
 			return (
 				<EntryDetail 
 					detail={this.props.entryDetailOpen != null ? this.props.matches[this.props.entryDetailOpenKey] : null} 
-					closeEntryDetail={this.props.closeEntryDetail} 
+					closeEntryDetail={this.props.closeEntryDetail}
+					printEntryDetail={this.props.printEntryDetail}
 				/>
 			)
 		};
@@ -131,6 +126,7 @@ Entries.PropTypes = {
 	activeEntryIndex : React.PropTypes.string,
 	openEntryDetail : React.PropTypes.func.isRequired,
 	closeEntryDetail : React.PropTypes.func.isRequired,
+	printEntryDetail : React.PropTypes.func.isRequired,
 	entryDetailOpen : React.PropTypes.bool.isRequired,
 	entryDetailOpenKey : React.PropTypes.number.isRequired
 };
