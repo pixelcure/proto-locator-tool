@@ -94,7 +94,13 @@ class Entries extends Component {
 				<EntryDetail
 					detail={this.props.entryDetailOpen != null ? this.props.matches[this.props.entryDetailOpenKey] : null} 
 					closeEntryDetail={this.props.closeEntryDetail}
+					addUsersEmail={this.props.addUsersEmail}
+					userEmail={this.props.userEmail}
 					printEntryDetail={this.props.printEntryDetail}
+					emailEntryDetail={this.props.emailEntryDetail}
+					emailSent={this.props.emailSent}
+					emailSentError={this.props.emailSentError}
+					emailInputValidationError={this.props.emailInputValidationError}
 				/>
 			)
 		};
@@ -127,6 +133,12 @@ Entries.PropTypes = {
 	openEntryDetail : React.PropTypes.func.isRequired,
 	closeEntryDetail : React.PropTypes.func.isRequired,
 	printEntryDetail : React.PropTypes.func.isRequired,
+	addUsersEmail : React.PropTypes.func.isRequired,
+	emailEntryDetail : React.PropTypes.func.isRequired,
+	userEmail : React.PropTypes.string.isRequired,
+	emailSent : React.PropTypes.bool.isRequired,
+	emailInputValidationError : React.PropTypes.bool.isRequired,
+	emailSentError : React.PropTypes.bool.isRequired,
 	entryDetailOpen : React.PropTypes.bool.isRequired,
 	entryDetailOpenKey : React.PropTypes.number.isRequired
 };

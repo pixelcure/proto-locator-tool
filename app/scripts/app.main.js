@@ -39,6 +39,11 @@ class App extends Component {
 			entryDetailOpen : false,
 			entryDetailOpenKey : null,
 			printInProgress : false,
+			userEmail : null,
+			emailSent : false,
+			emailSentError : false,
+			emailInputValidationError : false,
+			mailsendUrl : `http://mailserv.local:8888/`,
 			options : {
 				unit : props.unit ? props.unit : 'mile',
 				radius : props.radius ? props.radius : 25,
@@ -62,8 +67,12 @@ class App extends Component {
 		this.openEntryDetail = this.openEntryDetail.bind(this);
 		// Close Entry Detail
 		this.closeEntryDetail = this.closeEntryDetail.bind(this);
+		// Add users email
+		this.addUsersEmail = this.addUsersEmail.bind(this);
 		// Print Entry Detail
 		this.printEntryDetail = this.printEntryDetail.bind(this);
+		// Email Entry Detail
+		this.emailEntryDetail = this.emailEntryDetail.bind(this);
 
 	};
 
@@ -322,11 +331,37 @@ class App extends Component {
 		// Debug
 		this.props.debug ? console.info(`DEBUG: Opening Entry Detail, Index ${key}. Updating State, entryDetailOpen is true`) : '';
 
-		// Update
+		// Update, email reset is done so that users 
+		// can send MULTIPLE entry details to themselves, if they wish.
 		this.setState({
 			entryDetailOpen : false,
 			entryDetailOpenKey : null,
-			printInProgress : false
+			printInProgress : false,
+			userEmail : null,
+			emailSent : false,
+			emailSentError : false,
+			emailInputValidationError : false
+		});
+
+	};
+
+	// Add users email
+	addUsersEmail(e) {
+		
+		// User email
+		let userEmail = e.currentTarget.value;
+		
+		// If field was invalid, they're now adding value 
+		// so we can remove validation errors
+		if(this.state.emailInputValidationError){
+			this.setState({
+				emailInputValidationError : false
+			});
+		};
+
+		// Update user email in state
+		this.setState({
+			userEmail
 		});
 
 	};
@@ -341,6 +376,48 @@ class App extends Component {
 		this.setState({
 			printInProgress : true
 		});
+
+	};
+
+	// Email Entry Detail
+	emailEntryDetail() {
+
+		if(this.state.userEmail != null){
+
+			// concat pass ref html
+			let data = this.state.matches[this.state.entryDetailOpenKey]
+
+			// HTML to send in POST, loops through HCPs with .map
+			const html = `
+				<div class="address">
+					<strong style="display:block">${data.store_title}</strong>
+					<span style="display:block">${data.address}</span>
+					<span style="display:block">${data.city} ${data.state} ${data.zip}</span>
+					<a href={tel:${data.phone}} class="phone">${data.phone}</a>
+				</div>
+				<ul style="padding:0;list-style:none">
+					${data.hcps.map((hcp) => `<li style="margin:0 0 5px 0"><strong style="display:block">${hcp.name_title}</strong> <span style="display:block">${hcp.specialty}</span></li>`).join()}
+				</ul>`;
+
+			// All is well, we have our email, POST to mail web service
+			let sendMail = fetch(`http://mailserv.local:8888/?email=${this.state.userEmail}&siteName=Locator+App&data=${html.replace(',', '')}`, {
+						method : 'POST',
+						headers: new Headers({
+							'Content-Type': 'text/html'
+						})
+					})
+					.then((response) => response.status == 200 ? this.setState({ emailSent : true }) : '')
+					.catch((error) => this.setState({ emailSentError : true }));
+
+		} else {
+			
+			// No email supplied in state, flag validation error for email input field in state
+			this.setState({
+				emailInputValidationError : true
+			});
+
+		};
+
 
 	};
 
@@ -395,7 +472,13 @@ class App extends Component {
 					geoLocator={this.state.geoLocator}
 					activeEntryIndex={this.state.activeEntryIndex}
 					loading={this.state.loading}
+					addUsersEmail={this.addUsersEmail}
+					userEmail={this.state.userEmail}
 					printEntryDetail={this.printEntryDetail}
+					emailEntryDetail={this.emailEntryDetail}
+					emailSent={this.state.emailSent}
+					emailSentError={this.state.emailSentError}
+					emailInputValidationError={this.state.emailInputValidationError}
 					debug={this.state.options.debug}
 				/>
 			</div>
