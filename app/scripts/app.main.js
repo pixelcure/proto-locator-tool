@@ -212,8 +212,8 @@ class App extends Component {
 		let radialZips = [];
 
 		// Find radius postal codes
-		// let radiusPostalCodes = fetch(`https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`);
-		let radiusPostalCodes = fetch(`https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`);
+		let radiusPostalCodes = fetch(`https://www.zipcodeapi.com/rest/js-XgxKp01IY05hBefThffqUtk7ANNzFQAC67nv7oe5pjn0yCUPRafMDzTdmHN2xoED/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`);
+		// let radiusPostalCodes = fetch(`https://www.zipcodeapi.com/rest/js-Sxe3Vv6539wXykOHGsYDJLTVorgWvvbn3qqYVx4ZGBWfVKWCdVfWH9R5B827EduH/radius.json/${this.state.zipCode}/${this.state.options.radius}/${this.state.options.unit}`);
 
 		// Carry out Promise
 		radiusPostalCodes
@@ -330,18 +330,30 @@ class App extends Component {
 
 		// Debug
 		this.props.debug ? console.info(`DEBUG: Opening Entry Detail, Index ${key}. Updating State, entryDetailOpen is true`) : '';
+		
+		// This is for better UX. If a user closes entry in print mode, 
+		// bring them back to the original details view, as oppose to the list of matches
+		if(this.state.printInProgress){
+			
+			// Update state, Cancel Print
+			this.setState({
+				printInProgress : false
+			});
 
-		// Update, email reset is done so that users 
-		// can send MULTIPLE entry details to themselves, if they wish.
-		this.setState({
-			entryDetailOpen : false,
-			entryDetailOpenKey : null,
-			printInProgress : false,
-			userEmail : null,
-			emailSent : false,
-			emailSentError : false,
-			emailInputValidationError : false
-		});
+		} else {
+
+			// Update, email reset is done so that users 
+			// can send MULTIPLE entry details to themselves, if they wish.
+			this.setState({
+				entryDetailOpen : false,
+				entryDetailOpenKey : null,
+				printInProgress : false,
+				emailSent : false,
+				emailSentError : false,
+				emailInputValidationError : false
+			});
+
+		};
 
 	};
 
@@ -389,18 +401,20 @@ class App extends Component {
 
 			// HTML to send in POST, loops through HCPs with .map
 			const html = `
-				<div class="address">
+				<div class="address" style="margin-bottom: 15px">
 					<strong style="display:block">${data.store_title}</strong>
 					<span style="display:block">${data.address}</span>
 					<span style="display:block">${data.city} ${data.state} ${data.zip}</span>
-					<a href={tel:${data.phone}} class="phone">${data.phone}</a>
+					<a style="display:block" href={tel:${data.phone}} class="phone">${data.phone}</a>
 				</div>
+				<strong style="display: block">HCPs at this location:</strong>
 				<ul style="padding:0;list-style:none">
-					${data.hcps.map((hcp) => `<li style="margin:0 0 5px 0"><strong style="display:block">${hcp.name_title}</strong> <span style="display:block">${hcp.specialty}</span></li>`).join()}
+					${data.hcps.map((hcp) => `<li style="margin:0 0 5px 0"><strong style="display:block">${hcp.name_title}</strong> <span style="display:block">${hcp.specialty}</span></li>`).join('\n')}
 				</ul>`;
 
 			// All is well, we have our email, POST to mail web service
-			let sendMail = fetch(`http://mailserv.local:8888/?email=${this.state.userEmail}&siteName=Locator+App&data=${html.replace(',', '')}`, {
+			let sendMail = fetch(`http://mailserv.local:8888/?email=${this.state.userEmail}&siteName=Locator+App&data=${html}`, 
+					{
 						method : 'POST',
 						headers: new Headers({
 							'Content-Type': 'text/html'
@@ -439,13 +453,6 @@ class App extends Component {
 		// Render Base Components
 		return (
 			<div>
-				<Zipcode
-					ref={(el) => this.zipCodeComponent = el }
-					loading={this.state.loading}
-					updateZip={this.updateZip}
-					zipCode={this.state.zipCode}
-					debug={this.state.options.debug}
-				/>
 				<GoogleMap
 					google={window.google}
 					lat={this.state.geoCoords.lat}
@@ -460,27 +467,36 @@ class App extends Component {
 					geoLocator={this.state.geoLocator}
 					initialCenter={this.state.options.initialCenter}
 				/>
-				<Entries
-					serverErrorStatus={this.state.serverErrorStatus}
-					serverError={this.state.serverError}
-					serverErrorMessage={this.state.serverErrorMessage}
-					matches={this.state.matches}
-					openEntryDetail={this.openEntryDetail}
-					closeEntryDetail={this.closeEntryDetail}
-					entryDetailOpen={this.state.entryDetailOpen}
-					entryDetailOpenKey={this.state.entryDetailOpenKey}
-					geoLocator={this.state.geoLocator}
-					activeEntryIndex={this.state.activeEntryIndex}
-					loading={this.state.loading}
-					addUsersEmail={this.addUsersEmail}
-					userEmail={this.state.userEmail}
-					printEntryDetail={this.printEntryDetail}
-					emailEntryDetail={this.emailEntryDetail}
-					emailSent={this.state.emailSent}
-					emailSentError={this.state.emailSentError}
-					emailInputValidationError={this.state.emailInputValidationError}
-					debug={this.state.options.debug}
-				/>
+				<div className={`search`}>
+					<Zipcode
+						ref={(el) => this.zipCodeComponent = el }
+						loading={this.state.loading}
+						updateZip={this.updateZip}
+						zipCode={this.state.zipCode}
+						debug={this.state.options.debug}
+					/>
+					<Entries
+						serverErrorStatus={this.state.serverErrorStatus}
+						serverError={this.state.serverError}
+						serverErrorMessage={this.state.serverErrorMessage}
+						matches={this.state.matches}
+						openEntryDetail={this.openEntryDetail}
+						closeEntryDetail={this.closeEntryDetail}
+						entryDetailOpen={this.state.entryDetailOpen}
+						entryDetailOpenKey={this.state.entryDetailOpenKey}
+						geoLocator={this.state.geoLocator}
+						activeEntryIndex={this.state.activeEntryIndex}
+						loading={this.state.loading}
+						addUsersEmail={this.addUsersEmail}
+						userEmail={this.state.userEmail}
+						printEntryDetail={this.printEntryDetail}
+						emailEntryDetail={this.emailEntryDetail}
+						emailSent={this.state.emailSent}
+						emailSentError={this.state.emailSentError}
+						emailInputValidationError={this.state.emailInputValidationError}
+						debug={this.state.options.debug}
+					/>
+				</div>
 			</div>
 		);
 	};

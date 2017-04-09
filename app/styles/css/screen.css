@@ -2796,34 +2796,36 @@ h1, h2, h3, h4, h5 {
   width: 100%;
 }
 /* line 72, ../sass/screen.scss */
-#app form {
+#app .form {
   background: #418698;
   padding: 25px;
   display: table;
-  width: 100%;
+  width: 25%;
+  float: right;
+  border: 0;
 }
-/* line 78, ../sass/screen.scss */
-#app form ::-webkit-input-placeholder {
+/* line 80, ../sass/screen.scss */
+#app .form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 81, ../sass/screen.scss */
-#app form ::-moz-placeholder {
+/* line 83, ../sass/screen.scss */
+#app .form ::-moz-placeholder {
   /* Firefox 19+ */
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 84, ../sass/screen.scss */
-#app form :-ms-input-placeholder {
+/* line 86, ../sass/screen.scss */
+#app .form :-ms-input-placeholder {
   /* IE 10+ */
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 87, ../sass/screen.scss */
-#app form :-moz-placeholder {
+/* line 89, ../sass/screen.scss */
+#app .form :-moz-placeholder {
   /* Firefox 18- */
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 91, ../sass/screen.scss */
-#app form input {
+/* line 93, ../sass/screen.scss */
+#app .form input {
   background-color: transparent;
   border: 0;
   border-bottom: 1px solid rgba(0, 255, 255, 0.4);
@@ -2831,14 +2833,14 @@ h1, h2, h3, h4, h5 {
   font-size: 26px;
   padding: 15px;
   outline: none;
-  width: 50%;
+  width: 100%;
 }
-/* line 100, ../sass/screen.scss */
-#app form input:focus {
+/* line 102, ../sass/screen.scss */
+#app .form input:focus {
   background: rgba(0, 0, 0, 0.1);
   color: #FFF;
 }
-/* line 107, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 #app .map {
   height: 100vh;
   display: table;
@@ -2848,64 +2850,63 @@ h1, h2, h3, h4, h5 {
   position: relative;
   width: 75%;
 }
-/* line 115, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 #app .map div:first-child {
   top: 0;
   left: 0;
 }
-/* line 120, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 #app .entries {
   background: #FFF;
-  border-left: 1px solid #CCC;
   height: 100vh;
   display: table;
   float: right;
   position: relative;
   width: 25%;
 }
-/* line 122, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 #app .entries.server-error, #app .entries.none-found {
   padding: 25px 25px 25px 50px;
 }
-/* line 136, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 #app .entries.loading img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 144, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #app .entries ul {
   list-style-type: none;
   height: 100vh;
   padding: 0;
   overflow-y: scroll;
 }
-/* line 149, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 #app .entries ul li {
-  padding: 25px 25px 25px 50px;
+  padding: 15px 25px;
 }
-/* line 152, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 #app .entries ul li:nth-child(even) {
   background: rgba(0, 0, 0, 0.05);
 }
-/* line 156, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 #app .entries ul li h3 {
-  font-size: 21px;
+  font-size: 18px;
   margin: 0 0 5px 0;
   line-height: 1em;
 }
-/* line 162, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 #app .entries ul li strong {
   margin-bottom: 5px;
 }
-/* line 166, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 #app .entries ul li span {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.2em;
   display: block;
 }
-/* line 172, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 #app .entries ul li button {
   background: #418698;
   border: none;
@@ -2919,28 +2920,28 @@ h1, h2, h3, h4, h5 {
   text-align: center;
   width: 100px;
 }
-/* line 185, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 #app .entries ul li button:hover, #app .entries ul li button:active, #app .entries ul li button:focus {
   border: none;
 }
-/* line 192, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 #app .entries ul li.active {
   background: #418698;
 }
-/* line 195, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 #app .entries ul li.active h3, #app .entries ul li.active span {
   color: #FFF;
 }
-/* line 199, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 #app .entries ul li.active button {
   background: #FFF;
   color: #418698;
 }
-/* line 208, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 #app .entries.entry-detail {
   padding: 0;
 }
-/* line 211, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 #app .entries.entry-detail .closeEntryDetail {
   background: #418698;
   width: 36px;
@@ -2954,32 +2955,32 @@ h1, h2, h3, h4, h5 {
   cursor: pointer;
   padding-top: 4px;
 }
-/* line 225, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 #app .entries.entry-detail .address {
   padding: 25px 75px 0 25px;
 }
-/* line 227, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 #app .entries.entry-detail .address strong {
   color: #418698;
   font-size: 18px;
   margin-bottom: 0;
 }
-/* line 232, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 #app .entries.entry-detail .address a {
   color: #000;
   display: block;
   text-decoration: none;
 }
-/* line 237, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 #app .entries.entry-detail .address span {
   margin-bottom: 0;
 }
-/* line 243, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 #app .entries.entry-detail .more-info h2 {
   color: #418698;
   margin-bottom: 15px;
 }
-/* line 248, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 #app .entries.entry-detail .more-info input[type="email"] {
   border: 1px solid rgba(65, 134, 152, 0.5);
   color: #418698;
@@ -2989,23 +2990,23 @@ h1, h2, h3, h4, h5 {
   padding: 5px;
   font-size: 14px;
 }
-/* line 256, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 #app .entries.entry-detail .more-info input[type="email"].error {
   border: 1px solid rgba(255, 0, 0, 0.75);
 }
-/* line 261, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 #app .entries.entry-detail .more-info ul {
   display: flex;
   padding: 0 25px;
 }
-/* line 264, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 #app .entries.entry-detail .more-info ul li {
   background: none;
   width: 50%;
   padding: 0;
   margin-right: 15px;
 }
-/* line 269, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 #app .entries.entry-detail .more-info ul li input[type="submit"] {
   background: #418698;
   border: none;
@@ -3019,34 +3020,34 @@ h1, h2, h3, h4, h5 {
   outline: none;
   width: 100%;
 }
-/* line 285, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 #app .entries.entry-detail .more-info .email-success {
   padding: 0 25px;
 }
-/* line 287, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 #app .entries.entry-detail .more-info .email-success .user-email {
   display: inline;
   font-style: italic;
 }
-/* line 288, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 #app .entries.entry-detail .more-info .email-success .thank-you {
   color: #418698;
   display: block;
   margin: 5px 0;
 }
-/* line 295, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 #app .entries.entry-detail .more-info .email-send-fail {
   display: block;
   padding: 0 25px 25px;
   color: rgba(255, 0, 0, 0.75);
 }
-/* line 303, ../sass/screen.scss */
+/* line 305, ../sass/screen.scss */
 #app .entries.entry-detail h2 {
   color: #418698;
   margin-bottom: 0;
   padding-left: 25px;
 }
-/* line 308, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 #app .entries.entry-detail ul {
   margin-top: 0;
   overflow-y: auto;
@@ -3054,26 +3055,26 @@ h1, h2, h3, h4, h5 {
   height: initial;
   overflow-y: initial;
 }
-/* line 316, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 #app .entries.entry-detail li {
   padding: 15px 25px 15px 25px;
 }
-/* line 319, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 #app .entries.entry-detail li strong {
   margin-bottom: 0;
   line-height: .8em;
 }
-/* line 331, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
 #app .marker-popup span {
   font-size: 16px;
   display: block;
   margin-bottom: 5px;
 }
-/* line 335, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 #app .marker-popup span.title {
   font-weight: bold;
 }
-/* line 339, ../sass/screen.scss */
+/* line 341, ../sass/screen.scss */
 #app .marker-popup a,
 #app .marker-popup button {
   background: #418698;
@@ -3089,22 +3090,22 @@ h1, h2, h3, h4, h5 {
   outline: none;
   width: 100px;
 }
-/* line 356, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 #app .entry-detail {
   font-size: 16px;
   padding: 25px 25px 25px 50px;
 }
-/* line 359, ../sass/screen.scss */
+/* line 361, ../sass/screen.scss */
 #app .entry-detail a {
   color: #FFF;
 }
-/* line 360, ../sass/screen.scss */
+/* line 362, ../sass/screen.scss */
 #app .entry-detail a, #app .entry-detail strong, #app .entry-detail span, #app .entry-detail input {
   display: block;
   line-height: 1.5em;
   margin-bottom: 5px;
 }
-/* line 365, ../sass/screen.scss */
+/* line 367, ../sass/screen.scss */
 #app .entry-detail h2 {
   border-top: 1px solid rgba(65, 134, 152, 0.09);
   color: #FFF;
@@ -3113,16 +3114,16 @@ h1, h2, h3, h4, h5 {
   padding-top: 25px;
   font-weight: 800;
 }
-/* line 373, ../sass/screen.scss */
+/* line 375, ../sass/screen.scss */
 #app .entry-detail ul li.hcp {
   padding-top: 25px;
 }
-/* line 377, ../sass/screen.scss */
+/* line 379, ../sass/screen.scss */
 #app .entry-detail.printing {
   border: none;
   width: 100%;
 }
-/* line 380, ../sass/screen.scss */
+/* line 382, ../sass/screen.scss */
 #app .entry-detail.printing .more-info {
   display: none;
 }

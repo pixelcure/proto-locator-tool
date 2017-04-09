@@ -16,16 +16,15 @@ class Zipcode extends Component {
 		this.props.debug ? console.info(`DEBUG: Rendering Zipcode Input field. \n\n Current Zipcode: ${this.props.zipCode}`) : '';
 
 		return (
-			<form>
+			<div className="form">
 				<input
 					ref={input => this.input = input}
 					maxLength={5}
 					type={`text`}
-					// value={ this.props.loading ? 'Locating...' : `` }
-					placeholder={ this.props.loading ? 'Locating...' : ( this.props.zipCode ) || `Please enter a zip code` }
+					placeholder={ this.props.loading ? 'Locating...' : ( this.props.zipCode ) || `Zip code` }
 					onChange={ e => this.props.updateZip( e.currentTarget.value ) }
 				/>
-			</form>
+			</div>
 		);
 	};
 };
