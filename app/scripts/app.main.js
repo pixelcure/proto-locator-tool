@@ -168,30 +168,28 @@ class App extends Component {
 	// updateZip(e, zip){
 	updateZip(zip){
 
-		// Loading as it runs through
-		this.setState({
-			loading : true,
-			activeEntryIndex : null
-		});
-
 		// Zip Code
 		let zipCode = zip;
 
 		// Debug
 		this.state.options.debug ? console.info(`DEBUG: Update zip, confirming postal zipcode is 5 digits`) : '';
+		
 		// Only do Zip code radius call if we have a full 5 digit zipcode
 		if(/^\d{5}$/.test(zipCode)){
 
 			// Debug
 			this.state.options.debug ? console.info(`DEBUG: Updating state, Object key zipCode: ${zipCode}`) : '';
+			
 			// Update state
 			this.setState({
 				zipCode : zipCode,
-				loading : false
+				loading : false,
+				activeEntryIndex : null
 			});
 
 			// Debug
 			this.state.options.debug ? console.info(`DEBUG: Invoking function to find radial zip codes for, Object key zipCode: ${zipCode}`) : '';
+			
 			// Find radial zips
 			this.findRadialZips();
 
@@ -240,6 +238,7 @@ class App extends Component {
 
 						// Find Location Entries
 						that.findLocations();
+
 					};
 
 				}; // End for
