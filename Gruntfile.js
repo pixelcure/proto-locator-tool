@@ -55,7 +55,7 @@ module.exports = function (grunt) {
                                 'babelify',
                                 {
                                     presets: [
-                                        'es2015'
+                                        'es2015', 'react'
                                     ]
                                 }
                             ]
@@ -66,7 +66,7 @@ module.exports = function (grunt) {
                             debug : true // source mapping
                         }
                     },
-                    src: ['<%= buildConfig.app %>/scripts/main.js'],
+                    src: ['<%= buildConfig.app %>/scripts/global.js'],
                     dest: '<%= buildConfig.app %>/local/build.js'
                 },
             dist: {
@@ -76,13 +76,13 @@ module.exports = function (grunt) {
                                 'babelify',
                                 {
                                     presets: [
-                                        'es2015'
+                                        'es2015', 'react'
                                     ]
                                 }
                             ]
                         ],
                     },
-                    src: ['<%= buildConfig.app %>/scripts/main.js'],
+                    src: ['<%= buildConfig.app %>/scripts/global.js'],
                     dest: '<%= buildConfig.dist %>/scripts/prod.js'
             }
         },

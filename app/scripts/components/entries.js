@@ -3,8 +3,8 @@ import React, { PropTypes, Component } from 'react'
 
 
 // Entry
-import { Entry } from './entry.main';
-import { EntryDetail } from './entryDetail.main';
+import { Entry } from './entry';
+import { EntryDetail } from './entryDetail';
 
 // Entries Class Component
 class Entries extends Component {

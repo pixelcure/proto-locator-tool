@@ -26,8 +26,6 @@ class Zipcode extends Component {
 		// if(zip.length === 5){ this.props.updateZip( zip ) }
 		this.props.updateZip( zip )
 
-		console.log(`UPDATE INPUT STATE`);
-
 	};
 
 	// Render Zipcode Component
