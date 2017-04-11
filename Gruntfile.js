@@ -132,7 +132,6 @@ module.exports = function (grunt) {
             },
             options: {
                 watchTask : true,
-                proxy : 'http://locator.local:8888',
                 server: {
                     baseDir: "./app"
                 }

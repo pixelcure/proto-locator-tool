@@ -15,7 +15,7 @@ class Zipcode extends Component {
 		this.state = {
 			inputText : ''
 		};
-		
+
 	};
 
 	updateInput (zip) {
@@ -23,9 +23,10 @@ class Zipcode extends Component {
 		// update state
 		this.setState({ inputText : zip })
 
-		if(zip.length == 5){
-			this.props.updateZip( zip )
-		}
+		// if(zip.length === 5){ this.props.updateZip( zip ) }
+		this.props.updateZip( zip )
+
+		console.log(`UPDATE INPUT STATE`);
 
 	};
 

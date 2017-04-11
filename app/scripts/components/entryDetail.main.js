@@ -46,13 +46,13 @@ class EntryDetail extends Component {
 
 		// Detail class (if printing, it'll append 'printing' class)
 		let detailClass = this.props.printInProgress ? `entries entry-detail printing` : `entries entry-detail`;
-		
-		// Checks to see if we've sent an email yet, and successfully 
+
+		// Checks to see if we've sent an email yet, and successfully
 		// to determine which jsx to return
 		let handleEmailInputField = () => {
-			
+
 			if(this.props.emailSent && !this.props.emailSentError){
-			
+
 				// Email of current detail info sent successfully to user
 				return (
 						<p className={`email-success`}>
@@ -60,18 +60,18 @@ class EntryDetail extends Component {
 							<strong className={`thank-you`}>Thank you!</strong>
 						</p>
 					);
-			
+
 			} else if (!this.props.emailSent && this.props.emailSentError){
-			
+
 				// Error sending
 				return (<span className={`email-send-fail`}>There was an error sending your information.</span>);
-			
+
 			} else if (!this.props.emailSent && !this.props.emailSentError){
-			
+
 				// No email of this detail has been sent, therefore load the field.
 				// Flag field as invalid if this.state.emailInputValidationError == true
 				return (<input onChange={this.props.addUsersEmail} className={this.props.emailInputValidationError ? `error` : ''} type={'email'} placeholder={`Enter Email Address`} />);
-			
+
 			};
 
 		};

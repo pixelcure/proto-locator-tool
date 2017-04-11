@@ -165,21 +165,21 @@ class App extends Component {
 
 	};
 
-	// updateZip(e, zip){
-	updateZip(zip){
+	// updateZip(e, zipCode){
+	updateZip(zipCode){
 
-		// Zip Code
-		let zipCode = zip;
+		// Zip Code Regex
+		let regexZip = /^\d{5}$/;
 
 		// Debug
 		this.state.options.debug ? console.info(`DEBUG: Update zip, confirming postal zipcode is 5 digits`) : '';
-		
+
 		// Only do Zip code radius call if we have a full 5 digit zipcode
-		if(/^\d{5}$/.test(zipCode)){
+		if(regexZip.test(zipCode)){
 
 			// Debug
 			this.state.options.debug ? console.info(`DEBUG: Updating state, Object key zipCode: ${zipCode}`) : '';
-			
+
 			// Update state
 			this.setState({
 				zipCode : zipCode,
@@ -189,9 +189,11 @@ class App extends Component {
 
 			// Debug
 			this.state.options.debug ? console.info(`DEBUG: Invoking function to find radial zip codes for, Object key zipCode: ${zipCode}`) : '';
-			
+
+			console.log(`In updateZip() about to call findRadialZips()`);
 			// Find radial zips
 			this.findRadialZips();
+
 
 		};
 
@@ -202,6 +204,8 @@ class App extends Component {
 
 		// Cache This
 		let that = this;
+
+		console.log('inside find radial zips');
 
 		// Debug
 		this.state.options.debug ? console.info(`DEBUG: Calling zip codes API to find radial zip codes in relation to ${this.state.zipCode}`) : '';
@@ -329,11 +333,11 @@ class App extends Component {
 
 		// Debug
 		this.props.debug ? console.info(`DEBUG: Opening Entry Detail, Index ${key}. Updating State, entryDetailOpen is true`) : '';
-		
-		// This is for better UX. If a user closes entry in print mode, 
+
+		// This is for better UX. If a user closes entry in print mode,
 		// bring them back to the original details view, as oppose to the list of matches
 		if(this.state.printInProgress){
-			
+
 			// Update state, Cancel Print
 			this.setState({
 				printInProgress : false
@@ -341,7 +345,7 @@ class App extends Component {
 
 		} else {
 
-			// Update, email reset is done so that users 
+			// Update, email reset is done so that users
 			// can send MULTIPLE entry details to themselves, if they wish.
 			this.setState({
 				entryDetailOpen : false,
@@ -358,11 +362,11 @@ class App extends Component {
 
 	// Add users email
 	addUsersEmail(e) {
-		
+
 		// User email
 		let userEmail = e.currentTarget.value;
-		
-		// If field was invalid, they're now adding value 
+
+		// If field was invalid, they're now adding value
 		// so we can remove validation errors
 		if(this.state.emailInputValidationError){
 			this.setState({
@@ -412,7 +416,7 @@ class App extends Component {
 				</ul>`;
 
 			// All is well, we have our email, POST to mail web service
-			let sendMail = fetch(`http://mailserv.local:8888/?email=${this.state.userEmail}&siteName=Locator+App&data=${html}`, 
+			let sendMail = fetch(`http://webservices.local:8888/mail/?email=${this.state.userEmail}&siteName=Locator+App&data=${html}`,
 					{
 						method : 'POST',
 						headers: new Headers({
@@ -423,7 +427,7 @@ class App extends Component {
 					.catch((error) => this.setState({ emailSentError : true }));
 
 		} else {
-			
+
 			// No email supplied in state, flag validation error for email input field in state
 			this.setState({
 				emailInputValidationError : true
