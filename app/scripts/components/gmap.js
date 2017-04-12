@@ -1,5 +1,5 @@
-// React (PropTypes and Component)
-import React, { PropTypes, Component } from 'react'
+// React
+import React, { Component } from 'react'
 // Google Map
 import { Map, Marker, InfoWindow } from "google-maps-react";
 
@@ -205,22 +205,6 @@ class GoogleMap extends Component {
 			</div>
 		);
 	};
-};
-
-// GoogleMap Proptypes
-GoogleMap.propTypes = {
-	debug : React.PropTypes.bool,
-	google: React.PropTypes.object.isRequired,
-	geoLocator: React.PropTypes.bool.isRequired,
-	matches : React.PropTypes.array,
-	locations : React.PropTypes.array,
-	lat : React.PropTypes.number,
-	long : React.PropTypes.number,
-	initialCenter: React.PropTypes.object.isRequired,
-	focusOnEntry: React.PropTypes.func.isRequired,
-	mapZoom : React.PropTypes.number,
-	markerIcon : React.PropTypes.string,
-	mapStyle : React.PropTypes.array
 };
 
 // Export GoogleMap

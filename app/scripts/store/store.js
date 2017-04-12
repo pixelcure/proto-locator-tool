@@ -1,5 +1,5 @@
 // CreateStore(), compose()
-import { createStore, compose } from 'redux';
+import { createStore, compse } from 'redux';
 
 
 // Root Reducer
@@ -25,22 +25,16 @@ const defaultState = {
 		emailSentError : false,
 		emailInputValidationError : false,
 		mailsendUrl : `http://mailserv.local:8888/`,
-		options : {
-			unit : 'mile',
-			radius : 25,
-			markerIcon: `images/marker.png`,
-			debug : false,
-			mapStyle : [{"featureType":"landscape","stylers":[{"hue":"#FFA800"},{"saturation":0},{"lightness":0},{"gamma":1}]},{"featureType":"road.highway","stylers":[{"hue":"#53FF00"},{"saturation":-73},{"lightness":40},{"gamma":1}]},{"featureType":"road.arterial","stylers":[{"hue":"#FBFF00"},{"saturation":0},{"lightness":0},{"gamma":1}]},{"featureType":"road.local","stylers":[{"hue":"#00FFFD"},{"saturation":0},{"lightness":30},{"gamma":1}]},{"featureType":"water","stylers":[{"hue":"#00BFFF"},{"saturation":6},{"lightness":8},{"gamma":1}]},{"featureType":"poi","stylers":[{"hue":"#679714"},{"saturation":33.4},{"lightness":-25.4},{"gamma":1}]}],
-			mapZoom : 10,
-			initialCenter : {
-				lat: 39.639538,
-				lng : -79.492188
-			}
-		},
-		geoCoords : {
-			lat : null,
-			lng : null
-		}
+		unit : `mile`,
+		radius : 25,
+		markerIcon: `images/marker.png`,
+		debug : false,
+		mapStyle : [{"featureType":"landscape","stylers":[{"hue":"#FFA800"},{"saturation":0},{"lightness":0},{"gamma":1}]},{"featureType":"road.highway","stylers":[{"hue":"#53FF00"},{"saturation":-73},{"lightness":40},{"gamma":1}]},{"featureType":"road.arterial","stylers":[{"hue":"#FBFF00"},{"saturation":0},{"lightness":0},{"gamma":1}]},{"featureType":"road.local","stylers":[{"hue":"#00FFFD"},{"saturation":0},{"lightness":30},{"gamma":1}]},{"featureType":"water","stylers":[{"hue":"#00BFFF"},{"saturation":6},{"lightness":8},{"gamma":1}]},{"featureType":"poi","stylers":[{"hue":"#679714"},{"saturation":33.4},{"lightness":-25.4},{"gamma":1}]}],
+		mapZoom : 10,
+		initLat: 39.639538,
+		initLng : -79.492188,
+		geoLat : null,
+		geoLng : null
 };
 
 const store = createStore(rootReducer, defaultState);

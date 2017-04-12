@@ -1,5 +1,6 @@
 // Zipcode Reducer
 
+
 export function zipCode(state = [], action) {
 
 	switch(action.type){

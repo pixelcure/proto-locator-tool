@@ -1,5 +1,5 @@
-// React (PropTypes and Component)
-import React, { PropTypes, Component } from 'react'
+// React
+import React, { Component } from 'react'
 
 // Entry Class Component
 class Entry extends Component {
@@ -26,15 +26,6 @@ class Entry extends Component {
 
 	};
 
-};
-
-// Entry Proptypes
-Entry.PropTypes = {
-	debug : React.PropTypes.bool,
-	title : React.PropTypes.string.isRequired,
-	city : React.PropTypes.string,
-	viewEntry : React.PropTypes.func.isRequired,
-	activeEntry : React.PropTypes.bool.isRequired
 };
 
 // Export Entry

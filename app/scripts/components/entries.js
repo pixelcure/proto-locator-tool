@@ -1,5 +1,5 @@
-// React (PropTypes and Component)
-import React, { PropTypes, Component } from 'react'
+// React 
+import React, { Component } from 'react'
 
 
 // Entry
@@ -117,30 +117,6 @@ class Entries extends Component {
 			</div>
 		);
 	};
-};
-
-// Entries Proptypes
-Entries.PropTypes = {
-	serverError : React.PropTypes.string,
-	serverErrorMessage : React.PropTypes.string,
-	serverErrorStatus : React.PropTypes.string,
-	geoLocator : React.PropTypes.bool,
-	loading : React.PropTypes.bool,
-	debug : React.PropTypes.bool,
-	matches : React.PropTypes.object.isRequired,
-	locations : React.PropTypes.object.isRequired,
-	activeEntryIndex : React.PropTypes.string,
-	openEntryDetail : React.PropTypes.func.isRequired,
-	closeEntryDetail : React.PropTypes.func.isRequired,
-	printEntryDetail : React.PropTypes.func.isRequired,
-	addUsersEmail : React.PropTypes.func.isRequired,
-	emailEntryDetail : React.PropTypes.func.isRequired,
-	userEmail : React.PropTypes.string.isRequired,
-	emailSent : React.PropTypes.bool.isRequired,
-	emailInputValidationError : React.PropTypes.bool.isRequired,
-	emailSentError : React.PropTypes.bool.isRequired,
-	entryDetailOpen : React.PropTypes.bool.isRequired,
-	entryDetailOpenKey : React.PropTypes.number.isRequired
 };
 
 // Entries Class Export

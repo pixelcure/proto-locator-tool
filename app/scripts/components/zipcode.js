@@ -1,5 +1,5 @@
 // React (PropTypes and Component)
-import React, { PropTypes, Component } from 'react'
+import React, { Component } from 'react'
 
 // Zipcode Class Component
 class Zipcode extends Component {
@@ -49,12 +49,6 @@ class Zipcode extends Component {
 	};
 };
 
-// Zipcode Proptypes
-Zipcode.PropTypes = {
-	debug : React.PropTypes.bool,
-	updateZip : React.PropTypes.func.isRequired,
-	zipCode : React.PropTypes.string,
-};
 
 // Export Zipcode Class
 export { Zipcode }

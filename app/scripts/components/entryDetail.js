@@ -1,5 +1,5 @@
-// React (PropTypes and Component)
-import React, { PropTypes, Component } from 'react'
+// React
+import React, { Component } from 'react'
 
 // EntryDetail Class Component
 class EntryDetail extends Component {
@@ -107,22 +107,6 @@ class EntryDetail extends Component {
 		);
 	};
 
-};
-
-// Entry Detail Proptypes
-EntryDetail.PropTypes = {
-	debug : React.PropTypes.bool,
-	detail : React.PropTypes.object.isRequired,
-	closeEntryDetail : React.PropTypes.func.isRequired,
-	printEntryDetail : React.PropTypes.func,
-	addUsersEmail : React.PropTypes.func.isRequired,
-	userEmail : React.PropTypes.string.isRequired,
-	emailEntryDetail : React.PropTypes.func.isRequired,
-	emailSent : React.PropTypes.bool.isRequired,
-	emailSentError : React.PropTypes.bool.isRequired,
-	emailInputValidationError : React.PropTypes.bool.isRequired,
-	printInProgress : React.PropTypes.bool,
-	index : React.PropTypes.number.isRequired
 };
 
 // Export EntryDetail Component

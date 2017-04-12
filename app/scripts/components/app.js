@@ -24,22 +24,16 @@ function mapStateToProps (state) {
 		emailSentError : state.emailSentError,
 		emailInputValidationError : state.emailInputValidationError,
 		mailsendUrl : state.mailsendUrl,
-		options : {
-			unit : state.options.unit,
-			radius : state.options.radius,
-			markerIcon: state.options.markerIcon,
-			debug : state.options.debug,
-			mapStyle : state.options.mapStyle,
-			mapZoom : state.options.mapZoom,
-			initialCenter : {
-				lat: state.options.initialCenter.lat,
-				lng : state.options.initialCenter.lng
-			}
-		},
-		geoCoords : {
-			lat : state.geoCoords.lat,
-			lng : state.geoCoords.lng
-		}
+		unit : state.unit,
+		radius : state.radius,
+		markerIcon: state.markerIcon,
+		debug : state.debug,
+		mapStyle : state.mapStyle,
+		mapZoom : state.mapZoom,
+		initLat: state.initLat,
+		initLng : state.initLng,
+		geoLat : state.geoLat,
+		geoLng : state.geoLng
 	};
 };
 

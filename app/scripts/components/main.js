@@ -1,4 +1,4 @@
-import React, { Proptypes, Component } from 'react';
+import React, { Component } from 'react';
 
 
 // Zip Code
@@ -84,7 +84,7 @@ class Main extends Component {
 
 
 				// Debug
-				that.props.options.debug ? console.info(`DEBUG: App mounting, Geolocation - Failure to get position. \nPosition Error: ${positionError} `) : '';
+				that.props.debug ? console.info(`DEBUG: App mounting, Geolocation - Failure to get position. \nPosition Error: ${positionError} `) : '';
 
 				// Set state, we don't have geolocation/geo failed
 				that.setState({
@@ -112,7 +112,7 @@ class Main extends Component {
 	componentDidMount() {
 
 		// Debug
-		this.props.options.debug ? console.info(`DEBUG: App mounted`) : '';
+		this.props.debug ? console.info(`DEBUG: App mounted`) : '';
 
 	};
 
@@ -121,18 +121,55 @@ class Main extends Component {
 	render () {
 
 		// Debug
-		this.props.options.debug ? console.info(`DEBUG: Rendering Entry`) : '';
+		this.props.debug ? console.info(`DEBUG: Rendering Entry`) : '';
 
 		// Return list element of entry
 		return (
 			<div>
-				<Zipcode
-					ref={(el) => this.zipCodeComponent = el }
-					loading={this.props.loading}
-					updateZip={this.props.updateZip}
-					zipCode={this.props.zipCode}
-					debug={this.props.options.debug}
+				<GoogleMap
+					google={window.google}
+					lat={this.props.geoLat}
+					long={this.props.geoLng}
+					locations={this.props.locations}
+					markerIcon={this.props.markerIcon}
+					matches={this.props.matches}
+					mapStyle={this.props.mapStyle}
+					mapZoom={this.props.mapZoom}
+					focusOnEntry={this.props.focusOnEntry}
+					debug={this.props.debug}
+					geoLocator={this.props.geoLocator}
+					// initialCenter={this.props.initialCenter}
 				/>
+				<div className={`search`}>
+					<Zipcode
+						ref={(el) => this.zipCodeComponent = el }
+						loading={this.props.loading}
+						updateZip={this.updateZip}
+						zipCode={this.props.zipCode}
+						debug={this.props.debug}
+					/>
+					<Entries
+						serverErrorStatus={this.props.serverErrorStatus}
+						serverError={this.props.serverError}
+						serverErrorMessage={this.props.serverErrorMessage}
+						matches={this.props.matches}
+						openEntryDetail={this.props.openEntryDetail}
+						closeEntryDetail={this.props.closeEntryDetail}
+						entryDetailOpen={this.props.entryDetailOpen}
+						entryDetailOpenKey={this.props.entryDetailOpenKey}
+						geoLocator={this.props.geoLocator}
+						activeEntryIndex={this.props.activeEntryIndex}
+						loading={this.props.loading}
+						addUsersEmail={this.props.addUsersEmail}
+						userEmail={this.props.userEmail}
+						printEntryDetail={this.props.printEntryDetail}
+						emailEntryDetail={this.props.emailEntryDetail}
+						emailSent={this.props.emailSent}
+						emailSentError={this.props.emailSentError}
+						emailInputValidationError={this.props.emailInputValidationError}
+						debug={this.props.debug}
+					/>
+				</div>
 			</div>
 		);
 

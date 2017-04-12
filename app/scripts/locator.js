@@ -1,5 +1,5 @@
-// React (PropTypes and Component)
-import React, { PropTypes, Component } from 'react'
+// React
+import React, { Component } from 'react'
 import { Provider } from 'react-redux';
 
 // Redux Store
