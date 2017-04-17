@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "google-maps-react": "^1.0.19",
+    "node-sass": "^4.5.2",
     "redux-devtools-extension": "^2.13.0"
   },
   "devDependencies": {
